@@ -1,0 +1,568 @@
+<section class="bg-alice-blue project-section">
+  <div id="explore_interests">
+      <div class="text-right">
+          <img id="close_explore_interests" style="width: 1.5rem" class="m-4" src="front/img/ic_round-clear.svg"
+              alt="close">
+      </div>
+      <div class="row justify-content-center" style="margin-top: 50px;">
+          <div class="col-lg-6 col-md-8 col-12 text-center">
+              <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700;">Explore Your Interests</h1>
+              <p>We’ll recommend content based on your interests we’ve listed here.<br>
+                  Feel free to add or remove topics to customize your experience !</p>
+              <div style="margin: 4rem auto;" class=" row position-relative">
+                  <div class="col-1"> <i class="fa fa-search position-absolute iconsrch"></i></div>
+                  <!-- <input class="mt-4 form-control" type="search" placeholder="Search for Skills" style="padding-left: 30px;"> -->
+                  <div class="col-11"><select multiple="" name="searchForSkills[]" placeholder="Search skills"
+                          data-test="Search skill"
+                          class="mt-4 form-control topskill searchForSkillsss select2-hidden-accessible"
+                          style="padding-left: 30px;" data-select2-id="2" tabindex="-1" aria-hidden="true">
+                      </select><span class="select2 select2-container select2-container--default" dir="ltr"
+                          data-select2-id="3" style="width: 100%;"><span class="selection"><span
+                                  class="select2-selection select2-selection--multiple" role="combobox"
+                                  aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                  <ul class="select2-selection__rendered">
+                                      <li class="select2-search select2-search--inline"><input
+                                              class="select2-search__field" type="search" tabindex="0"
+                                              autocomplete="off" autocorrect="off" autocapitalize="none"
+                                              spellcheck="false" role="textbox" aria-autocomplete="list"
+                                              placeholder="Search skills" style="width: 842.703px;"></li>
+                                  </ul>
+                              </span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div>
+              </div>
+
+              <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700;" class="my-3">Click an interest to
+                  narrow your recommendations.</h3>
+              <div id="interests">
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="33134">Technical Recruiting</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="37045">ECD</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="37051">APIs</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="37083">Writing and Communication
+                  </div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="22191">Negations</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="10741">Email Marketing</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="22584">Node.js</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="2248">Audience Analysis</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="7403">Corporate Identity</div>
+                  <div class="explore_pill explore_pilll" data-test="skillz" id="37059">Hashtags</div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<link>
+
+
+.project-section {
+  top: 55px;
+  position: relative;
+  margin-bottom: 50px
+}
+
+.project-section .card-header {
+  border-bottom: 1px solid #dbdfe2
+}
+
+.project-section .card-header .card-title {
+  color: #8b8b8b;
+  font-size: 22px;
+  font-family: SFUIDisplayMedium;
+  text-transform: uppercase
+}
+
+.project-section .project-view-list .project-img {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden
+}
+
+.project-section .project-view-list .project-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%)
+}
+
+.project-section .project-view-list .project-info .project-heading h3 {
+  margin: 10px auto 15px;
+  font-family: SFUIDisplayRegular;
+  font-size: 25px;
+  color: #414042
+}
+
+.project-section .project-view-list .project-info .project-text p {
+  font-family: SFUIDisplayRegular;
+  font-size: 1em;
+  color: #565555;
+  line-height: 25px
+}
+
+.project-section hr {
+  border-top: 1px solid #dbdfe2
+}
+
+/* .social_img {
+  background-image: url(../../img/blank_png);
+  background-position: 6px center;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-size: 23px
+} */
+
+.add-project .form-control {
+  border: 1px solid #dbdfe2 !important;
+  font-family: SFUIDisplayRegular;
+  font-size: 16px;
+  height: auto;
+  min-height: 50px;
+  border-radius: 2px;
+  color: #495057
+}
+
+.add-project .form-control::-webkit-input-placeholder {
+  color: #9f9f9f
+}
+
+.add-project .form-control::-moz-placeholder {
+  color: #9f9f9f
+}
+
+.add-project .form-control:-ms-input-placeholder {
+  color: #9f9f9f
+}
+
+.add-project .form-control:-moz-placeholder {
+  color: #9f9f9f
+}
+
+.add-project .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: rgba(48, 48, 48, .08);
+  border-bottom-color: rgba(48, 48, 48, .08);
+  outline: 0;
+  box-shadow: 0 0 1px 1px rgba(48, 48, 48, .5)
+}
+
+.add-project .form-control-textarea {
+  resize: none;
+  height: auto !important
+}
+
+/* .add-project select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../../img/down-arrow.png) #fff no-repeat calc(100% - 20px) !important
+} */
+
+.add-project .form-head-title h4 {
+  color: #414042;
+  font-size: 16px;
+  font-family: SFUIDisplayMedium
+}
+
+.add-project .custom-control-label:before {
+  background-color: #fff;
+  border: 1px solid #393333
+}
+
+.add-project .custom-radio .custom-control-input:checked~.custom-control-label::before {
+  background-color: transparent;
+  border: 4px solid #27ae60
+}
+
+.add-project .custom-control-input:focus~.custom-control-label::before {
+  box-shadow: none
+}
+
+.upload-extr-p-form {
+  padding: 0 10rem
+}
+
+.upload-extr-p-form .form-group .bs-docs-example .mmb_lbl {
+  position: absolute;
+  right: 25px;
+  font-family: SFUIDisplayMedium;
+  color: #414042;
+  font-size: 14px
+}
+
+.upload-extr-p-form .moderator {
+  display: none
+}
+
+.upload-extr-p {
+  padding: 0 15rem
+}
+
+.dm-uploader {
+  border: .2rem dashed #dbdfe2;
+  text-align: center
+}
+
+.dm-uploader h3 {
+  font-family: SFUIDisplaySemibold;
+  font-size: 30px;
+  color: #c4c8cb
+}
+
+.dm-uploader p {
+  font-family: SFUIDisplaySemibold;
+  font-size: 25px;
+  color: #dbdfe2
+}
+
+.dm-uploader .btn-success {
+  background-color: #27ae60 !important;
+  color: #fff !important;
+  padding: 12px 20px !important;
+  border-radius: 5px;
+  font-weight: 700
+}
+
+.dm-uploader .upload_bg_img {
+  position: relative;
+  top: 25%
+}
+
+.dm-uploader.active {
+  border: .2rem dashed #fcd6ae
+}
+
+.file-upload-status .progress {
+  display: flex;
+  height: 5px;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem
+}
+
+.file-upload-status .media-body hr {
+  display: none
+}
+
+.main_section {
+  top: 55px;
+  position: relative;
+  margin-bottom: 50px
+}
+
+.divider {
+  border-bottom: 1px solid #dbdfe2;
+  padding-bottom: 20px;
+  margin: 0 auto 20px;
+  height: 20px;
+  width: 97.5%
+}
+
+.btn-toolbar .btn-group .filter-button {
+  background: #fff;
+  color: #8b8b8b;
+  font-size: 1rem;
+  border: 1px solid #dbdfe2;
+  padding: .25rem 1.5rem;
+  text-transform: capitalize
+}
+
+.btn-toolbar .btn-group .active {
+  box-shadow: none !important;
+  background-color: #f5f5f5;
+  color: #27ae60
+}
+
+.explorer .explorer_img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%
+}
+
+.explorer_img img {
+  max-width: 100%
+}
+
+.explorer .explorer_img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%)
+}
+
+.explorer .explore_details h4 {
+  font-size: 25px;
+  color: #565555;
+  margin-bottom: 15px
+}
+
+.explorer .explore_details .explore_cat {
+  font-size: 18px;
+  margin-bottom: 25px
+}
+
+.explorer .explore_details .view_more_expor {
+  position: absolute;
+  right: 15px;
+  bottom: 0
+}
+
+#explore_interests {
+  background-image: linear-gradient(to right, #d5ffc6, #7BD1F2);
+  color: #000000;
+}
+#explore_interests .row {
+  margin: 0;
+}
+
+#explore_interests #close_explore_interests {
+  cursor: pointer;
+}
+
+#explore_interests #interests {
+  margin-bottom: 8rem;
+  user-select: none;
+}
+
+#explore_interests #interests .remove_interest:hover {
+  opacity: 0.8;
+}
+
+.explore_pill {
+  display: inline-block;
+  margin: 0.5rem;
+  background: #F3F4F8;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 0.8rem;
+  border: 1px solid #C8C8C8;
+  border-radius: 10px;
+}
+
+.selected_explore_pill {
+  background-color: #498CCE;
+  color: #FFFFFF;
+}
+
+.explore_section {
+  background: #FFFFFF;
+  color: #000000;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.explore_component {
+  cursor: pointer;
+  user-select: none;
+}
+
+.explore_component h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.explore_component.selected_explore_component {
+  background: #498CCE;
+  color: #FFFFFF;
+}
+
+.explore_section h3.explore-item-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #498CCE;
+}
+
+.explore_section.explore-item .explore-item-type {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.explore_section.explore-item .item-info span {
+  font-weight: bold;
+}
+
+.explore_section.explore-item .item-info a {
+  font-weight: bold;
+  color: #498CCE;
+}
+
+.explore_section.explore-item .item-info {
+  font-family: 'Poppins', sans-serif;
+}
+
+.explore_section.explore-item .explore-item-stats .fa-heart,
+.explore_section.explore-item .explore-item-stats .fa-share-alt {
+  color: #498CCE;
+}
+
+.component_type {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.component_type.selected_component_type {
+  background: #498CCE;
+  color: #FFFFFF;
+}
+
+.explore_section .search-filter {
+  cursor: pointer;
+  background: #498CCE;
+  color: #ffffff;
+  user-select: none;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+}
+
+.explore_section.filter-section {
+  font-size: 0.8rem;
+}
+
+.explore_section .custom-checkbox-container .checkmark {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid #999;
+}
+
+#component_type01{
+  border-radius: 10px 10px 0 0;
+}
+.explore_section .custom-checkbox-container .checkmark:after {
+  left: 0.3rem;
+  top: 0.1rem;
+}
+
+.tag_pill {
+  padding: 8px 13px;
+  background: #F3F4F8;
+  border: 1px solid #C8C8C8;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  margin: 0.4rem;
+}
+
+.blue_btn {
+  min-width: 5rem;
+  color: #FFFFFF;
+  background: #498CCE;
+}
+
+.blue_btn_outline {
+  border: 1px solid #498CCE;
+  border-radius: 5px;
+  background: #498CCE;
+}
+
+.rating-stars {
+  vertical-align: unset !important;
+}
+.pagination .page-item.active .page-link {
+background-color: #498CCE !important;
+}
+.p-2 {
+  padding: 1rem!important;
+}
+.col-12 .my-2{
+  padding: 0px !important;
+}
+.col-1 {
+  background-color: white;
+  border-radius: 10px 0px 0px 10px !important;
+}
+.col-11 {
+  padding:0px;
+}
+#searchForSkills + span.select2-container--default.select2-container--focus span.select2-selection--multiple {
+  border-radius: 4px !important;
+}
+.searchForSkillsss + span.select2-container--default span.select2-selection--multiple {
+  border-radius: 0 10px 10px 0px !important;
+}
+#searchForSkills + .select2-container--default.select2-container--focus .select2-selection--multiple, .select2-container--default .select2-selection--multiple {
+  border-radius: 4px !important;
+}
+#searchForSkills + .select2-container .select2-search--inline .select2-search__field {
+  padding-left: 5px;
+}
+#searchForSkills + .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  padding-left: 0px;
+}
+.iconsrch{
+  left: 20px;
+  padding-left: 0px;
+  top: 12px;
+  padding-top: 4px;
+  font-size: 20px;
+}
+@media  only screen and (max-width: 600px) {
+  .explore_component h2 {
+  font-size:14px;
+  }
+  .explore_section h3.explore-item-title {
+      font-size:22px;
+      word-break: break-word;
+  }
+  .iconsrch {
+  left: 9px;
+  }
+  .exp_box {
+  padding-left: 0px !important;
+  }
+}
+.row {
+margin-right: 0px !important;
+margin-left: 0px !important;
+}
+.wrapping {
+  font-size: 18px;
+  word-break: break-word;
+}
+.side_filters_xp {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.exp_box {
+  padding-right: 0px !important;
+}
+.ttle_break {
+  word-break: break-word ;
+}
+.explorer .explore_details .view_more_expor a {
+  color: #27ae60;
+  font-size: 19px
+}
+
+.explorer .challenges .explore_cat {
+  color: #3e85a3
+}
+
+.explorer .labs .explore_cat {
+  color: #f17f42
+}
+
+.explorer .projects .explore_cat {
+  color: #8283a7
+}
+
+
+</link>

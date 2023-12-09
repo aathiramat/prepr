@@ -1,0 +1,85 @@
+/* Custom styles for SSO buttons */
+body {font-family: Arial, Helvetica, sans-serif;}
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  input, button {
+    border-radius: 10px!important;
+  }
+
+  #password-strength-status{
+    margin-top: 15px;
+  }
+
+  .pass-stregnth {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: -25px;
+    width: 45%;
+    text-align: center;
+    z-index: 9999999999;
+    bottom: 0
+}
+
+.meter_wrapper {
+    border: 1px solid transparent;
+    margin-top: 0;
+    height: 6px
+}
+
+.meter {
+    width: 0;
+    height: 4px;
+    border-radius: 25px
+}
+
+.pass_type {
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    font-weight: 700
+}
+
+.meter_wrapper small {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 0;
+    display: inline-block
+}
+
+#txt-pss p {
+  margin-bottom: 2px;
+}

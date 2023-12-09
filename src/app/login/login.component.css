@@ -1,0 +1,52 @@
+/* Custom styles for SSO buttons */
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-info {
+  color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+input, button {
+  border-radius: 10px!important;
+}
+
+.login-logo img {
+  height: 200px;
+  width: 180px;
+}
+
+
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ width: 100%;
+}

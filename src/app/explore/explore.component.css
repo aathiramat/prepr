@@ -1,0 +1,187 @@
+
+
+#explore_interests {
+    background-image: linear-gradient(to right, #d5ffc6, #7BD1F2);
+    color: #000000;
+    padding: 50px;
+} 
+
+.col-1 {
+    background-color: white;
+    border-radius: 10px 0px 0px 10px !important;
+    height:49px;
+    padding-top: 5px;
+    margin-right: -15px;
+}
+
+#closeIcon {
+    cursor: pointer; 
+}
+
+.project-section {
+    top: 55px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.bg-alice-blue {
+    background-color: #f3f7fc;
+}
+
+#explore_interests #interests {
+    margin-bottom: 8rem;
+    user-select: none;
+}
+
+.explore_pill {
+    display: inline-block;
+    margin: 0.5rem;
+    background: #F3F4F8;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 0.8rem;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+}
+
+.explore_section {
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.explore_component {
+    cursor: pointer;
+    user-select: none;
+}
+
+.explore_component.selected_explore_component {
+    background: #498CCE;
+    color: #FFFFFF;
+}
+
+.side_filters_xp {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.custom-checkbox-container {
+    display: block;
+    position: relative;
+    padding: 0 0 0 2rem;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-checkbox-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.custom-checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 3px solid #000000;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.custom-checkbox-container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.custom-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.custom-checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.custom-checkbox-container .checkmark:after {
+    left: 0.4rem;
+    top: 0.25rem;
+    width: 0.28rem;
+    height: 10px;
+    border: solid #000000;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+#component_type01 {
+    border-radius: 10px 10px 0 0;
+}
+
+.component_type.selected_component_type {
+    background: #498CCE;
+    color: #FFFFFF;
+}
+
+.component_type {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.explore_section.filter-section {
+    font-size: 0.8rem;
+}
+
+.explore_section .search-filter {
+    cursor: pointer;
+    background: #498CCE;
+    color: #ffffff;
+    user-select: none;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    color: #27ae60;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9
+}
+
+a:focus {
+    color: #27ae60;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9
+}

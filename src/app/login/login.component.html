@@ -1,0 +1,41 @@
+<!-- Login card -->
+<div class="card-header bg-white text-center">
+  <div class="login-logo p-10">
+      <a href="https://preprlabs.org/explore">
+          <img src="../../assets/CareerVue.png" alt="">
+      </a>
+  </div>
+</div>
+<div class="card-body">
+  <h2 class="card-title">Login</h2>
+  <form #registerForm="ngForm" (ngSubmit)="registerForm.form.valid && login()">
+    <div class="mb-3">
+      <label for="userId" class="form-label">User ID</label>
+      <input type="text" id="userId" class="form-control" name="name" [(ngModel)]="userId" #name="ngModel" required>
+      <span class="text-danger" *ngIf="(name.touched || registerForm.submitted) && name.errors?.['required']">
+        User ID is required
+      </span>
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" id="passsword" class="form-control" name="pass" [(ngModel)]="password" #pass="ngModel"
+        required>
+      <span class="text-danger" *ngIf="(pass.touched || registerForm.submitted) && pass.errors?.['required']">
+        Password is required
+      </span>
+    </div>
+
+    <button type="submit" class="btn btn-primary btn-block">Login</button>
+  </form>
+  <div class="mt-4">
+    <h5 style="text-align: center;">OR</h5>
+    <div class="d-grid gap-2">
+      <div class="container1"><asl-google-signin-button type="standard" size="large"></asl-google-signin-button>
+      </div>
+      <div class="text-center m-t-8 m-b-5 f-s-14 p-4">
+        Don't have an account? <a (click)="scrollToTop()" routerLink="/register" class="text-light-green">Sign up</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,6987 @@
+
+@import "primeng/resources/primeng.css";
+
+.nav-item.searchbar .form-control.typeahead {
+    border-radius: 0px 5px 5px 0px;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+header .mobile_search .input-group .seachbar:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: #ced4da !important;
+}
+
+.front-home-pg .jumbotron-cstm {
+    box-shadow: none;
+    background: #80c465;
+    font-size: 35px;
+    font-family: SFUIDisplayMedium;
+    color: white;
+    text-shadow: 2px 2px 4px #9fc78f;
+    height: 250px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 96px;
+    text-transform: initial;
+    text-align: center;
+    padding-bottom: 64px;
+    margin-bottom: 10px;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0
+}
+
+section {
+    padding: 30px !important;
+    /* min-height: 100% !important;
+    margin: 0 auto 53px !important */
+}
+
+.footer a {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding-right: 20px;
+    line-height: 6;
+    color: #727d92
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    bottom: -50px;
+    background-color: rgba(255, 255, 255, 1) !important;
+    z-index: 9999;
+    display: table;
+}
+
+.footer a {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 10px 5px;
+    line-height: 3.5;
+    color: #727d92
+}
+
+
+.top-nw-nav-header.navbar.fixed-top {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item {
+    display: flex;
+    padding: 8px 10px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #8b8b8b;
+    font-size: 14px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-right: 2px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon i {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon img {
+    height: auto;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .dropdown-menu .dropdown-item .menu-icon {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    max-width: 25px;
+    max-height: 25px;
+    margin-right: 6px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .dropdown-menu .dropdown-item .menu-icon i {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .dropdown-menu .dropdown-item .menu-icon img {
+    height: auto;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .input-group .input-group-prepend .input-group-text {
+    background: transparent !important;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-menu li {
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-menu.firstmenu li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8b8b8b !important;
+    padding: 5px 0px 5px 15px;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu {
+    padding: 0px;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 0;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-menu.firstmenu {
+    padding: 0px;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 0;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown .dropdown-menu .dropdown-item:active {
+    background-color: transparent;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .dropdown-menu .dropdown-item {
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-toggle:after {
+    display: none;
+  }
+
+
+.btn-success.dropdown-toggle {
+    background-color: #27ae60 !important;
+}
+
+.btn-success.dropdown-toggle:focus,
+.btn-success.dropdown-toggle:hover {
+    background-color: #0dae51 !important;
+}
+
+.share_button {
+    color: #414042;
+    border: 3px solid #27ae60;
+    display: block;
+}
+
+a.chat_no_link {
+    text-decoration: none;
+    cursor: inherit;
+    color: #00b763 !important;
+}
+
+a.like_dislike_toggle.comment_like.likeComment {
+    color: #27ae60 !important;
+}
+
+a.like_dislike_toggle.comment_dislike.dislikeComment {
+    color: #e45337 !important;
+}
+
+.m-5 {
+    margin: 5px !important;
+}
+
+
+/*Challenge Page Css Start*/
+
+.edit-tabs ul {
+    width: 100%;
+}
+
+.edit-tabs .nav-justified .nav-item {
+    flex-basis: auto;
+}
+
+.edit-tabs ul li a {
+    font-size: 13px;
+    background-color: #d3d3d4 !important;
+    border: 1px solid #c1c1c1 !important;
+    font-weight: bold;
+}
+
+.edit-tabs ul li a.active {
+    background-color: #fff !important;
+    color: #27ae60 !important;
+}
+
+.checkbox_inline {
+    display: table;
+    width: 100%;
+}
+
+.checkbox_inline .chech-line {
+    display: table-cell;
+    width: 176px;
+}
+
+.checkbox_inline .input-group-append {
+    display: table-cell;
+}
+
+.input_datepiker {
+    width: calc(100% - 42px) !important;
+}
+
+.d-edit-lg-none {
+    display: none;
+}
+
+#edit-dropdown {
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 6px 0px #dedede;
+    -webkit-box-shadow: 0px 0px 6px 0px #dedede;
+    -moz-box-shadow: 0px 0px 6px 0px #dedede;
+    -ms-box-shadow: 0px 0px 6px 0px #dedede;
+    -o-box-shadow: 0px 0px 6px 0px #dedede;
+}
+
+.green_icon_symbol {
+    font-weight: 700;
+    font-size: 22px;
+    color: #27ae60;
+}
+
+.input_with_tootltip .select2-container {
+    width: calc(100% - 42px) !important;
+}
+
+.input_with_two_icon .select2-container {
+    width: calc(100% - 88px) !important;
+}
+
+.link_sm_text {
+    color: #858586;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+
+/*Challenge Page Css End*/
+
+.wdth-100 {
+    width: 100px;
+}
+
+.wdth-120 {
+    width: 120px;
+}
+
+.edit-table {
+    padding: 0px 5px;
+}
+
+.tbl-padd-5 tr td {
+    padding: 5px;
+}
+
+.lbl-name {
+    color: #27ae60;
+}
+
+.accord_line {
+    border-bottom: 1px solid #8b8b8b;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.rating-container .clear-rating {
+    padding: 0px;
+}
+
+.Resources_box {
+    max-height: 360px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Resources_box.select_Resources {
+    max-height: 427px;
+    min-height: 427px;
+}
+
+.rating-container .star {
+    font-size: 10px !important;
+    margin-left: 0px !important;
+}
+
+.Resources_container {
+    white-space: unset;
+}
+
+.txt_color {
+    color: #727d92;
+}
+
+.fnt_size {
+    font-size: 13px;
+}
+
+.btn-add {
+    background: #fff;
+    color: #727d92;
+    border: 0px solid #dfe2e5;
+    box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -webkit-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -moz-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -o-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -ms-box-shadow: 0px 0px 2px 1px #dfe2e5;
+}
+
+.btn-add .fa-plus {
+    color: #27ae60;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sortable li {
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+    position: relative;
+    background: transparent;
+    border: 0px solid #dfe2e5;
+    width: 100%;
+}
+
+.sortable li .card {
+    box-shadow: none;
+}
+
+.sortable li .card table {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.sortable li .card table .fa-arrows-alt {
+    color: #000;
+    font-size: 16px;
+}
+
+.sortable li .card table th,
+.sortable li .card table td {
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.right_sort_icn {
+    color: #b0b0b0;
+}
+
+.table-bord-left-0 {
+    border-left: 0px solid transparent !important;
+}
+
+.table-bord-right-0 {
+    border-right: 0px solid transparent !important;
+}
+
+.add_question_sort {
+    color: #8e8e8e;
+}
+
+.add_question_sort .fa-plus {
+    color: #27ae60;
+    padding-right: 5px;
+}
+
+.sortable-custom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sortable-custom li {
+    margin: 20px 0px 20px 0px;
+    padding: 0.4em;
+    padding-left: 10px;
+    position: relative;
+    background: #fafafa;
+    border: 0px solid #dfe2e5;
+    box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -webkit-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -moz-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -o-box-shadow: 0px 0px 2px 1px #dfe2e5;
+    -ms-box-shadow: 0px 0px 2px 1px #dfe2e5;
+}
+
+.right_sort_icn_arrow {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #b0b0b0;
+}
+
+.btn-view-mod-collection .active {
+    background: #e7e7e7 !important;
+    color: #27ae60 !important;
+}
+
+.btn-view-mod-collection .nav-item:first-child a {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    background: #fff;
+    color: #9f9f9f;
+    border: 1px solid #ccc;
+}
+
+.btn-view-mod-collection .nav-item:last-child a {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    background: #fff;
+    color: #9f9f9f;
+    border: 1px solid #ccc;
+}
+
+.resource-collection-tab .active {
+    background: #e7e7e7 !important;
+    color: #27ae60 !important;
+}
+
+.resource-collection-tab .nav-item:first-child a {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    background: #fff;
+    color: #9f9f9f;
+    border: 1px solid #ccc;
+}
+
+.resource-collection-tab .nav-item .nav-link {
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #9f9f9f;
+}
+
+.resource-collection-tab .nav-item:last-child a {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    background: #fff;
+    color: #9f9f9f;
+    border: 1px solid #ccc;
+}
+
+.top-minus-5 {
+    position: relative;
+    top: -5px;
+}
+
+.activeVisiblity {
+    background: #27ae60 !important;
+}
+
+.activeTab {
+    background: #27ae60 !important;
+}
+
+.orange-box-sec {
+    background: #ffdaa2;
+    padding: 10px;
+    color: #b95216;
+}
+
+  
+  /*Responsive Css Start Here*/
+
+@media (max-width:1300px) {
+  /* New Organization Dashboard Layout  */
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .inner-accordion .card .card-body.d-card-body .list-row .inner-r-b .btn-grp .btn.btn-sm {
+      margin: 5px 1px;
+      padding: 1px 4px;
+      font-size: 10px;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .top-d .org-img-wt-nm .org-nm {
+      font-size: 16px;
+  }
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+      font-size: 13px;
+      padding: .5rem 5px;
+  }
+  /* New Organization Dashboard Layout End */
+}
+
+@media (min-width:1200px) {
+  .container {
+      max-width: 1350px
+  }
+}
+
+@media (max-width:1280px) {
+  .profile .user_nav .user_menu ul li {
+      padding: 0 10px
+  }
+  .project-detail-view .p-f-list span {
+      width: 40%
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      padding: 10px 30px
+  }
+  .tab_radio ul {
+      width: 100%
+  }
+  .tab_radio li {
+      width: 50%
+  }
+  .profile {
+      position: relative;
+      top: 57px
+  }
+ 
+  .profile .banner .user_profile {
+      position: relative;
+      z-index: 1;
+      bottom: 00;
+      background: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      left: auto;
+      width: 180px;
+      height: 180px;
+      margin: 10px auto;
+      top: 80px;
+  }
+  .profile .user_nav {
+      padding: 80px 15px 15px;
+  }
+  .friends .friends_list .user_contact {
+      padding: 0 15px
+  }
+  .friends .friends_list .user_contact .border .user_img {
+      width: 100px;
+      height: 100px
+  }
+  .friends .friends_list .user_contact .border .user_img img {
+      width: 90px;
+      height: 90px
+  }
+  .trophies_category .trophies_list ul li {
+      margin: 0 8px
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 65px;
+      height: 65px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 18px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-icon {
+      font-size: 65px;
+      width: 80px;
+      height: 80px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt {
+      width: 80%
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt input {
+      width: 100%
+  }
+  .admin-challenge-view .product-tab-details h4 {
+      font-size: 24px !important
+  }
+  .coverphotos {
+      min-height: 100%;
+      margin-bottom: 20px
+  }
+  .coverphotos #img_contain {
+      height: 100%
+  }
+  .profile .user_nav .user_info {
+      left: 0;
+      max-width: max-content;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input {
+      width: auto;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input.form-control {
+      width: 100%;
+  }
+}
+
+@media (min-width:992px) {
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .firstmenu.dropdown-menu {
+      display: none;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown:hover .firstmenu .nav-link {
+      color: #fff;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown:hover .dropdown-menu.firstmenu {
+      display: block;
+      padding: 0px;
+      top: 54px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .firstmenu.dropdown-menu {
+      margin-top: 0;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu {
+      padding: 0px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu .dropdown-toggle:after {
+      border-top: .3em solid transparent;
+      border-right: 0;
+      border-bottom: .3em solid transparent;
+      border-left: .3em solid;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu .dropdown-menu {
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu li {
+      position: relative;
+      padding: 0;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu {
+      display: none;
+      position: absolute;
+      left: 100%;
+      top: -1px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu-left {
+      right: 100%;
+      left: auto;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu>li:hover {
+      background-color: #f1f1f1
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu>li:hover>.submenu {
+      display: block;
+  }
+}
+
+@media (max-width:1250px) {
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link {
+      font-size: 13px;
+      padding-left: 0;
+      padding-right: 5px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item {
+      padding: 8px 0px 8px 5px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .searchbar .twitter-typeahead {
+      width: calc(100% - 40px);
+  }
+  .navbar.fixed-top {
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-menu.firstmenu li a {
+      font-size: 13px;
+  }
+  header .bar-menu {
+      padding: 0 0.5rem;
+  }
+}
+
+@media (max-width:1200px) {
+  .right_delt_btn {
+      position: relative;
+      right: 0px;
+  }
+  .pr_details .view_btn .btn-mrg-cmn {
+      margin: 5px 2px;
+  }
+  .double-tropy ul {
+      width: 100%;
+  }
+  .login-page .p-l-80 {
+      padding-left: 0px !important;
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px;
+  }
+
+  .bg-alice-blue {
+    background-color: #f3f7fc
+}
+
+.text-white {
+    color: #fff
+}
+
+
+.text-gray-shade-1 {
+    color: #414042
+}
+
+.text-gray-shade-11 {
+    color: #414042 !important;
+}
+
+.text-orange {
+    color: #f2734c;
+}
+
+.text-green {
+    color: #27ae60;
+}
+
+.line-h-normal {
+    line-height: normal;
+}
+
+.text-dim-gray {
+    color: #696363
+}
+
+.text-dim-gray-2 {
+    color: #6f6f6f !important
+}
+
+.text-dim-gray-3 {
+    color: #565555 !important
+}
+
+.text-suva-grey {
+    color: #8b8b8b !important
+}
+
+.text-red {
+    color: #e45337
+}
+
+.text-light-green {
+    color: #27ae60 !important
+}
+
+.text-sky-blue {
+    color: #5aa7d9 !important
+}
+
+.text-red-color-2 {
+    color: #f4898c !important
+}
+
+.text-midnight-blue {
+    color: #9b9cb9 !important
+}
+
+.text-silver {
+    color: #c4c5c6
+}
+
+.border-t-1x {
+    border-top: 1px solid #dbdfe2
+}
+
+.border-b-1x {
+    border-bottom: 1px solid #dbdfe2
+}
+
+.width80 {
+    width: 80px;
+    margin: 0 auto
+}
+
+.home_hint {
+    width: 55px;
+}
+
+  .main_section {
+    top: 55px;
+    position: relative;
+    margin-bottom: 50px
+}
+
+  .main_section .tags-tab.card .search-group .input-group-prepend {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  /* New Organization Dashboard Layout  */
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .inner-accordion .card .card-body.d-card-body .list-row .inner-r-b {
+      width: 45%;
+  }
+  .card.cstm-card.tab-card .project-tab {
+      max-height: 358px;
+      min-height: 364px;
+  }
+  .d-card-accordion .labcard-h {
+      max-height: 400px;
+      height: 400px;
+  }
+  .d-card-accordion .projectcard-h {
+      max-height: 400px;
+      min-height: 400px;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .list-wrap {
+      min-height: 210px;
+  }
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+      font-size: 13px;
+      padding: .5rem 10px;
+  }
+  .d-card-accordion .card-body.d-card-body .sub-innrer-body {
+      padding: 0px 0px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .sub-innrer-body .inner-accordion .card .card-body.d-card-body {
+      padding: 0px 0px 0px 0px;
+  }
+  /* New Organization Dashboard Layout End */
+}
+
+@media (max-width:1199px) {
+  .double-tropy ul {
+      width: 100%;
+  }
+  .double-tropy img {
+      width: 34px;
+      margin: 5px auto;
+      padding: 0px 0px;
+      height: 34px;
+  }
+  .challenge_skill_cls {
+      margin-bottom: 110px;
+  }
+  .filterLabs .form-group .radio {
+      padding-left: 5px;
+      margin-bottom: 5px;
+  }
+  .my-lab-project .popular-lab-tab .add-project .radio {
+      margin-left: 0;
+      padding-left: 0;
+  }
+  .add-project .upload-extr-p {
+      padding: 0 0rem;
+  }
+  .add-project .upload-extr-p-form {
+      padding: 0 0rem;
+  }
+  .challengemanager .btn-groups .btn {
+      font-size: 14px;
+  }
+  .challengemanager .btn-groups .f-left {
+      width: 72%;
+  }
+  .challengemanager .btn-groups .f-right .btn {
+      font-size: 14px;
+  }
+  .main_section.challengemanager .pr_details .f-s-25 {
+      font-size: 22px !important;
+  }
+  .main_section.challengemanager .pr_details .f-s-22 {
+      font-size: 20px !important;
+  }
+  .main_section.challengemanager .profile-project .pr_details p {
+      line-height: normal;
+      margin-bottom: 8px;
+  }
+  .my-lab-project.project-section.lab-dashboard .fa-2x {
+      font-size: 4em;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-title {
+      font-size: 30px;
+      line-height: normal;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-text {
+      margin-top: 5px;
+      font-size: 18px;
+  }
+  /*Challenge Page Css Start*/
+  .edit-tabs ul li a {
+      padding: 10px 0px;
+  }
+  /*Challenge Page Css End*/
+}
+
+@media (max-width:1024px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 16px;
+      line-height: 20px
+  }
+  .project-detail-view .p-f-list span {
+      width: 40%
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      position: relative;
+      margin: 0;
+      text-align: left
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      text-align: left
+  }
+
+  .profile .banner .user_profile {
+      position: relative;
+      z-index: 1;
+      bottom: 0;
+      background: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      left: auto;
+      width: 150px;
+      height: 150px;
+      margin: 10px auto;
+      top: 100px;
+  }
+  .profile .banner .user_profile img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%)
+  }
+  .profile .user_nav .user_info {
+      left: 0
+  }
+  .profile .user_nav .user_menu ul li {
+      padding: 0 10px
+  }
+  .profile-project .pr_details h4 {
+      font-size: 20px !important
+  }
+  .profile-project .pr_details p {
+      font-size: 16px !important;
+      line-height: 20px
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      padding: 10px 30px
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      bottom: 0
+  }
+  .trophies_category .trophies_list ul li {
+      margin: 0 8px
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 80%
+  }
+  .admin-challenge-view .product-tab-details h4 {
+      font-size: 22px !important
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets {
+      width: 80%
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets input {
+      width: 100%
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets textarea {
+      width: 100%
+  }
+  .admin-challenge-view .challenge_tbs .subm_tb .card-body .subm_bx .subm_desc .sub_desc_ttl {
+      font-size: 20px !important
+  }
+  .admin-challenge-view .challenge_tbs .subm_tb .card-body .subm_bx .subm_desc p {
+      font-size: 14px !important
+  }
+  .profile .user_nav .user_ext ul li.requestLi .btn {
+      font-size: 13px;
+  }
+  .profile .user_nav .user_ext ul li .btn-outline-light {
+      margin: 0px 3px;
+  }
+  .profile .user_nav .user_ext ul li .btn-outline-light span {
+      font-size: 20px;
+  }
+  .profile .banner .user_profile img {
+      width: 92%;
+      height: 92%;
+  }
+}
+
+@media (max-width:991px) {
+  .slid-txt {
+      width: 300px;
+  }
+  .slid-txt img {
+      top: 30px;
+      left: 0px;
+      position: relative;
+  }
+  .inbox .inbox_msg .inbox_people .inbox_people_usr_lst {
+      width: 100%
+  }
+  /*Challenge Page Css Start*/
+  .d-edit-md-none {
+      display: none;
+  }
+  .d-edit-lg-none {
+      display: block;
+  }
+  /*Challenge Page Css End*/
+}
+
+@media (max-width:992px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 16px;
+      line-height: 20px
+  }
+  .project-section .card-header .card-title {
+      font-size: 18px
+  }
+  .navbar-expand-lg .navbar-nav {
+      flex-direction: row
+  }
+  .project-section {
+      top: 90px !important;
+      position: relative !important;
+  }
+  .upload-extr-p-form {
+      padding: 0
+  }
+  .upload-extr-p {
+      padding: 0 15px
+  }
+  .xs-p-lr-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 100%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-details {
+      width: 85%
+  }
+  .profile .user_nav .user_menu ul li {
+      padding: 0 2px
+  }
+  .profile .user_nav .user_menu ul li a {
+      font-size: 12px
+  }
+  .profile .user_nav .user_menu ul li a span {
+      font-size: 24px
+  }
+  .profile .user_nav .user_menu ul .active a span {
+      font-size: 24px
+  }
+  .profile .user_nav .user_ext ul li .btn-success {
+      padding: 8px 10px
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin-bottom: 10px;
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: none;
+      -webkit-transform: none;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 20px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 18px !important;
+      line-height: 24px !important;
+      margin-right: 5px;
+      margin-bottom: 0;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio li {
+      width: 100%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 35px auto 0
+  }
+  .setting_section .f-g-s {
+      width: 100%;
+      display: flex;
+      height: auto;
+      align-items: center;
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 20px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_category .trophies_list {
+      padding: 0
+  }
+  .trophies_category .trophies_list ul li {
+      width: 45%;
+      margin: 0 15px 20px;
+      display: inline-table
+  }
+  .trophies_category .btn-seeall {
+      margin: 0 auto;
+      width: 100%
+  }
+  .trophies_category .trophies_list ul {
+      margin-bottom: 20px
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .help .tab-content .tab-pane {
+      padding: 20px 0
+  }
+  .inbox .card .card-header .messaging .inbox_msg .inbox_people {
+      display: block;
+      width: 100%
+  }
+  .inbox .card .card-header .messaging .inbox_msg .inbox_people .headind_srch .users_toggle {
+      position: absolute;
+      left: 120px;
+      display: block
+  }
+  .inbox .card .card-header .messaging .inbox_msg .inbox_people .headind_srch .users_toggle a i {
+      color: #8b8b8b
+  }
+  .inbox .card .messaging .inbox_msg .inbox_people {
+      display: none
+  }
+  .inbox .card .messaging .inbox_msg .mesgs {
+      width: 100%
+  }
+  .inbox .container {
+      overflow: hidden
+  }
+  .user_lst_sld {
+      left: 0;
+      -webkit-transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -o-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+      width: 390px !important;
+      ms-transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      display: inline-block !important;
+      position: absolute;
+      z-index: 2;
+      background: #fff
+  }
+  .challenge-view .chal_padd {
+      padding: 10px 15px
+  }
+  .challenge-view .chal_sub_ttl {
+      font-size: 16px !important;
+      line-height: 20px
+  }
+  .challenge-view .submit_btn {
+      font-size: 15px !important
+  }
+  .profile .user_nav .org_menu ul li a {
+      font-size: 16px
+  }
+  .profile .user_nav .org_menu ul li .fa-facebook-f {
+      font-size: 14px
+  }
+  .main_section .organization .challenges_box .challenges_cont .chal_ttl {
+      font-size: 20px !important
+  }
+  .main_section .organization .challenges_box .challenges_cont p {
+      font-size: 14px !important
+  }
+  .main_section .organization .challenges_box .challenges_cont a {
+      font-size: 14px
+  }
+  .coverphotos {
+      margin-bottom: 20px
+  }
+  .resources_quiz .main_quiz_listing .quiz_listing .quiz_redio_btn .form-group .radio {
+      width: 100%
+  }
+  .assignment-main .care_system .iot_based {
+      padding-right: 0
+  }
+  .assignment-main .participate {
+      padding-top: 20px
+  }
+  .resources_details .file_dire {
+      padding: 0
+  }
+  .step-wizard li {
+      width: 19.2%
+  }
+  .friends .tab_bar {
+      margin-bottom: 10px;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail {
+      width: 100%;
+      display: flex;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail .u_c_detail {
+      width: 100%;
+      position: relative;
+      left: -15px;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail .u_c_detail .cont_nm {
+      font-size: 20px !important;
+      line-height: 24px;
+  }
+  .friends .friends_list .user_contact .border .user_img {
+      width: 84px;
+      height: 84px;
+  }
+  .friends .friends_list .user_contact .border .user_img img {
+      width: 84px;
+      height: 84px;
+  }
+  .friends .friends_list .user_contact .border .btn {
+      margin: 2px 1px;
+  }
+  .admin-challenge-view .challenge_skill_cls {
+      margin-bottom: 15px;
+  }
+  .my-lab-project .card-header .float-right.xs-f-none {
+      width: auto;
+      float: none !important;
+  }
+  .my-lab-project .card-header .tab-wrap-comman .nav.tabs-cyan {
+      flex-direction: row;
+      width: 100%;
+  }
+  .my-lab-project .card-header .tab-wrap-comman .nav.tabs-cyan .nav-item {
+      width: auto;
+      flex: 1 auto;
+  }
+  .my-lab-project .tab-wrap-comman .nav.tabs-cyan .nav-item .nav-link {
+      padding: 4px 10px;
+      font-size: 16px;
+  }
+  .my-lab-project .tab-wrap-comman {
+      position: relative;
+      top: 10px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .filterLabs .form-group .radio {
+      margin-left: -15px;
+      margin-top: 15px
+  }
+  .my-lab-project .popular-lab-tab .add-project .radio {
+      margin-top: 15px;
+  }
+  #followed_challenges .profile_img_wrapper .profile_img,
+  #my_labs .profile_img_wrapper .profile_img,
+  .main_section.organisation .profile_img_wrapper .profile_img {
+      max-width: 80px;
+      left: 0;
+      margin-left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .create-project-form .upload-extr-p-form .input-group .select2-container {
+      width: 85% !important;
+  }
+  .create-project-form .upload-extr-p-form .member-row .input-group .select2-container {
+      width: 100% !important;
+  }
+  .create-project-form .upload-extr-p-form .member-add-group .select2-container {
+      width: 100% !important;
+  }
+  .create-project-form .upload-extr-p-form .sm-pr-0 {
+      padding: 0px 15px 10px !important;
+  }
+  .col-md-9.content-box {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  .product-tab-details .f-s-20 {
+      font-size: 18px !important;
+  }
+  .new_template .project-detail-hint .mb-4,
+  .new_template .project-detail-hint .my-4 {
+      margin-bottom: 1rem !important;
+  }
+  .project-tab .pinch_tab .details_points .new_template .project-detail-hint {
+      font-size: 18px;
+      line-height: normal;
+  }
+  .product-tab-details .proj_group span {
+      font-size: 16px;
+  }
+  .project-tab .pinch_tab .details_points ol li h4 {
+      font-size: 18px;
+  }
+  .project-tab .pinch_tab .details_points ol li:before {
+      font-size: 18px;
+  }
+  .projct_name_ttl {
+      line-height: 40px;
+      font-size: 18px;
+      padding-left: 20px;
+      bottom: 30px;
+  }
+  .projct_name_ttl .f-s-20 {
+      font-size: 16px !important;
+  }
+  #filter_team_matching_form .btn.btn-block {
+      width: auto;
+      margin: 0 0 0 auto;
+  }
+  .setting_section .f-g-s .input-block .form-control {
+      font-size: 15px;
+  }
+  .setting_section .f-g-s .lbl-block label {
+      font-size: 15px;
+  }
+  .setting_section .pass-stregnth .pass-stregnth {
+      position: absolute;
+      display: inline-block;
+      left: 78%;
+      top: 44%;
+      width: 28%;
+      text-align: center;
+      z-index: 9999999999;
+      bottom: inherit;
+  }
+  .main_section .tags-tab.card .owl-carousel.tag-carousel .item .tag_img {
+      width: 110px;
+      height: 110px;
+  }
+  .main_section .tags-tab.card .owl-carousel.tag-carousel {
+      margin-top: 10px;
+  }
+  .main_section .tags-tab.card .owl-carousel.tag-carousel .item .p-txt {
+      font-size: 14px;
+      line-height: normal;
+  }
+  .card-body.trophies_category h4 {
+      font-size: 18px;
+  }
+  .card-body.trophies_category h3 {
+      font-size: 24px;
+  }
+  .card-body.organization.m-t-30.p-lr-50 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+  .main_section .organization .chl_bx .col-lg-5.col-md-12 img {
+      width: 150px;
+      height: auto;
+      max-width: 150px !important;
+  }
+  .main_section .organization .challenges_box .challenges_cont {
+      padding: 10px;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .m-b-20 {
+      margin-bottom: 10px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-20 {
+      font-size: 18px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-18 {
+      font-size: 16px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-22 {
+      font-size: 20px !important;
+      margin-top: 10px;
+  }
+  .main_section .card-body.organization .challenges_box {
+      margin-top: 10px;
+  }
+  .main_section .organization .challenges_box .lab_challng_img a h5 {
+      font-size: 18px;
+      line-height: normal;
+      padding: 0px 10px;
+  }
+  .main_section .organization .challenges_box .remain_lab {
+      font-size: 14px;
+      padding: 0px 10px;
+      line-height: normal;
+  }
+  .main_section .organization .challenges_box .challenges_cont {
+      padding: 10px;
+  }
+  .main_section .organization .challenges_box .challenges_cont .chal_ttl {
+      font-size: 18px !important;
+  }
+  .profile .user_nav {
+      text-align: center;
+  }
+  .profile .user_nav .user_f_nm.f-s-28 {
+      font-size: 24px !important;
+  }
+  .profile .user_nav .org_menu ul li {
+      height: auto !important;
+      padding: 8px 40px 8px !important;
+      margin: 5px auto 0px !important;
+      float: none !important;
+  }
+  .profile .user_nav .org_menu ul li a {
+      margin: 0px auto !important;
+      font-size: 14px !important;
+  }
+  .project-section.userlab-edit .custom-file-upload {
+      position: relative;
+  }
+  .project-section.userlab-edit .custom-file-upload .input-group-append {
+      position: absolute;
+      right: calc(100% - 200px);
+      top: 5px;
+  }
+  .project-section.userlab-edit .custom-file-upload .input-group-append .input-group-text.pos {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+  .sm-p-lr-0 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .project-section.userlab-edit .add_links {
+      margin: 0px;
+  }
+  .main_section.challenge-notification .add-project.add-challenge .p-lr-20 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .challengemanager .btn-groups {
+      flex-direction: column;
+  }
+  .challengemanager .btn-groups .f-left {
+      width: auto;
+      flex-direction: row;
+      display: flex;
+      flex: 1 auto;
+      flex-wrap: wrap;
+  }
+  .challengemanager .btn-groups .btn {
+      font-size: 14px;
+      display: flex;
+      width: 46%;
+      flex: 1 auto;
+      flex-direction: column;
+  }
+  .challengemanager .btn-groups .f-right {
+      display: flex;
+      justify-items: flex-start;
+      flex-direction: row;
+  }
+  .challengemanager .btn-groups .f-right .btn {
+      margin: 5px 10px 5px 0px;
+  }
+  .main_section.dashboard-challenge .card-header.p-tb-20 {
+      padding-top: 15px !important;
+      padding-bottom: 15px !important;
+  }
+  .main_section.dashboard-challenge .card-title {
+      font-size: 18px;
+      line-height: normal;
+  }
+  .main_section.dashboard-challenge .card-title.challenge-hint span.float-right {
+      float: none !important;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      flex-flow: wrap;
+      margin: 5px auto 0px;
+  }
+  .main_section.dashboard-challenge .card-title.challenge-hint span.float-right .btn {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin: 2px 5px 2px 0px;
+      font-size: 14px;
+      display: flex;
+      width: auto;
+  }
+  .main_section.dashboard-challenge .btn {
+      margin: 2px 5px 2px 0px;
+  }
+  .main_section.dashboard-challenge .btn.btn-dark {
+      font-size: 10px;
+      margin: 2px 0px 2px 5px;
+  }
+  .select2-container--focus {
+      box-shadow: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+  }
+  .select2-search--dropdown .select2-search__field:focus {
+      outline: none !important;
+      box-shadow: none !important;
+  }
+  .select2-selection.select2-selection--single:focus {
+      outline: none !important;
+      box-shadow: none !important;
+  }
+  .form-control:focus {
+      outline: none !important;
+      box-shadow: none !important;
+  }
+  .project-section.challenge-notification-edit .custon_field {
+      width: 100%;
+  }
+  .m-b-20.m-t-20.file-upload-status {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form h4 {
+      font-size: 18px;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form .form-head-title h4 {
+      font-size: 16px;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form .custom-file-upload {
+      display: flex;
+      position: relative;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form .custom-file-upload .input-group-append .pos {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form .p-l-0 {
+      padding-left: 15px;
+  }
+  .project-section.challenge-notification-edit .col-sm-12.text-lg-right.text-md-center br {
+      display: none;
+  }
+  .project-section.challenge-notification-edit .col-sm-12.text-lg-right.text-md-center {
+      text-align: center !important;
+  }
+  .project-section.challenge-notification-edit .upload-extr-p-form .mt-4 {
+      margin-top: 0.5rem !important;
+  }
+  .project-section.challenge-notification-edit .form-group.choose_file {
+      margin-bottom: 0px !important;
+  }
+  .project-section.challenge-notification-edit .form-group.choose_file .img-responsive {
+      height: auto !important;
+      width: 60px !important;
+  }
+  .project-section.challenge-notification-edit .form-head-title.m-t-40.m-b-20 {
+      margin-top: 0px !important;
+  }
+  .project-section.challenge-notification-edit .form-head-title.m-t-30 {
+      margin-top: 15px !important;
+  }
+  .project-section.challenge-notification-edit .m-t-40 {
+      margin-top: 20px !important;
+  }
+  .project-section.challenge-notification-edit .add-project .row.mt-4.upload-extr-p-form {
+      margin-top: 5px !important;
+      margin-bottom: 10px;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .custom-file-upload {
+      display: flex;
+      position: relative;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .custom-file-upload .input-group-append .pos {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+  .project-section.challenge-manager-create .col-sm-12.text-lg-right.text-md-center br {
+      display: none;
+  }
+  .project-section.challenge-manager-create .col-sm-12.text-lg-right.text-md-center {
+      text-align: center !important;
+  }
+  .project-section.challenge-manager-create .custon_field {
+      width: 100%;
+  }
+  .m-b-20.m-t-20.file-upload-status {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form h4 {
+      font-size: 18px;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .form-head-title h4 {
+      font-size: 16px;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .custom-file-upload {
+      display: flex;
+      position: relative;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .custom-file-upload .input-group-append .pos {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .p-l-0 {
+      padding-left: 15px;
+  }
+  .project-section.challenge-manager-create .upload-extr-p-form .mt-4 {
+      margin-top: 0.5rem !important;
+  }
+  .project-section.challenge-manager-create .form-group.choose_file .img-responsive {
+      height: auto !important;
+      width: 60px !important;
+  }
+  .project-section.challenge-manager-create .form-head-title.m-t-40.m-b-20 {
+      margin-top: 0px !important;
+  }
+  .project-section.challenge-manager-create .form-head-title.m-t-30 {
+      margin-top: 15px !important;
+  }
+  .project-section.challenge-manager-create .add-project .row.mt-4.upload-extr-p-form {
+      margin-top: 5px !important;
+      margin-bottom: 10px;
+  }
+  .project-section.challenge-manager-create .m-t-40 {
+      margin-top: 20px !important;
+  }
+  .project-section.announcements .card .p-lr-20.p-md-lr-0 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .project-section.announcements .card .announce_box {
+      padding: 10px 0px;
+  }
+  .project-section.announcements .card .announce_box_dtl {
+      padding: 10px 10px;
+  }
+  .project-section.announcements .card .announce_mbl_ttl {
+      display: block;
+  }
+  .project-section.announcements .card .annound_main_head {
+      display: none;
+  }
+  .project-section.announcements .card .fx-annunce-wd {
+      width: 100%;
+  }
+  .project-section.announcements .card .fx-annunce-sm {
+      width: 100%;
+  }
+  .project-section.announcements .card .announce_dtl {
+      flex-wrap: wrap;
+  }
+  .project-section.announcements .card .not-avilabl .f-s-22 {
+      font-size: 20px !important;
+  }
+  .float-right.float-md-none {
+      float: none !important;
+  }
+  .card .not-avilabl .f-s-22 {
+      font-size: 20px !important;
+  }
+  .my-lab-project.project-section.lab-dashboard .fa-2x {
+      font-size: 4em;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-title {
+      font-size: 30px;
+      line-height: normal;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-text {
+      margin-top: 5px;
+      font-size: 18px;
+  }
+  .my-lab-project.project-section.lab-dashboard .counter {
+      padding: 15px 0;
+  }
+  .my-lab-project.user-lab .add-project .form-inline .form-group {
+      margin-bottom: 1rem;
+  }
+  .my-lab-project.user-lab .add-project .filterLabs .form-group .radio {
+      margin-left: 0;
+      margin-top: 15px;
+      margin-right: 15px;
+  }
+  .my-lab-project.user-lab .add-project .filterLabs .btn {
+      margin: 5px 0px;
+  }
+  .my-lab-project.user-lab .add-project .filterLabs .form-control {
+      width: 100%;
+  }
+  .my-lab-project.user-lab .my_lab_row .may_lab_row_detail p.more {
+      margin: 10px 0px 10px !important;
+  }
+  .pl-md-0 {
+      padding-left: 0px !important;
+  }
+  .plr-md-0 {
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section .text-with-icon.m-l-10 {
+      margin-left: 0px !important;
+      padding-right: 10px;
+  }
+  .project-section.userlab-lab-detail .attachemntfilecss {
+      top: 20px;
+      right: 15px;
+  }
+  .text-md-center {
+      text-align: center !important;
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt {
+      width: calc(100% - 50px);
+  }
+  .project-section.project-tab .prj-tabs .form-group .radio {
+      padding-left: 0px !important;
+      padding-right: 10px !important;
+  }
+  .mb-md-0 {
+      margin-bottom: 0px !important;
+  }
+  .md-p-lr-15 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+  .ptb-md-0 {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+  }
+  .d-md-none {
+      display: none !important;
+  }
+  .d-md-block {
+      display: block !important;
+  }
+  .project-section.project-tab.edit-project .user-feeds-comment.md-p-lr-15 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+  .project-section.project-tab.edit-project .pinch_tab .details_points .new_template .mb-4 {
+      margin-bottom: 0.5rem !important;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input {
+      width: auto;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input.form-control {
+      width: auto;
+  }
+  .project-section.project-tab.edit-project .members-table .delete-icon {
+      margin: 5px;
+      position: relative;
+      top: -2px;
+  }
+  .project-section.project-tab.edit-project .members-table #add_member_btn {
+      position: relative;
+      left: -10px;
+      margin: 5px 0px !important;
+  }
+  .project-section.project-tab.edit-project .members-table h6 {
+      font-size: 15px;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .form-control {
+      font-size: 15px;
+  }
+  .project-section.project-tab.edit-project .m-t-30 {
+      margin-top: 20px !important;
+  }
+  .project-section.project-tab.project-tab .product-tab-details .proj_group .prod_tab_txt .mmbr_ttl {
+      font-size: 18px !important;
+      margin-bottom: 5px !important;
+  }
+  .project-section.project-tab.project-tab .product-tab-details .proj_group .prod_tab_txt .sumb_txt {
+      font-size: 14px;
+  }
+  .project-section.project-tab.project-tab .card-body .addsocialLink .form-group .add_links {
+      margin: 0px;
+      font-size: 14px;
+  }
+  .project-section.project-tab.edit-project .prj-tabs .form-control {
+      font-size: 15px;
+  }
+  .project-section.project-tab.edit-project .filter_tab {
+      font-size: 15px;
+  }
+  .project-section.project-tab.edit-project .file-upload-opt p {
+      margin: 0;
+      font-size: 13px;
+  }
+  .project-section.project-tab.edit-project .file-upload-opt button.btn {
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .card-text {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .card-title a {
+      font-size: 14px;
+  }
+  .front-home-pg .explorer .explore_details h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .explorer .explore_details .explore_cat {
+      font-size: 16px;
+      margin-bottom: 15px;
+  }
+  .front-home-pg .explorer .explore_details .view_more_expor a {
+      font-size: 16px;
+      margin-bottom: 5px;
+  }
+  .front-home-pg .exp-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .explorer .explore_details p {
+      font-size: 14px;
+  }
+  .front-home-pg .explorer .explore_details .view_more_expor {
+      bottom: -10px;
+  }
+  .front-home-pg .explorer .explorer_img {
+      margin-bottom: 20px !important;
+      height: auto;
+      padding-top: 0;
+  }
+  .front-home-pg .explorer .explorer_img img {
+      width: 100% !important;
+      height: auto !important;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      transform: unset;
+      left: 0;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex: 1 auto;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint .filter-button {
+      display: flex;
+      width: auto;
+      flex: 1 auto;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+      padding: 5px 10px;
+  }
+  .front-home-pg .float-lg-right.float-md-right.float-sm-left {
+      width: 100%;
+  }
+  /* New Organization Dashboard Layout  */
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+      font-size: 13px;
+      padding: .5rem 5px;
+  }
+  .card.cstm-card .cardheader .c-heading {
+      padding: 12px 10px;
+      font-size: 15px;
+  }
+  .myinbox-card .mail-row .dt-tim {
+      font-size: 10px;
+  }
+  .home-dashboard .h-dashboard-innr .main-card {
+      padding: 15px 15px;
+  }
+  .home-dashboard .h-dashboard-innr .top-filter .btns-grup .link-btn {
+      font-size: 14px;
+  }
+  .home-dashboard .h-dashboard-innr .top-filter .btns-grup .btn-cstm {
+      margin: 0px 10px 0px 0px;
+      padding: 0px 10px;
+      font-size: 14px;
+  }
+  .home-dashboard .h-dashboard-innr .top-filter {
+      padding: 12px 15px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .inner-accordion .card .card-body.d-card-body .list-row .innr-l-b {
+      width: 55%;
+  }
+  .card.cstm-card .cardheader .btn.btn-cstm {
+      padding: 5px 15px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .inner-accordion .card .card-body.d-card-body .list-row .inner-r-b .btn-grp .btn.btn-sm {
+      padding: 1px 4px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .sub-innrer-body .inner-accordion .card .card-body.d-card-body .list-row .t-img img {
+      width: 24px;
+      height: 24px;
+  }
+  .card.cstm-card.witout-tab-card .d-card-accordion .btn.btn-link {
+      font-size: 14px;
+      padding: 5px 5px 5px 20px;
+  }
+  .d-card-accordion .card-body.d-card-body .sub-innrer-body {
+      padding: 0px 0px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .sub-innrer-body .inner-accordion .card .card-body.d-card-body {
+      padding: 0px 0px 0px 0px;
+  }
+  .card.cstm-card.witout-tab-card .card-body.d-card-body .inner-accordion .card .card-body.d-card-body .list-row .innr-l-b {
+      width: 50%;
+  }
+  /* New Organization Dashboard Layout End */
+  /*New Header Css Start*/
+  .bottom-dropdown {
+      top: 140px !important;
+      left: auto !important;
+      width: 100%;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav {
+      display: flex
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu {
+      display: none;
+      position: absolute;
+      left: 100%;
+      top: -1px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .submenu-left {
+      right: 100%;
+      left: auto;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu>li:hover {
+      background-color: #f1f1f1
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .dropdown-menu>li:hover>.submenu {
+      display: flex;
+      flex-direction: column;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link {
+      padding-right: 20px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.notification {
+      padding-left: 10px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.notification .nav-link {
+      padding-right: 5px;
+  }
+  /*New Header Css End*/
+  /*Text to image css start*/
+  .imageCanvasError {
+      width: 100% !important;
+      height: auto !important;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      transform: unset;
+      left: 0;
+  }
+  .canvas-header {
+      padding: 15px 15px 5px;
+  }
+  .canvas-header h5 {
+      font-size: 16px;
+      margin-bottom: 0px;
+  }
+  .canvas-body {
+      font-size: 18px;
+  }
+  .canvas-body p {
+      line-height: 20px;
+  }
+  .coverphotos {
+      padding-top: 0px;
+  }
+  /*Text to image css end*/
+}
+
+@media (max-width:768px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .card-title a {
+      font-size: 14px;
+      position: relative;
+      top: 0;
+      right: 0
+  }
+  .card-title a span {
+      position: relative;
+      left: -10px;
+      top: 8px;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0
+  }
+  .card-title a span img {
+      position: relative
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 16px;
+      line-height: 20px
+  }
+  .project-section .card-header .card-title {
+      font-size: 18px
+  }
+  .add-project {
+      padding: 0px 5px
+  }
+  header .right_nav {
+      display: inline-block
+  }
+  header .right_nav li {
+      display: inline-block;
+      vertical-align: middle
+  }
+  .project-section {
+      top: 90px
+  }
+  .upload-extr-p-form {
+      padding: 0
+  }
+  .upload-extr-p {
+      padding: 0 15px
+  }
+  .project-detail .form-group label {
+      font-size: 14px;
+      line-height: 15px
+  }
+  .project-detail .project_detail_txt .f-s-30 {
+      font-size: 25px !important
+  }
+  .project-detail .project_detail_txt .f-s-15 {
+      font-size: 13px !important
+  }
+  .project-detail .vote a {
+      font-size: 16px
+  }
+  .project-detail .product-img-gallary {
+      max-width: 100%;
+      margin-bottom: 20px
+  }
+  .project-detail .product-img-gallary .lSSlideOuter img {
+      border-radius: 5px;
+      height: auto;
+      width: 100%
+  }
+  .project-detail-view .user-name-w-img {
+      position: relative;
+      top: 0
+  }
+  .xs-p-0 {
+      padding: 0 !important
+  }
+  .xs-p-l-0 {
+      padding-left: 0 !important
+  }
+  .xs-p-lr-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .feed-row {
+      text-align: center
+  }
+  .project-detail-view .project-feeds .feed-details {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-user-img {
+      float: none;
+      margin: 10px auto
+  }
+  .project-detail-view .p-f-list {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .project-detail-view .p-f-list span {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .p-f-list .f-detail {
+      display: inline-block
+  }
+  .project-detail-view .project-member-list {
+      text-align: center
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      margin: 0 auto
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center
+  }
+  .xs-f-none {
+      float: none !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 92%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .xs-lr-0 {
+      padding-left: 0 !important
+  }
+  .xl-w-100 {
+      width: 100%
+  }
+  .xs-p-l-15 {
+      padding-left: 15px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto;
+      padding-top: 0;
+      margin-bottom: 15px;
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: none;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 20px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 18px !important;
+      line-height: 24px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio ul {
+      width: 100%
+  }
+  .popular-lab-tab .form-group {
+      margin-bottom: 10px
+  }
+  .tab_radio li {
+      width: 50%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .profile .user_nav .user_menu ul li {
+      padding: 0 7px;
+      margin-bottom: 8px;
+  }
+  .profile .user_nav .user_menu ul li a {
+      font-size: 10px
+  }
+  .profile .user_nav .user_menu ul li a span {
+      font-size: 24px
+  }
+  .profile .user_nav .user_menu ul .active a span {
+      font-size: 24px
+  }
+  .profile .user_nav .user_ext ul li .btn-success {
+      padding: 8px 10px
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 35px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 20px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  .attachemntfilecss {
+      top: 29px;
+  }
+  .replyattachemntfilecss {
+      top: 29px;
+  }
+  .card-body.trophies_category h3 {
+      font-size: 20px;
+  }
+  .card-body.trophies_category h4 {
+      font-size: 24px;
+  }
+  .admin-challenge-view .filter_tab.challenge_tbs .subm_tb .card-body .p-lr-40 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .my-lab-project .card-header .float-right.xs-f-none {
+      width: 100%;
+  }
+  .my-lab-project .tab-wrap-comman {
+      top: 10px;
+  }
+  .filterLabs .form-group .radio {
+      margin-left: 0;
+      margin-top: 5px;
+  }
+  .my-lab-project .popular-lab-tab .add-project .radio {
+      margin-left: 0px;
+      margin-top: 10px;
+  }
+  .project-section.project-tab .card-title .float-right.project-hint a {
+      font-size: 14px;
+      position: relative;
+      top: 12px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .project-section.project-tab .card-title .float-right.project-hint a span {
+      position: relative;
+      left: 0px;
+      top: -4px;
+      bottom: 0;
+      width: auto;
+      height: 18px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+  }
+  .login-page {
+      background-position: -67px 0px;
+      background-size: 100%;
+  }
+  .product-tab-details .f-s-18 {
+      font-size: 16px !important;
+  }
+  .product-tab-details .f-s-20 {
+      font-size: 18px !important;
+  }
+  .project-tab .prj-tabs .tabs-wrapper .nav-tabs .nav-link {
+      font-size: 14px;
+      padding: .5rem 5px;
+  }
+  .project-tab .prj-tabs .tabs-wrapper .nav-tabs .nav-link .check_actv {
+      width: 20px;
+      height: 20px;
+      margin: 0px 3px;
+      text-align: center;
+  }
+  .project-tab .prj-tabs .tabs-wrapper .nav-tabs .nav-link .check_actv i {
+      line-height: normal;
+      font-size: 10px;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input.form-control {
+      width: 97% !important;
+  }
+  .project-section.project-tab.edit-project .members-table #add_member_btn {
+      left: -30px;
+  }
+  .explorer .explore_details .explore_cat {
+      margin-bottom: 15px;
+  }
+}
+
+@media (max-width:767px) {
+  .radio label::before {
+      width: 16px;
+      height: 16px;
+  }
+  .radio label::after {
+      width: 6px;
+      height: 6px;
+  }
+  .radio label {
+      padding-right: 5px;
+  }
+  .checkbox label::before {
+      width: 14px;
+      height: 14px;
+  }
+  .checkbox label {
+      padding-right: 5px;
+  }
+  .checkbox input[type=checkbox]:checked+label::after {
+      height: 6px;
+      width: 6px;
+  }
+  .navbar-expand-lg .navbar-nav {
+      padding-right: 15px;
+  }
+  .profile_image_challnge {
+      margin: 0 auto
+  }
+  .profile_name_challange {
+      text-align: center
+  }
+  .view_profile_challange {
+      margin: 15px auto;
+      text-align: center;
+      display: block !important;
+      width: 30%
+  }
+  .custom_m_pagination {
+      display: flex !important
+  }
+  .custom_m_pagination li a,
+  .custom_m_pagination li span {
+      border: 1px solid #13b15c;
+      transition: all .3s linear;
+      outline: 0;
+      background-color: transparent;
+      font-size: 12px;
+      color: #212529;
+      margin-left: -1px;
+      line-height: 1.25;
+      padding: 5px
+  }
+  .custom_m_pagination .active span {
+      background-color: #13b15c;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+      transition: all .2s linear;
+      border-radius: 3px;
+      color: #fff
+  }
+  .custom_m_pagination li:first-child span {
+      border-top-left-radius: .25rem;
+      border-bottom-left-radius: .25rem
+  }
+  .custom_m_pagination li:last-child a {
+      border-top-right-radius: .25rem;
+      border-bottom-right-radius: .25rem
+  }
+  .mobile_pag_hide .pagination {
+      display: none
+  }
+  .explorer .explorer_img img {
+      width: 100% !important;
+      height: auto !important
+  }
+  .quiz_time {
+      top: -66px
+  }
+  .m-p-l-0 {
+      padding-left: 15px
+  }
+  .explorer .explorer_img {
+      margin-bottom: 20px
+  }
+  .profile .banner {
+      min-height: 150px
+  }
+  .profile .banner .user_profile {
+      top: 80px;
+  }
+  .profile .banner .user_profile img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%)
+  }
+  .profile .user_nav .user_menu {
+      margin: 10px auto
+  }
+  .profile .user_nav .user_menu ul li a {
+      font-size: 12px
+  }
+  .profile .user_nav .user_info {
+      left: auto;
+      position: relative;
+      text-align: center;
+      max-width: 100%;
+  }
+  .profile .user_nav .user_ext {
+      margin: 0 auto
+  }
+  .profile .user_nav .user_ext ul {
+      text-align: center
+  }
+  .resources_collection .project_img {
+      padding-top: 0;
+  }
+  .resources_collection .project_img img {
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      transform: none;
+  }
+  .profile-project .project_img img {
+      width: 100%;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      transform: none;
+  }
+  .profile-project .pr_details {
+      margin-top: 10px
+  }
+  .profile-project .pr_details h4 {
+      font-size: 20px !important
+  }
+  .profile-project .pr_details p {
+      font-size: 16px !important;
+      line-height: 18px
+  }
+  .challenge_exp .f-s-30 {
+      font-size: 25px !important
+  }
+  .challenge_exp .company_name {
+      font-size: 18px !important
+  }
+  .card-body.profile-project.challenge_exp .f-s-22 {
+      font-size: 18px !important;
+      line-height: normal;
+  }
+  .challenge_exp .user_ex_company .user_position {
+      font-size: 18px !important;
+      line-height: normal;
+  }
+  .challenge_exp .user_ex_company .user_position button.close {
+      font-size: 20px;
+      margin-bottom: 0;
+  }
+  .challenge_exp .user_ex_company .total_year_country {
+      font-size: 16px !important;
+      margin-top: 5px !important;
+      margin-bottom: 5px !important
+  }
+  .challenge_exp .user_ex_company .user_desc_company p {
+      font-size: 16px !important
+  }
+  .challenge_exp .list_category ul li {
+      font-size: 18px
+  }
+  .challenge_hist .box ul li {
+      min-width: 200px
+  }
+  .challenge_hist .box ul li .box_details .counter {
+      font-size: 24px !important
+  }
+  .challenge_hist .box ul li .box_details .counter_ttl {
+      font-size: 14px !important
+  }
+  .friends .tab_bar {
+      float: right;
+      margin-top: 5px;
+      margin-bottom: 10px
+  }
+  .friends .tab_bar .nav-pills .nav-item .nav-link {
+      padding: 5px 15px;
+      font-size: 12px;
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 20px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 18px;
+      width: 30px;
+  }
+  .card-body.setting_section.mb-4 {
+      margin-bottom: 0.5rem!important;
+  }
+  .setting_section .f-g-s .input-block .form-control {
+      font-size: 15px;
+  }
+  .setting_section .pass-stregnth {
+      position: absolute;
+      display: inline-block;
+      left: 62%;
+      top: 43%;
+      width: 50%;
+      bottom: inherit;
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_category .trophies_list {
+      padding: 0
+  }
+  .trophies_category .trophies_list ul li {
+      width: 45%;
+      margin: 0 10px 20px;
+      display: inline-table
+  }
+  .trophies_category .btn-seeall {
+      margin: 0 auto;
+      width: 100%
+  }
+  .trophies_category .trophies_list ul {
+      margin-bottom: 20px
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  .btn-toolbar .btn-group .filter-button {
+      padding: .25rem .5rem;
+      font-size: 14px
+  }
+  .profile .user_nav .view_btn {
+      float: none;
+      display: table;
+      margin: 0 auto;
+      text-align: center
+  }
+  .main_section .organization {
+      padding: 0
+  }
+  .main_section .organization .chl_bx {
+      padding: 0
+  }
+  .project-tab .product-tab-details .proj_group {
+      margin-top: 10px;
+      margin-bottom: 10px !important;
+  }
+  .project-tab .pinch_tab .details_points ol li .delete a {
+      right: 15%
+  }
+  .projct_name_ttl {
+      left: 0;
+      line-height: 30px;
+      font-size: 18px;
+      width: 100%;
+  }
+  .user-feeds-comment .user-feeds-comment-row .right-div-img .parent-user-img {
+      width: 40px;
+      height: 40px
+  }
+  .add-challenge .option_txt {
+      top: 0
+  }
+  .coverphotos {
+      min-height: 100%;
+      margin-bottom: 20px
+  }
+  .coverphotos #img_contain {
+      display: flex;
+      height: 100%
+  }
+  .admin-challenge-view .product-tab-details h4 {
+      font-size: 26px !important
+  }
+  .admin-challenge-view .product-tab-details .soc_btns {
+      position: relative;
+      right: 0
+  }
+  .admin-challenge-view .prj-tabs .nav-justified .nav-tabs .nav-link {
+      font-size: 14px
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets {
+      width: 92%
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets input {
+      width: 100%
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets textarea {
+      width: 100%
+  }
+  .resources_quiz .main_quiz_listing .quiz_listing .quiz_redio_btn .form-group {
+      margin-bottom: 0
+  }
+  .resources_quiz .main_quiz_listing .quiz_listing .quiz_redio_btn .form-group .radio {
+      width: 100%
+  }
+  /*Announcement Css Start*/
+  .announce_type {
+      font-size: 14px;
+  }
+  .announce_schedule_time {
+      font-size: 14px;
+  }
+  .announce_schedule_date {
+      font-size: 14px;
+  }
+  .fx-announce_ttl {
+      font-size: 16px;
+  }
+  /*Announcement Css End*/
+  .card-body.profile-project.challenge_exp .m-t-20 {
+      margin-top: 10px !important;
+  }
+  .card-body.profile-project.challenge_exp {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+      margin-top: 0 !important;
+  }
+  .card-body.profile-project.challenge_exp .f-s-26 {
+      font-size: 22px !important;
+  }
+  .challenge_exp .edit .icon-edit:before {
+      font-size: 24px;
+      top: 8px;
+  }
+  .card-body.profile-project.challenge_exp .m-t-25 {
+      margin-top: 15px !important;
+  }
+  .card-body.profile-project.challenge_exp .m-t-30 {
+      margin-top: 20px !important;
+  }
+  .challenge_exp .user_ex_company .total_year_country .country {
+      padding: 0;
+  }
+  .card-body.profile-project .row .col-lg-7.col-md-7 .pr_details .row .col-lg-10.col-10 {
+      max-width: 100%;
+      flex: 0 0 100%;
+  }
+  .card-body.profile-project .row .col-lg-7.col-md-7 .pr_details .row .col-lg-2.col-2 {
+      max-width: 100%;
+      flex: 0 0 100%;
+  }
+  .double-tropy img {
+      margin: 5px 10px 5px 0px;
+  }
+  .nav-item.searchbar .form-control.typeahead {
+      font-size: 14px;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail {
+      left: -30px;
+  }
+  .card-body.trophies_category h4 {
+      font-size: 18px;
+  }
+  .card-body.trophies_category h3 {
+      font-size: 24px;
+  }
+  .front-home-pg .jumbotron-cstm {
+      height: auto;
+      font-size: 30px;
+      padding: 50px 10px;
+      line-height: 38px;
+      margin: 0px auto 10px;
+  }
+  .front-home-pg .card-title {
+      font-size: 20px;
+      text-align: left;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .card-text {
+      font-size: 14px;
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .owl .card-text,
+  .front-home-pg .pop .card-text {
+      margin-bottom: 10px;
+  }
+  .front-home-pg .explorer .explore_details h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .explorer .explore_details .explore_cat {
+      font-size: 16px;
+      margin-bottom: 15px;
+  }
+  .front-home-pg .explorer .explore_details .view_more_expor a {
+      font-size: 16px;
+      margin-bottom: 5px;
+  }
+  .front-home-pg .exp-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  .front-home-pg .explorer .explore_details p {
+      font-size: 14px;
+  }
+  .front-home-pg .explorer .explore_details .view_more_expor {
+      bottom: -10px;
+  }
+  .front-home-pg .explorer .explorer_img {
+      margin-bottom: 20px !important;
+      height: auto;
+      padding-top: 0;
+  }
+  .front-home-pg .explorer .explorer_img img {
+      width: 100% !important;
+      height: auto !important;
+      position: relative;
+      top: 0;
+      bottom: 0;
+      transform: unset;
+      left: 0;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex: 1 auto;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint .filter-button {
+      display: flex;
+      width: auto;
+      flex: 1 auto;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+  }
+  .front-home-pg .float-lg-right.float-md-right.float-sm-left {
+      width: 100%;
+  }
+  .admin-challenge-view .challenge_skill_cls {
+      margin-bottom: 0px;
+  }
+  .admin-challenge-view .filter_tab.challenge_tbs .subm_tb .card-body .p-lr-40 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  .admin-challenge-view.project-tab .card-header {
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  .profile_img_wrapper .cover_image {
+      margin-bottom: 10px;
+  }
+  .challenge-hint .float-right.mb-flt-nn {
+      float: none !important;
+  }
+  .project-section.project-tab .card-title .float-right.project-hint a {
+      font-size: 12px;
+      position: relative;
+      top: 4px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .project-section.project-tab .card-title .float-right.project-hint a span {
+      position: relative;
+      left: 0px;
+      top: -4px;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+  }
+  .project-section .project-view-list .project-img {
+      padding-top: 0;
+  }
+  .project-section .project-view-list .project-img img {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: none;
+  }
+  .login-page {
+      background: #afdb88;
+      background-position: 0px;
+      background-size: 100%;
+  }
+  .login-page section {
+      margin: 0 auto 0px !important;
+  }
+  .slider-img-cont {
+      padding: 30px 10px 10px;
+  }
+  .add-project input[name=image] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+      left: 20px;
+  }
+  .add-project .upload-extr-p {
+      padding: 0 1rem;
+  }
+  .add-project .create-project-form .dm-uploader h3 {
+      margin: 30px 0px 10px !important;
+      font-size: 24px;
+  }
+  .add-project .create-project-form .dm-uploader p {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  .add-project .create-project-form .dm-uploader .btn-success {
+      font-size: 14px;
+      padding: 12px 12px !important;
+  }
+  .add-project .form-head-title h4 {
+      font-size: 14px;
+  }
+  .add-project .upload-extr-p-form .input-group .select2-container {
+      width: calc(100% - 30px) !important;
+  }
+  .create-project-form .upload-extr-p-form .member-add-group .select2-container {
+      width: 100% !important;
+  }
+  .add-project.add-challenge #challengeForm .input-group .select2-container {
+      width: calc(100% - 48px) !important;
+  }
+  .add-project .upload-extr-p-form .input-group .input-group-append .input-group-text {
+      padding: .375rem 0px .375rem 10px;
+  }
+  .add-project .form-control {
+      font-size: 14px;
+  }
+  .create-project-form .radio {
+      padding-left: 0px !important;
+      padding-right: 8px !important;
+  }
+  .create-project-form .submitFinal {
+      margin-bottom: 10px;
+  }
+  .project-tab .pinch_tab .details_points .new_template .project-detail-hint {
+      font-size: 18px;
+      line-height: normal;
+  }
+  .project-tab .pinch_tab .details_points ol li:before {
+      font-size: 18px;
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt .shrt_desc {
+      margin: 0 auto 10px;
+  }
+  .product-tab-details .proj_group span {
+      font-size: 15px;
+  }
+  .project-tab .pinch_tab .details_points ol li h4 {
+      font-size: 18px;
+  }
+  .project-tab .pinch_tab .details_points ol li p {
+      margin-bottom: 10px;
+      font-size: 14px;
+  }
+  .new_template .project-detail-hint .mb-4,
+  .new_template .project-detail-hint .my-4 {
+      margin-bottom: 1rem!important;
+  }
+  #engagement_tb .user-feeds-comment-row .comment-row-details .comment_img {
+      display: block;
+      max-width: 100px;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+  }
+  #history_tb .log-entry .content-box {
+      text-align: center;
+  }
+  #history_tb .log-entry .content-box .col-md-4 {
+      text-align: center !important;
+  }
+  #history_tb .log-entry .date-box {
+      border-bottom: 1px solid #808080d9;
+      text-align: center;
+      border-top: 1px solid #808080d9;
+      border-left: none;
+      margin: 5px auto;
+  }
+  #history_tb.gallery_tb {
+      margin-top: 0px !important;
+  }
+  #history_tb.gallery_tb .gallery_fltr {
+      margin-bottom: 0;
+  }
+  .tab-content.filter_tab .tab-pane.m-t-20 {
+      margin-top: 0px !important;
+  }
+  #files_tb.gallery_tb .gallery_fltr {
+      margin-bottom: 0;
+  }
+  #filter_team_matching_form span.select2-selection.select2-selection--multiple {
+      height: 40px !important;
+      min-height: 40px !important;
+      margin: 10px auto;
+  }
+  #filter_team_matching_form select.form-control {
+      font-size: 14px;
+      height: 40px !important;
+      margin: 10px 0px;
+  }
+  #filter_team_matching_form .select2-container--default .select2-selection--single {
+      height: 40px !important;
+      min-height: 40px !important;
+      margin: 10px auto;
+  }
+  .select2-container--default .select2-selection--multiple,
+  .select2-container--default.select2-container--focus .select2-selection--multiple,
+  span.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus.select2-container--open {
+      min-height: 40px !important;
+  }
+  .select2-container--focus,
+  span.select2.select2-container.select2-container--default.select2-container--below.select2-container--focus.select2-container--open {
+      box-shadow: none !important;
+      border: none !important;
+  }
+  .resources_collection .f-s-25 {
+      font-size: 22px !important;
+  }
+  .resources_collection .profile-project.challenge_hist .project_img {
+      margin-bottom: 15px;
+  }
+  .resources_collection .profile-project.challenge_hist .updateResRating .text-nobel.m-b-20 {
+      margin: 0 !important;
+      padding-bottom: 10px;
+  }
+  .resources_collection .profile-project.challenge_hist .updateResRating .text-nobel.m-b-20 .rating-md {
+      font-size: 10px;
+  }
+  .resources_collection .profile-project.challenge_hist .updateResRating .text-nobel.m-b-20 .rating-md .star .f-s-16 {
+      font-size: 14px !important;
+  }
+  .resources_collection .profile-project.challenge_hist .updateResRating .text-nobel.m-b-20 .rating-md.rating-container .clear-rating {
+      padding-right: 0;
+  }
+  .resources_collection .profile-project.challenge_hist .pr_details p {
+      padding-bottom: 0;
+  }
+  .resources_collection .pr_details .view_bnt {
+      font-size: 16px !important;
+  }
+  .custom_tag {
+      font-size: 12px;
+      padding: 5px 12px;
+      margin: 5px 3px 5px 0px;
+  }
+  .resources_details .file_direp p {
+      padding-bottom: 10px;
+  }
+  .resources_module_overview .principles {
+      margin-top: 10px;
+  }
+  .resources_module_overview .principles ul li {
+      font-size: 14px;
+      margin-bottom: 10px;
+      padding-left: 24px
+  }
+  .resources_module_overview .principles ul li .updtico-Question,
+  .resources_module_overview .principles ul li .updtico-file2 {
+      font-size: 20px;
+  }
+  .resources_details .file_dire .transform {
+      font-size: 14px;
+  }
+  .setting_section .f-g-s .input-block .form-control {
+      padding-left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+  }
+  .setting_section .f-g-s .lbl-block label {
+      font-size: 15px;
+  }
+  .main_section.help .nav-tabs {
+      justify-content: space-between;
+      border-bottom: 1px solid #dbdfe2;
+  }
+  .main_section.help .nav-tabs .nav-item {
+      flex: 1 auto;
+      width: 33.33%;
+      display: flex;
+      margin-bottom: 0px;
+      border-bottom: 1px solid #dbdfe2;
+  }
+  .main_section.help .nav-tabs .nav-item .nav-link {
+      display: flex;
+      margin: 0;
+      width: 100%;
+      padding: 10px 10px;
+      font-size: 14px;
+      line-height: normal;
+      align-items: center;
+  }
+  .main_section.help .nav-tabs .nav-item .nav-link span {
+      font-size: 18px;
+      padding: 0 10px 0 0px;
+  }
+  .main_section.help .tab-content .tab-pane {
+      padding: 15px 0;
+  }
+  .main_section.help #faq .panel-title.f-s-18 {
+      font-size: 16px !important;
+  }
+  .help .tab-content .tab-pane .panel-group .panel .panel-heading .more-less {
+      font-size: 20px !important;
+      padding-left: 5px;
+  }
+  .main_section.help #faq div.panel-collapse {
+      margin-bottom: 30px;
+  }
+  .main_section.help .tab-pane .form-control {
+      font-size: 14px;
+  }
+  .main_section.help .tab-pane h4 {
+      font-size: 20px;
+  }
+  .card-body.trophies_category .awardedModelClass.text-center .awardImage {
+      padding: 0;
+  }
+  .card-header.p-tb-20 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .communityModal .modal-header {
+      padding: 10px 15px;
+  }
+  .communityModal .modal-header h4 {
+      font-size: 20px;
+  }
+  .card-body.trophies_category .col-md-4.col-xs-4.col-4.col-sm-4.text-center {
+      line-height: normal;
+  }
+  .card-body.trophies_category .col-md-4.col-xs-4.col-4.col-sm-4.text-center a.skillsModelClass {
+      line-height: 16px !important;
+      font-size: 13px !important;
+      margin-bottom: 10px;
+      display: block;
+  }
+  .card-body.trophies_category {
+      padding: 10px 20px;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .m-b-20 {
+      margin-bottom: 10px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-20 {
+      font-size: 18px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-18 {
+      font-size: 16px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-22 {
+      font-size: 20px !important;
+      margin-top: 10px;
+  }
+  .main_section .card-body.organization .challenges_box {
+      margin-top: 10px;
+  }
+  .main_section .organization .challenges_box .lab_challng_img a h5 {
+      font-size: 18px;
+      line-height: normal;
+      padding: 0px 10px;
+  }
+  .main_section .organization .challenges_box .remain_lab {
+      font-size: 14px;
+      padding: 0px 10px;
+      line-height: normal;
+  }
+  .main_section .organization .challenges_box .challenges_cont {
+      padding: 10px;
+  }
+  .main_section .organization .challenges_box .challenges_cont .chal_ttl {
+      font-size: 18px !important;
+  }
+  .profile .user_nav {
+      text-align: center;
+  }
+  .profile .user_nav .user_f_nm.f-s-28 {
+      font-size: 24px !important;
+  }
+  .profile .user_nav .org_menu ul li {
+      height: auto !important;
+      padding: 8px 40px 8px !important;
+      margin: 5px auto 0px !important;
+  }
+  .profile .user_nav .org_menu ul li a {
+      margin: 0px auto !important;
+      font-size: 14px !important;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .m-t-2.m-b-20 {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .btnStatus.btn {
+      font-size: 14px;
+      padding: 10px !important;
+  }
+  .add-project.add-challenge #challengeForm input[name=profile_image] {
+      position: absolute;
+      top: 0;
+      right: 4%;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .add-project.add-challenge #challengeForm input[name=cover_image] {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      margin: 0;
+      border: solid transparent;
+      width: 90%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .add-project.add-challenge #challengeForm .drag-and-drop-zone .coverphotos {
+      margin-bottom: 0;
+  }
+  .my-lab-project.orglab.project-section .card-header .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .my-lab-project.orglab.project-section .card-header .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  #agreemnets .modal-footer {
+      margin: auto;
+  }
+  .my-lab-project.orglab.project-section .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 14px !important;
+      line-height: 20px !important;
+  }
+  .upload-extr-p-form .m-t-2.m-b-20 {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  .project-section.userlab-edit .add-project .upload-extr-p-form .input-group .select2-container {
+      width: calc(100% - 48px) !important;
+  }
+  .project-section.userlab-edit .custom-file-upload {
+      position: relative;
+  }
+  .project-section.userlab-edit .custom-file-upload .input-group-append {
+      position: absolute;
+      right: calc(100% - 200px);
+      top: 5px;
+  }
+  .project-section.userlab-edit .custom-file-upload .input-group-append .input-group-text.pos {
+      position: relative;
+      top: 0;
+      right: 0;
+  }
+  .project-section.userlab-edit .create {
+      width: auto;
+      position: relative;
+      left: 0;
+      margin: auto !important;
+  }
+  .project-section.userlab-edit .dm-uploader .upload_bg_img {
+      position: relative;
+      top: 10%;
+  }
+  .project-section.userlab-edit .dm-uploader .mb-4.mt-4 {
+      margin-top: 1em !important;
+      margin-bottom: 1rem !important;
+  }
+  .project-section.userlab-edit .dm-uploader h3 {
+      font-size: 24px;
+      margin: 15px 0px 10px !important;
+  }
+  .project-section.userlab-edit .dm-uploader p {
+      margin: 0px 0px 10px;
+      font-size: 22px;
+  }
+  .project-section.userlab-edit .dm-uploader .btn {
+      margin: 0 !important;
+  }
+  .project-section.userlab-edit .dm-uploader .btn span {
+      margin: auto;
+  }
+  .m-b-20.m-t-20.file-upload-status {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+  }
+  .dm-uploader .upl_l_txt.f-s-28 {
+      font-size: 24px !important;
+  }
+  .dm-uploader .upload_bg_img img {
+      width: 130px;
+  }
+  .dm-uploader .col-md-6.col-md-6.mb-4.mt-4 {
+      margin-bottom: 1rem!important;
+      margin-top: 1rem!important;
+  }
+  .m-b-20.m-t-20.file-upload-status .list-unstyled {
+      margin: 0px !important;
+  }
+  .dm-uploader .btn-success {
+      font-size: 14px;
+      padding: 8px 16px !important;
+  }
+  .project-section.userlab-edit .add_links {
+      margin: 0px;
+  }
+  .main_section.orgchallenge .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .main_section.orgchallenge .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  .main_section.orgchallenge .pr_details .f-light a.btn {
+      margin-left: 0px;
+      font-size: 14px;
+  }
+  .main_section.orgchallenge .pr_details .f-s-22 {
+      font-size: 18px !important;
+  }
+  .main_section.orgchallenge .profile-project .pr_details p {
+      font-size: 15px !important;
+      line-height: 18px;
+      margin-bottom: 10px;
+  }
+  .modal-header h4.modal-title,
+  .modal-header .modal-title {
+      font-size: 18px;
+  }
+  .main_section.challenge-notification .add-project.add-challenge .p-lr-20 {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+  }
+  .main_section.challenge-notification .f-s-20 {
+      font-size: 18px !important;
+  }
+  .main_section.challenge-notification .announce_label label {
+      font-size: 15px;
+  }
+  .main_section.challenge-notification label.f-semibold {
+      font-size: 15px;
+  }
+  .main_section.challenge-notification .col-lg-12.text-right.text-sm-center .btn {
+      font-size: 14px;
+      box-shadow: none;
+      padding: 8px 15px !important;
+      margin: 5px auto;
+      border: 2px solid transparent;
+      width: auto;
+  }
+  .main_section.challenge-notification #announcementsForm .row.mt-2.mb-4 {
+      margin-bottom: 0.5rem !important;
+  }
+  .text-right.text-sm-center {
+      text-align: center !important;
+  }
+  .main_section.challenge-notification .upload-extr-p-form .mb-3 {
+      margin-bottom: 0.5rem !important;
+  }
+  .challengemanager .btn-groups .btn {
+      font-size: 13px;
+      width: 44%;
+      margin: 5px;
+  }
+  .challengemanager .btn-groups .f-right .btn {
+      margin: 5px 5px;
+      font-size: 13px;
+  }
+  .main_section.challengemanager .pr_details .f-s-25 {
+      font-size: 20px !important;
+  }
+  .main_section.challengemanager .pr_details .f-s-22 {
+      font-size: 18px !important;
+  }
+  .main_section.challengemanager .profile-project .pr_details p {
+      line-height: normal;
+      margin-bottom: 5px;
+      font-size: 14px !important;
+  }
+  .main_section.challengemanager .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .main_section.challengemanager .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  .project-section.challenge-notification-edit input[name=sponsersImage] {
+      position: absolute;
+      top: 0;
+      right: 4%;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .project-section.announcements .card .not-avilabl .f-s-22 {
+      font-size: 18px !important;
+  }
+  .project-section.announcements .card .card-body {
+      padding: 10px 15px;
+  }
+  .project-section.announcements .card .card-body .f-s-20 {
+      font-size: 16px !important;
+      line-height: normal;
+  }
+  .project-section.announcements .card .card-body .col-lg-6.text-lg-right .btn {
+      margin: 10px 0px;
+  }
+  .project-section.announcements .card .fx-annunce-wd .fx-announce_ttl {
+      font-size: 16px;
+      width: 100%;
+      display: inline-block;
+      line-height: normal;
+  }
+  .project-section.announcements .card .fx-annunce-wd .fx-announce_ttl label.btn {
+      font-size: 14px;
+      padding: 6px 8px !important;
+      display: block;
+      width: 80px;
+      margin: 5px 0px;
+  }
+  .project-section.announcements .card .announce_heading {
+      display: none;
+  }
+  .project-section.challenge-manager-create input[name=sponsersImage] {
+      position: absolute;
+      top: 0;
+      right: 4%;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .project-section.challenge-manager-create .dm-uploader h3 {
+      font-size: 24px;
+      margin: 15px 0px 10px !important;
+  }
+  .project-section.challenge-manager-create .dm-uploader p {
+      margin: 0px 0px 10px;
+      font-size: 22px;
+  }
+  .project-section.trophy #topLoader div {
+      height: auto !important;
+  }
+  .project-section.trophy .f-s-30 {
+      font-size: 25px !important;
+  }
+  .import-badge.project-section .card h3 {
+      margin: 10px auto;
+      font-size: 18px;
+      line-height: 26px;
+  }
+  .import-badge.project-section .form-control {
+      font-size: 14px;
+  }
+  .main_section.dashboard-challenge .btn.btn-dark {
+      font-size: 8px;
+      margin: 2px 0px 2px 5px;
+  }
+  .main_section.dashboard-challenge .card-title {
+      font-size: 16px;
+      line-height: normal;
+  }
+  .main_section.organisation .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .main_section.organisation .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: 0;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  .card .not-avilabl .f-s-22 {
+      font-size: 18px !important;
+  }
+  .project-section.organisation-create input[name=cover_image] {
+      position: absolute;
+      top: 0;
+      right: 4%;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .project-section.organisation-create input[name=logo] {
+      position: absolute;
+      top: 0;
+      right: 4%;
+      margin: 0;
+      border: solid transparent;
+      width: 92%;
+      opacity: 0;
+      z-index: 99;
+      height: 100%;
+      cursor: pointer;
+  }
+  .project-section.organisation-create .dm-uploader h3 {
+      font-size: 24px;
+      margin: 15px 0px 10px !important;
+  }
+  .project-section.organisation-create .dm-uploader p {
+      margin: 0px 0px 10px;
+      font-size: 22px;
+  }
+  .project-section.organisation-create .col-lg-6.col-md-12 .m-t-20.m-b-20 {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  .project-section.organisation-create .col-lg-6.col-md-12 .m-t-20.m-b-20 .btn {
+      margin: 5px 5px 5px 0px;
+  }
+  .project-section.organisation-create .col-md-12.addsocialLink .btn {
+      margin: 0;
+  }
+  .main_section.challengemanager .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .main_section.challengemanager .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: -4px;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  .my-lab-project.project-section .card-header .card-title .sm-t-r-icon a {
+      font-size: 12px;
+      position: relative;
+      top: 0px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  .my-lab-project.project-section .card-header .card-title .sm-t-r-icon span.icon-expand {
+      position: relative;
+      left: 0px;
+      top: -4px;
+      bottom: 0;
+      width: auto;
+      height: 16px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0;
+      font-size: 18px;
+  }
+  .my-lab-project.project-section.lab-dashboard .card-body {
+      padding: 10px 0px;
+  }
+  .my-lab-project.project-section.lab-dashboard .fa-2x {
+      font-size: 3em;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-title {
+      font-size: 24px;
+      line-height: normal;
+  }
+  .my-lab-project.project-section.lab-dashboard .count-text {
+      margin-top: 5px;
+      font-size: 16px;
+  }
+  .pl-sm-15 {
+      padding-left: 15px !important;
+  }
+  .p-r-sm-0 {
+      padding-right: 0px !important
+  }
+  .project-section.userlab-lab-detail .f-s-22 {
+      font-size: 20px !important;
+      line-height: normal;
+  }
+  .project-section.userlab-lab-detail .f-s-16 {
+      font-size: 15px !important;
+      line-height: normal;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section .text-with-icon.m-l-10 {
+      margin-left: 0px !important;
+      padding-right: 0px;
+  }
+  .project-section.userlab-lab-detail .tab-content.filter_tab.challenge_tbs {
+      padding: 10px 0px;
+  }
+  .project-section.userlab-lab-detail .lab_usr_sldr .owl-item img {
+      max-height: 84px;
+      height: 84px !important;
+      width: 84px !important;
+      margin: auto;
+  }
+  .project-section.userlab-lab-detail .owl-carousel.lab_usr_sldr {
+      margin: 0;
+  }
+  .project-section.userlab-lab-detail .owl-carousel.lab_usr_sldr .owl-item {
+      text-align: center;
+  }
+  .project-section.userlab-lab-detail .owl-carousel.lab_usr_sldr .owl-item .f-s-22 {
+      font-size: 18px !important;
+  }
+  .project-section.userlab-lab-detail .owl-carousel.lab_usr_sldr .owl-item .f-s-16 {
+      font-size: 14px !important;
+  }
+  .project-section.userlab-lab-detail .tab-pane .p-tb-20 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .project-section.userlab-lab-detail .tab-pane .p-t-20 {
+      padding-top: 10px;
+  }
+  .project-section.userlab-lab-detail .tab-content.filter_tab .tab-pane.m-t-20 {
+      padding: 0px;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section p {
+      margin-bottom: 5px;
+  }
+  .project-section.userlab-lab-detail .text-with-icon span {
+      margin: 0 5px 0 0;
+      font-size: 18px;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section .desp-p {
+      margin-top: 10px;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section .desp-p p {
+      font-size: 14px;
+      line-height: 16px;
+  }
+  .project-section.userlab-lab-detail .project-v-t-section .custom_tags {
+      font-size: 14px;
+  }
+  .project-section.userlab-lab-detail .filter_tab.challenge_tbs .img-fluid.img-small {
+      width: 84px;
+  }
+  .project-section.user-lab-create .add-project .upload-extr-p-form .input-group .select2-container {
+      width: calc(100% - 47px) !important;
+  }
+  .project-section.project-tab.edit-project .members-table #add_member_btn {
+      left: -10px;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .proj_group .prod_tab_txt input.form-control {
+      width: 93% !important;
+  }
+  .project-tab.admin-challenge-view .challenge-view .project-detail-view .project-img {
+      padding-top: 0;
+  }
+  .project-tab.admin-challenge-view .challenge-view .project-detail-view .project-img img {
+      position: relative;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .desp-p {
+      margin-top: 10px;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .m-t-15 {
+      margin-top: 10px !important;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .d-inline-block.m-r-20 {
+      margin-right: 0px !important;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .desp-p p {
+      font-size: 14px;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .private_lab_off {
+      margin: 15px auto;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .private_lab_off img {
+      width: 85px;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .private_lab_off h3 {
+      margin: 10px auto;
+      font-size: 16px;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .private_lab_off p {
+      font-size: 12px;
+      margin-right: 5px;
+  }
+  .project-tab.admin-challenge-view .project-detail-view .text-with-icon span {
+      width: 18px;
+      height: 18px;
+      font-size: 20px;
+      margin: 0 8px 0 0;
+  }
+  .project-tab.admin-challenge-view .project-v-t-section p {
+      margin-bottom: 5px;
+  }
+  .project-tab.admin-challenge-view .project-v-t-section .text-with-icon.d-inline-block p {
+      margin-right: 8px;
+  }
+  .project-tab.admin-challenge-view .project-v-t-section .text-with-icon.d-inline-block.m-l-10 {
+      margin-left: 0px !important;
+  }
+  .project-tab.admin-challenge-view .user-feeds-comment .d-inline-block.m-r-20 {
+      margin-right: 10px !important;
+  }
+  .project-tab.admin-challenge-view .engagement_tb .img_relative {
+      width: 80px;
+      height: 80px;
+  }
+  .project-tab.admin-challenge-view .engagement_tb .img_relative .thumb_img_small {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      width: 100%;
+      height: auto;
+  }
+  .project-tab.admin-challenge-view .engagement_tb .f-s-22 {
+      font-size: 18px !important;
+  }
+  .recommendations .btn-row {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .btn-row a {
+      font-size: 14px;
+      padding: 8px 12px;
+  }
+  .front-home-pg .recommendations .card-title {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .card-text {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .p-t-20.p-b-20 {
+      padding-top: 0px !important;
+      padding-bottom: 0px !important;
+  }
+  .front-home-pg .recommendations h5.card-title {
+      margin: 10px auto;
+  }
+  .n-pitch-accordion .round-checkbox {
+      margin: 2em 0px 2em;
+  }
+  .n-pitch-accordion .add-pitch-body {
+      padding: 10px 15px;
+  }
+  .n-pitch-accordion .round-checkbox label:after {
+      border: 2px solid #fff;
+      border-top: none;
+      border-right: none;
+      content: "";
+      height: 6px;
+      left: 6px;
+      opacity: 0;
+      position: absolute;
+      top: 8px;
+      transform: rotate(-45deg);
+      width: 12px;
+  }
+  .n-pitch-accordion .round-checkbox label:before {
+      height: 24px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 24px;
+      content: "";
+  }
+  .n-pitch-accordion .round-checkbox label {
+      font-size: 14px;
+      line-height: 18px;
+      padding-left: 35px;
+  }
+  .n-pitch-accordion .round-checkbox .task-status {
+      padding-left: 35px;
+      font-size: 12px;
+  }
+  .n-pitch-accordion .btn-link:before,
+  .n-pitch-accordion .btn-link.collapsed:before {
+      font-size: 20px;
+      top: 14px;
+  }
+  .n-pitch-accordion .btn.btn-link {
+      padding: 12px 10px;
+  }
+  .n-pitch-accordion .text-grreen-shade-1.add_new_temp_sect {
+      font-size: 14px;
+      padding: 0px 0px;
+  }
+  /* New Organization Dashboard Layout  */
+  .home-dashboard .h-dashboard-innr .form-control {
+      margin-bottom: 15px;
+  }
+  .card.cstm-card.crd-h-eql {
+      min-height: 130px;
+  }
+  .card.cstm-card.tab-card .project-tab {
+      max-height: 300px;
+      min-height: 300px;
+  }
+  .d-card-accordion .labcard-h {
+      max-height: 350px;
+      min-height: 350px;
+  }
+  .d-card-accordion .projectcard-h {
+      max-height: 400px;
+      min-height: 400px;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .list-wrap {
+      min-height: 230px;
+  }
+  .card.cstm-card .cardheader .c-heading {
+      font-size: 15px;
+  }
+  .card.cstm-card .cardheader .btn.btn-cstm {
+      padding: 4px 15px;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .top-d .org-img-wt-nm .org-nm {
+      font-size: 16px;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .f-s-13 {
+      font-size: 12px !important;
+  }
+  .myorganigation-card .card.cstm-card .card-innr-wrp .f-s-12 {
+      font-size: 11px !important;
+  }
+  .myinbox-card .mail-row .dt-tim {
+      font-size: 10px;
+  }
+  .card.cstm-card.tab-card .nav-tabs .nav-item .nav-link {
+      font-size: 14px;
+      padding: .5rem 10px;
+  }
+  .home-dashboard .h-dashboard-innr .top-filter .search-group .serch-icon {
+      top: 8px;
+  }
+  /* New Organization Dashboard Layout End */
+  .filter_tab.challenge_tbs .img-w-fixed {
+      padding-right: 10px !important;
+  }
+  /*New Header Css Start*/
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link {
+      padding-right: 10px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav {
+      top: 0px;
+  }
+  .top-nw-nav-header .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item {
+      padding: 5px 0px 5px 5px;
+  }
+  .top-nw-nav-header .top-nw-nv-l {
+      padding-right: 0;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav {
+      padding-right: 8px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.notification {
+      padding-left: 5px;
+  }
+  /*New Header Css End*/
+  /*Text to image css start*/
+  .canvas-header h5 {
+      font-size: 14px;
+  }
+  .canvas-body {
+      font-size: 16px;
+  }
+  .canvas-body p {
+      line-height: 18px;
+  }
+  /*Text to image css end*/
+}
+
+@media (max-width:667px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .card-title a span {
+      position: relative;
+      left: -10px;
+      top: 8px;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0
+  }
+  .card-title a span img {
+      position: relative
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 16px;
+      line-height: 20px
+  }
+  .project-section .card-header .card-title {
+      font-size: 16px
+  }
+  .add-project {
+      padding: 5px 5px
+  }
+  header .right_nav {
+      display: inline-block
+  }
+  header .right_nav li {
+      display: inline-block;
+      vertical-align: middle
+  }
+  header .right_nav li .input-group .seachbar {
+      width: auto
+  }
+  header .mobile_search {
+      display: none
+  }
+  .project-section {
+      top: 90px
+  }
+  .upload-extr-p-form {
+      padding: 0
+  }
+  .upload-extr-p {
+      padding: 0 15px
+  }
+  .project-detail .form-group label {
+      font-size: 14px;
+      line-height: 15px
+  }
+  .project-detail .project_detail_txt .f-s-30 {
+      font-size: 25px !important
+  }
+  .project-detail .project_detail_txt .f-s-15 {
+      font-size: 13px !important
+  }
+  .project-detail .vote a {
+      font-size: 16px
+  }
+  .project-detail .product-img-gallary {
+      max-width: 100%;
+      margin-bottom: 20px
+  }
+  .project-detail .product-img-gallary .lSSlideOuter img {
+      border-radius: 5px;
+      height: auto;
+      width: 100%
+  }
+  .project-detail-view .user-name-w-img {
+      position: relative;
+      top: 0
+  }
+  .xs-p-0 {
+      padding: 0 !important
+  }
+  .xs-p-l-0 {
+      padding-left: 0 !important
+  }
+  .xs-p-lr-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .feed-row {
+      text-align: center
+  }
+  .project-detail-view .project-feeds .feed-details {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-user-img {
+      float: none;
+      margin: 10px auto
+  }
+  .project-detail-view .border-l-1x {
+      margin: 50px auto 0
+  }
+  .project-detail-view .border-l-1x:after {
+      top: -20px;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid;
+      border-color: #dbdfe2;
+      width: 100%;
+      border-left: none
+  }
+  .project-detail-view .p-f-list {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .project-detail-view .p-f-list span {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .p-f-list .f-detail {
+      display: inline-block
+  }
+  .project-detail-view .project-member-list {
+      text-align: center
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      margin: 0 auto
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center
+  }
+  .xs-f-none {
+      float: none !important
+  }
+  .xs-p-l-15 {
+      padding-left: 15px !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 100%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 20px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 18px !important;
+      line-height: 24px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio li {
+      width: 100%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 15px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 18px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  .top-nw-nav-header .navbar-nav.right_nav.top-nw-nav .nav-item.searchbar {
+      display: none;
+  }
+  header .mobile_search {
+      display: block;
+      width: 100%;
+  }
+  header .mobile_search .input-group .twitter-typeahead {
+      width: calc(100% - 40px);
+  }
+  .navbar.fixed-top.top-nw-nav-header {
+      padding-bottom: 5px;
+  }
+}
+
+@media (max-width:640px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .card-title a span {
+      position: relative;
+      left: -15px;
+      top: 8px;
+      bottom: 0;
+      width: 100%;
+      height: 28px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0
+  }
+  .card-title a span img {
+      position: relative
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 16px;
+      line-height: 20px
+  }
+  .add-project {
+      padding: 5px 5px
+  }
+  header .right_nav .notification .notifi_menu {
+      margin-right: -12px;
+      width: 260px;
+  }
+  header .right_nav .notification .notifi_menu ul li a .icon-circle img {
+      width: 50px;
+      height: 50px;
+  }
+  header .right_nav .notification .notifi_menu ul li a .icon-circle {
+      width: 50px;
+      height: 50px;
+  }
+  header .right_nav .notification .notifi_menu ul li a .menu-info h4 {
+      font-size: 12px;
+  }
+  header .right_nav .notification .notifi_menu ul li a .menu-info p {
+      font-size: 9px;
+  }
+  header .right_nav {
+      position: absolute;
+      right: 0;
+      top: 10px
+  }
+  header .right_nav li {
+      padding: 0 5px
+  }
+  .project-detail .form-group label {
+      font-size: 14px;
+      line-height: 15px
+  }
+  .project-detail .project_detail_txt .f-s-30 {
+      font-size: 25px !important
+  }
+  .project-detail .project_detail_txt .f-s-15 {
+      font-size: 13px !important
+  }
+  .project-detail .vote a {
+      font-size: 16px
+  }
+  .project-detail .product-img-gallary {
+      max-width: 100%;
+      margin-bottom: 20px
+  }
+  .project-detail .product-img-gallary .lSSlideOuter img {
+      border-radius: 5px;
+      height: auto;
+      width: 100%
+  }
+  .project-detail-view .user-name-w-img {
+      position: relative;
+      top: 0
+  }
+  .xs-p-0 {
+      padding: 0 !important
+  }
+  .xs-p-l-0 {
+      padding-left: 0 !important
+  }
+  .feed-row {
+      text-align: center
+  }
+  .project-detail-view .project-feeds .feed-details {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-user-img {
+      float: none;
+      margin: 10px auto
+  }
+  .project-detail-view .border-l-1x {
+      margin: 50px auto 0
+  }
+  .project-detail-view .border-l-1x:after {
+      top: -20px;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid;
+      border-color: #dbdfe2;
+      width: 100%;
+      border-left: none
+  }
+  .project-detail-view .p-f-list {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .project-detail-view .p-f-list span {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .p-f-list .f-detail {
+      display: inline-block
+  }
+  .project-detail-view .project-member-list {
+      text-align: center
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      margin: 0 auto
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center
+  }
+  .xs-f-none {
+      float: none !important
+  }
+  .xs-p-l-15 {
+      padding-left: 15px !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 100%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 20px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px;
+      font-size: 20px;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 18px !important;
+      line-height: 24px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio li {
+      width: 100%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center;
+      font-size: 14px;
+      padding: 8px 30px;
+  }
+  .my-lab-project .popular-lab-tab .add-project .form-control {
+      font-size: 14px;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 15px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 18px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .f-s-18 {
+      font-size: 16px !important;
+      line-height: 20px !important;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .f-s-16 {
+      font-size: 14px !important;
+      line-height: 18px !important;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon span {
+      margin: 0 10px 0 0;
+      font-size: 18px;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury {
+      margin: 10px auto 0px;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul li {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 5px;
+  }
+  /*New Header Css Start*/
+  .top-nw-nav-header.navbar .navbar-nav.right_nav {
+      position: relative;
+      padding-right: 8px;
+  }
+  .top-nw-nv-l {
+      padding-right: 0;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item.dropdown .dropdown-menu li a {
+      padding: 5px 10px !important;
+  }
+  /*New Header Css End*/
+}
+
+@media (max-width:576px) {
+  body {
+      font-size: 14px;
+  }
+  header .right_nav li.nav-item.notification {
+      overflow: visible;
+  }
+  header .right_nav li.nav-item.notification .nav-link {
+      overflow: visible;
+      padding-bottom: 0;
+  }
+  header .right_nav .notification .not_value {
+      border-radius: 50px;
+      width: auto;
+      height: 15px;
+      min-width: 15px;
+      background: #26af5f;
+      color: #fff;
+      position: absolute;
+      top: -1px;
+      right: -2px;
+      text-align: center;
+      font-size: 9px;
+      line-height: 16px;
+      display: block;
+      padding: 0px;
+  }
+  .friends .tab_bar {
+      float: none;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+  .friends .tab_bar .nav-pills .nav-item {
+      flex: 1;
+      width: auto;
+  }
+  .friends .tab_bar .nav-pills .nav-item:last-child {
+      border-left: 0;
+  }
+  .friends .tab_bar .nav-pills .nav-item .nav-link {
+      padding: 5px 10px;
+  }
+  .friends .friends_list .user_contact .border .user_img {
+      margin: 0 auto
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail {
+      width: 100%;
+      text-align: center;
+      left: 0px;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail .u_c_detail {
+      left: 0;
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail .u_c_detail .cont_nm {
+      font-size: 20px !important
+  }
+  .friends .friends_list .user_contact .border .user_c_m_detail .u_c_detail .cont_pnt {
+      font-size: 16px !important
+  }
+  .trophies_category .trophies_list {
+      padding: 0
+  }
+  .trophies_category .trophies_list ul li {
+      width: 100%;
+      margin: 0 auto 20px;
+      display: inline-table
+  }
+  .trophies_category .btn-seeall {
+      margin: 0 auto;
+      width: 100%
+  }
+  .trophies_category .trophies_list ul {
+      margin-bottom: 20px
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  .challenge-view .chal_padd {
+      padding: 15px 0
+  }
+  .challenge-view .chal_padd .submit_text {
+      text-align: left
+  }
+  .challenge-view hr {
+      display: none
+  }
+  .project-tab .gallery_tb .gallery_fltr {
+      margin-bottom: 10px
+  }
+  .project-tab .gallery_tb .gallery_fltr .text-right {
+      text-align: left !important
+  }
+  .project-tab .gallery_tb .gallery_fltr .text-right .filter-button {
+      display: inline-block;
+      margin: 0 10px 0 0
+  }
+  .admin-challenge-view .challenge_tbs .subm_tb .sub_fav_glay_sc .wnr_ech_cat .cat_option_vl {
+      width: 90%
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li {
+      line-height: normal;
+      padding: 8px 0px 0px;
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_icon span {
+      font-size: 16px;
+  }
+  .admin-challenge-view .challenge_tbs .requir_sub_tpc ul li .req_sub_dets {
+      width: 85%;
+      font-size: 14px;
+      line-height: normal;
+  }
+  .assignment-main .chose_button .allupload {
+      width: 100%
+  }
+  .assignment-main .chose_button .allupload .width120 {
+      width: 100%;
+      text-align: center
+  }
+  .assignment-main .chose_button .allupload .width120 .icon-dropbox,
+  .assignment-main .chose_button .allupload .width120 .icon-google-drive,
+  .assignment-main .chose_button .allupload .width120 .iconlstd-NewDoc {
+      vertical-align: middle;
+      position: relative;
+      left: 0;
+      top: 0
+  }
+  .profile-project .pr_details h4 {
+      font-size: 18px !important;
+  }
+  .profile-project .pr_details p {
+      font-size: 15px !important;
+  }
+  .profile .user_nav {
+      padding: 70px 5px 15px;
+  }
+  .profile .banner .user_profile {
+      width: 130px;
+      height: 130px;
+      top: 70px;
+  }
+  .profile .banner .user_profile .catimage {
+      max-width: 160px !important;
+      max-height: 160px !important;
+  }
+  .front-home-pg .jumbotron-cstm {
+      height: auto;
+      font-size: 26px;
+      padding: 40px 10px;
+      line-height: 34px;
+      margin: 0px auto 10px;
+  }
+  .front-home-pg .pagination .page-item .page-link {
+      padding: 8px 10px;
+      font-size: 12px;
+  }
+  .my-lab-project .popular-lab-tab .card-body .filterdChalleges .pagination .page-item .page-link {
+      padding: 7px 9px;
+      font-size: 12px;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex: 1;
+  }
+  .front-home-pg .btn-toolbar .btn-group.clp_hint .filter-button {
+      display: flex;
+      width: auto;
+      flex: 1;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+  }
+  .admin-challenge-view .steps_date {
+      display: flex;
+      width: 100%;
+  }
+  .admin-challenge-view .steps_date .wizard {
+      flex-direction: column;
+      flex: 1 auto;
+  }
+  .admin-challenge-view .steps_date .wizard .wizard-step::before {
+      border-top: none;
+      border-right: 2px solid #27ae60;
+      left: 9px;
+      position: absolute;
+      right: auto;
+      top: 10px;
+      height: 100%;
+  }
+  .admin-challenge-view .steps_date .wizard .wizard-step-link {
+      font-size: 12px;
+      margin-bottom: 15px;
+  }
+  .admin-challenge-view .steps_date .wizard .wizard-step-link:before {
+      font-size: 9px;
+      position: absolute;
+  }
+  .admin-challenge-view .steps_date .wizard .wizard-step-link .title {
+      padding-left: 30px;
+  }
+  .admin-challenge-view .steps_date .wizard-step:last-child:nth-child(4) {
+      max-width: 100%;
+  }
+  .admin-challenge-view .steps_date .wizard-step:last-child:before {
+      border-right: none;
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt .f-s-18 {
+      font-size: 16px !important;
+  }
+  .project-tab .product-tab-details .proj_group {
+      margin-top: 0;
+  }
+  .admin-challenge-view .product-tab-details .soc_btns .nav li .btn {
+      font-size: 14px !important;
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+      margin: 8px 5px;
+  }
+  .admin-challenge-view .engagement_tb .m-t-20 {
+      margin-top: 10px !important;
+  }
+  .admin-challenge-view .engagement_tb .auto_set_img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin: 0 auto;
+      display: block;
+  }
+  .admin-challenge-view .engagement_tb {
+      text-align: center;
+  }
+  .admin-challenge-view .challenge_tbs .v_a_add_sign {
+      margin: auto;
+      margin-top: 10px;
+  }
+  .admin-challenge-view .challenge_tbs .v_a_add_sign .add_host_sign a span.iconlstd-Plus {
+      font-size: 20px !important;
+  }
+  .admin-challenge-view .challenge_tbs p {
+      font-size: 14px;
+      margin-bottom: 5px;
+      line-height: 18px
+  }
+  .admin-challenge-view .challenge_tbs .m-b-20 {
+      margin-bottom: 10px !important;
+  }
+  .admin-challenge-view .challenge_tbs .m-t-10 {
+      margin-top: 5px !important;
+  }
+  .admin-challenge-view .challenge_tbs .m-b-30 {
+      margin-bottom: 15px !important;
+  }
+  .admin-challenge-view .challenge_tbs .m-t-30 {
+      margin-top: 15px !important;
+  }
+  .admin-challenge-view .challenge_tbs .admin-challenge-view .challenge_tbs .v_a_add_sign {
+      margin-bottom: 10px;
+  }
+  .admin-challenge-view .challenge_tbs .card-body {
+      margin-top: 0px !important;
+  }
+  .admin-challenge-view .challenge_tbs .assoctd_lab_row .assoctd_row_detail h3 {
+      font-size: 16px;
+  }
+  .admin-challenge-view .challenge_tbs .assoctd_lab_row .assoctd_row_detail h3 .badge {
+      font-size: 12px;
+      margin-left: 10px;
+  }
+  .admin-challenge-view .assoctd_row_detail .text-with-icon.d-inline-block.m-l-10 {
+      margin-left: 0px !important;
+  }
+  .admin-challenge-view .challenge_tbs .assoctd_lab_row .assoctd_row_detail .text-with-icon span {
+      font-size: 18px;
+      margin: 0 10px 0 0;
+  }
+  .text-xs-center {
+      text-align: center !important;
+  }
+  .BulletedList {
+      padding-left: 0;
+      margin-left: -5px;
+  }
+  .my-button-css {
+      font-size: 15px;
+  }
+  .admin-challenge-view .challenge_tbs .challenges_box {
+      text-align: center;
+  }
+  .admin-challenge-view .challenge_tbs .challenges_box .over-flow-desc {
+      height: auto;
+  }
+  .admin-challenge-view .challenge_tbs .owl-next,
+  .admin-challenge-view .challenge_tbs .owl-prev {
+      font-size: 20px;
+  }
+  .admin-challenge-view .challenge_tbs .challenges_box .text-right {
+      text-align: center !important;
+  }
+  .admin-challenge-view .challenge_tbs .challenges_box .chal_ttl {
+      line-height: normal;
+      margin: 10px auto;
+  }
+  #contactForm h1 {
+      font-size: 24px;
+  }
+  #contactForm .btn.btn-sm {
+      padding: 10px 20px;
+      font-size: 14px;
+      line-height: normal;
+  }
+  #contactForm .btn.btn-sm input {
+      margin: 0em auto;
+      padding: 0;
+      line-height: normal;
+  }
+  .admin-challenge-view .challenge_tbs .assoctd_lab_row .assoctd_row_detail {
+      margin-top: 15px;
+  }
+  .my_labs.popular-lab-tab .card-body {
+      padding: 10px 15px;
+  }
+  .profile_img_wrapper .cover_image {
+      margin-bottom: 10px;
+  }
+  .project-tab .engagement_tb .social_rate {
+      display: flex;
+      align-items: center;
+      line-height: normal;
+      flex-wrap: wrap;
+  }
+  .project-tab .engagement_tb .social_rate li {
+      display: flex;
+      margin: 0px 0px 5px;
+      padding: 0 10px 0 0;
+      align-items: center;
+      line-height: normal;
+  }
+  .project-tab .engagement_tb .social_rate li label {
+      margin: 0;
+  }
+  #followed_challenges .profile_img_wrapper .profile_img,
+  #my_labs .profile_img_wrapper .profile_img,
+  .main_section.organisation .profile_img_wrapper .profile_img {
+      max-width: 60px;
+      left: 0;
+      margin-left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .forgot-pass-head h3 {
+      font-size: 26px;
+  }
+  .forgot-pass-head p {
+      font-size: 14px;
+  }
+  .sld_ttl {
+      font-size: 22px;
+      line-height: 28px;
+  }
+  .slider-img-cont p {
+      font-size: 16px;
+      line-height: 22px;
+  }
+  .project-tab .pinch_tab .details_points .new_template .project-detail-hint {
+      font-size: 16px;
+      line-height: normal;
+  }
+  .project-tab .pinch_tab .details_points ol li:before {
+      font-size: 15px;
+  }
+  .new_template .project-detail-hint .mb-4,
+  .new_template .project-detail-hint .my-4 {
+      margin-bottom: 0rem !important;
+      margin-top: 1rem !important;
+  }
+  #pitch_tb .details_points .p-lr-20 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+  }
+  #engagement_tb .user-feeds-comment-row .like-dislike {
+      display: flex;
+      line-height: normal;
+  }
+  #engagement_tb .user-feeds-comment-row .like-dislike .d-inline-block {
+      margin-right: 10px !important;
+      line-height: normal;
+  }
+  #engagement_tb .user-feeds-comment .user-feeds-comment-row .comment-row-details .like-dislike i {
+      font-size: 18px;
+  }
+  #engagement_tb .user-feeds-comment .add-project {
+      padding: 5px 0px;
+  }
+  #engagement_tb .user-feeds-comment-row .comment-row-details .comment_img {
+      display: block;
+      max-width: 60px;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+  }
+  .notifications .nav-pills .nav-item {
+      text-align: center;
+      flex: 1 auto;
+  }
+  .main_section.help #faq .panel-title.f-s-18 {
+      font-size: 15px !important;
+  }
+  .card-body.profile-project.challenge_exp .f-s-26 {
+      font-size: 20px !important;
+  }
+  .card-body.profile-project.challenge_exp .m-t-30 {
+      margin-top: 15px !important;
+  }
+  .profile .user_nav .user_menu ul li a span {
+      font-size: 18px;
+  }
+  .profile .user_nav .user_menu ul .active a span {
+      font-size: 20px;
+  }
+  .challenge_exp .user_ex_company .user_position {
+      font-size: 16px !important;
+  }
+  .card-body.profile-project.challenge_exp .f-s-22 {
+      font-size: 16px !important;
+  }
+  .card-body.profile-project.challenge_exp .m-t-20 {
+      margin-top: 10px !important;
+  }
+  .challenge_exp .company_name {
+      font-size: 16px !important;
+  }
+  .challenge_exp .user_ex_company .total_year_country {
+      margin-top: 5px !important;
+      margin-bottom: 5px !important;
+      font-size: 14px !important;
+  }
+  .challenge_exp .user_ex_company .total_year_country .total_year {
+      font-size: 14px;
+  }
+  .main_section .tags-tab.card .search-group .input-group-prepend .form-control {
+      font-size: 14px;
+  }
+  .main_section .tags-tab.card .text-center.f-s-24 {
+      font-size: 20px !important;
+      margin-bottom: 15px;
+  }
+  .main_section .tags-tab.card .owl-carousel.tag-carousel .item .follow-btn {
+      font-size: 14px;
+  }
+  .card-body.trophies_category .item h3 {
+      font-size: 18px;
+  }
+  .card-body.trophies_category .item h4 {
+      font-size: 14px;
+  }
+  .card-body.trophies_category .item p {
+      margin-bottom: 0px;
+  }
+  .card-body.trophies_category .item a img {
+      width: 100px;
+      height: auto;
+  }
+  .main_section .organization .challenges_box .lab_challng_img {
+      min-height: auto;
+      height: auto;
+  }
+  .main_section .organization .challenges_box .lab_challng_img a {
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .about_desc .descAll {
+      margin-bottom: 10px;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-20 {
+      font-size: 16px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-18 {
+      font-size: 15px !important;
+  }
+  .card-body.organization.m-t-30.p-lr-50 .f-s-22 {
+      font-size: 18px !important;
+      margin-top: 10px;
+  }
+  .profile .user_nav .user_f_nm.f-s-28 {
+      font-size: 22px !important;
+  }
+  .add-project.add-challenge #challengeForm .dm-uploader .coverphotos {
+      margin-bottom: 0;
+  }
+  .add-project.add-challenge #challengeForm .dm-uploader.showBg1 {
+      width: 60%;
+      margin: auto;
+  }
+  .add-project.add-challenge #challengeForm .m-t-20.m-b-20.file-upload-status {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+  }
+  .add-project.add-challenge #challengeForm .m-t-20.m-b-20.file-upload-status ul.list-unstyled {
+      margin-bottom: 0;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .m-t-20.m-b-20 {
+      margin-bottom: 10px !important;
+      margin-top: 10px !important;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .m-t-20.m-b-20.text-right {
+      margin-top: 0px !important;
+      text-align: left !important;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .incentive_area .add_people {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0px 15px 0px 0px;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .user_role_area .add_role {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0px 15px 0px 0px;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .user_role_area .add_role .button_add_remove {
+      text-align: left;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .user_role_area .add_role .button_add_remove .btn {
+      margin: 0px 0px 15px;
+  }
+  .add-project.add-challenge #challengeForm .upload-extr-p-form .incentive_area .add_people .button_add_remove .btn {
+      margin: 0px 0px 15px;
+  }
+  .main_section.challengemanager .card-body.profile-project.challenge_hist {
+      padding: 15px 15px;
+  }
+  .custm_file_imput i {
+      padding: 8px;
+      font-size: 16px;
+  }
+  .project-section.announcements .card .announce_box .nav-tabs {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .project-section.announcements .card .announce_box .nav-tabs .nav-link {
+      display: flex;
+      margin: 0px 20px 0px 0px;
+  }
+  .project-section.trophy .achiv_icn img {
+      width: 50px;
+      margin-bottom: 12px;
+  }
+  .project-section.trophy .achive_tost {
+      position: absolute;
+      left: 60px;
+      top: -19px;
+      width: auto;
+      height: 30px;
+      line-height: 15px;
+      min-width: 30px;
+  }
+  .project-section.trophy .achiv_sec {
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+  .project-section.trophy .card {
+      padding-bottom: 20px;
+  }
+  .project-section.user-won-trophy .achiv_trop_name {
+      line-height: 16px;
+      font-size: 13px;
+      display: block;
+      margin-top: 0px;
+      position: relative;
+      top: 5px;
+  }
+  .my-lab-project.user-lab .add-project .filterLabs .form-group .radio {
+      margin-top: 0;
+  }
+  .my-lab-project.user-lab .add-project .filterLabs .btn {
+      font-size: 14px;
+  }
+  .my-lab-project.user-lab .pagination .page-item .page-link {
+      font-size: 14px;
+      padding: 7px 10px;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .f-s-18 {
+      font-size: 14px !important;
+      line-height: 16px !important;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .d-inline-block {
+      display: block!important;
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .d-inline-block p {
+      margin-bottom: 10px !important;
+  }
+  .setting_section .f-g-s .input-block .form-control {
+      font-size: 14px;
+  }
+  .setting_section .f-g-s .lbl-block label {
+      font-size: 14px;
+  }
+  .setting_section .f-g-s .input-icon {
+      font-size: 16px;
+  }
+  .project-tab .float-right.mb-flt-nn .btn-group-vote ul li .btn {
+      padding: 5px 10px !important;
+      font-size: 14px;
+  }
+  .project-tab .members-table #add_member_btn_container button:focus {
+      outline: none;
+      box-shadow: none;
+  }
+  .project-section.project-tab.edit-project .members-table h6 {
+      font-size: 14px;
+  }
+  .project-section.project-tab.edit-project .product-tab-details .form-control {
+      font-size: 14px;
+  }
+  .project-section.project-tab.edit-project .prj-tabs .form-control {
+      font-size: 14px;
+  }
+  .project-section.project-tab.edit-project .m-t-30 {
+      margin-top: 15px !important;
+  }
+  .project-section.project-tab.edit-project .filter_tab {
+      font-size: 14px;
+  }
+  .project-section.project-tab .project-view-list a.f-s-18 {
+      font-size: 14px !important;
+  }
+  .product-tab-details .f-s-18 {
+      font-size: 15px !important;
+  }
+  .project-section.project-tab .user-feeds-comment .add-project .attachemntfilecss {
+      top: 20px;
+      right: 30px;
+  }
+  .front-home-pg .explorer .explore_details .view_more_expor a {
+      font-size: 14px
+  }
+  .front-home-pg .explorer .explore_details h4 {
+      font-size: 18px;
+  }
+  .front-home-pg .explorer .explore_details .explore_cat {
+      margin-bottom: 10px;
+  }
+  .main_section .card-body.explorer .explore_details .check_actv {
+      width: 20px;
+      height: 20px;
+      margin: 0px 5px;
+      font-size: 12px;
+      line-height: 20px;
+  }
+  .main_section .front-home-pg .card .owl .item .card-text {
+      text-align: center;
+  }
+  .main_section .front-home-pg .card .owl .item .card-text a {
+      text-align: center;
+      font-size: 14px;
+  }
+  .my-lab-project .tab-wrap-comman .nav.tabs-cyan .nav-item .nav-link {
+      font-size: 14px;
+  }
+  .my-lab-project .popular-lab-tab .popular_categury ul li {
+      padding: 5px 15px;
+      font-size: 14px;
+  }
+  .project-section.my-lab-project .form-inline.filterLabs .col-md-6 {
+      padding: 0px 8px !important;
+  }
+  .project-section.my-lab-project .form-inline.filterLabs .col-lg-2.col-md-12.text-right.w-100 {
+      padding: 0 !important;
+  }
+  .project-tab.admin-challenge-view .challenge-view .project-detail-view .f-s-22 {
+      font-size: 18px !important;
+  }
+}
+
+@media (max-width:575px) {
+  .slid-txt {
+      width: 200px;
+  }
+  /*New Header Css Start*/
+  .last-mbl-right {
+      right: 0px;
+      left: auto;
+  }
+  .main_section {
+      top: 95px;
+  }
+  /*New Header Css End*/
+}
+
+@media (max-width:575px) {
+  /*New Header Css Start*/
+  .top-nw-nav-header .navbar-nav.right_nav.top-nw-nav .nav-item.searchbar {
+      display: none;
+  }
+  header .mobile_search {
+      display: block;
+      width: 100%;
+  }
+  header .mobile_search .input-group .twitter-typeahead {
+      width: calc(100% - 40px);
+  }
+  .navbar.fixed-top.top-nw-nav-header {
+      padding-bottom: 5px;
+  }
+  .last-mbl-right {
+      right: 0px;
+      left: auto;
+  }
+  .main_section {
+      top: 95px;
+  }
+  /*New Header Css End*/
+}
+
+@media (max-width:480px) {
+  .card-title {
+      font-size: 18px;
+  }
+  .f-s-16 {
+      font-size: 14px !important;
+  }
+  .f-s-18 {
+      font-size: 16px !important;
+  }
+  .f-s-22 {
+      font-size: 20px !important;
+  }
+  .f-s-25 {
+      font-size: 22px !important;
+  }
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .card-title a {
+      font-size: 14px;
+      position: relative;
+      top: 0;
+      right: 0
+  }
+  .card-title a span {
+      position: relative;
+      left: -10px;
+      top: 8px;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0
+  }
+  .card-title a span img {
+      position: relative
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+  }
+  .project-section .card-header .card-title {
+      font-size: 16px
+  }
+  .add-project {
+      padding: 5px 5px
+  }
+  header .right_nav .searchbar {
+      display: none
+  }
+  header .mobile_search {
+      display: block;
+      width: 100%;
+      margin-top: 5px;
+  }
+  header .mobile_search .input-group .input-group-prepend .input-group-text {
+      background: 0 0;
+      border-radius: 5px 0px 0px 5px;
+  }
+  header .mobile_search .input-group .seachbar {
+      border-radius: 0px 5px 5px 0px;
+      font-size: 14px;
+      border-bottom: 1px solid #ced4da !important;
+      border-left: 1px solid #ced4da;
+  }
+  header .mobile_search .input-group .twitter-typeahead {
+      display: flex;
+      width: calc(100% - 40px);
+  }
+  .side-nav {
+      margin-top: 38px
+  }
+  .main_section {
+      top: 87px
+  }
+  .btn-toolbar .btn-group .filter-button {
+      padding: .25rem 1rem;
+      font-size: .775rem
+  }
+  .explorer .explorer_img {
+      height: 200px
+  }
+  .project-section {
+      top: 90px
+  }
+  .upload-extr-p-form {
+      padding: 0
+  }
+  .upload-extr-p {
+      padding: 0 15px
+  }
+  .project-detail .form-group label {
+      font-size: 14px;
+      line-height: 15px
+  }
+  .project-detail .project_detail_txt .f-s-30 {
+      font-size: 25px !important
+  }
+  .project-detail .project_detail_txt .f-s-15 {
+      font-size: 13px !important
+  }
+  .project-detail .vote a {
+      font-size: 16px
+  }
+  .project-detail .product-img-gallary {
+      max-width: 100%;
+      margin-bottom: 20px
+  }
+  .project-detail .product-img-gallary .lSSlideOuter img {
+      border-radius: 5px;
+      height: auto;
+      width: 100%
+  }
+  .project-detail-view .user-name-w-img {
+      position: relative;
+      top: 0
+  }
+  .xs-p-0 {
+      padding: 0 !important
+  }
+  .xs-p-l-0 {
+      padding-left: 0 !important
+  }
+  .feed-row {
+      text-align: center
+  }
+  .project-detail-view .project-feeds .feed-details {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-user-img {
+      float: none;
+      margin: 10px auto
+  }
+  .project-detail-view .border-l-1x {
+      margin: 50px auto 0
+  }
+  .project-detail-view .border-l-1x:after {
+      top: -20px;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid;
+      border-color: #dbdfe2;
+      width: 100%;
+      border-left: none
+  }
+  .project-detail-view .p-f-list {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .project-detail-view .p-f-list span {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .p-f-list .f-detail {
+      display: inline-block
+  }
+  .project-detail-view .project-member-list {
+      text-align: center
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      margin: 0 auto
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center
+  }
+  .xs-f-none {
+      float: none !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 100%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .xs-lr-0 {
+      padding-left: 0 !important
+  }
+  .xl-w-100 {
+      width: 100%
+  }
+  .xs-p-l-15 {
+      padding-left: 15px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 18px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 15px !important;
+      line-height: 20px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio li {
+      width: 100%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .profile {
+      top: 95px
+  }
+  .profile .user_nav .user_menu ul li {
+      padding: 0 3px
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 15px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_category .trophies_list {
+      padding: 0
+  }
+  .trophies_category .trophies_list ul li {
+      width: 100%;
+      margin: 0 auto 20px;
+      display: inline-table
+  }
+  .trophies_category .btn-seeall {
+      margin: 0 auto;
+      width: 100%
+  }
+  .trophies_category .trophies_list ul {
+      margin-bottom: 20px
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  .inbox .messaging .inbox_msg .inbox_people .inbox_chat .chat_list .chat_date {
+      font-size: 10px !important
+  }
+  .inbox .messaging .inbox_msg .inbox_people .inbox_chat .chat_list .chat_people .chat_ib h5 {
+      font-size: 16px !important
+  }
+  .inbox .messaging .inbox_msg .inbox_people .inbox_chat .chat_list .chat_people .chat_ib .text-suva-grey {
+      font-size: 12px !important
+  }
+  .inbox .messaging .inbox_msg .inbox_people .inbox_chat .chat_list .chat_people .chat_ib p {
+      font-size: 14px !important;
+      display: block;
+      display: -webkit-box;
+      max-width: 100%;
+      height: 50px;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis
+  }
+  .inbox .messaging .inbox_msg .user_lst_sld {
+      width: 290px !important
+  }
+  .inbox .inbox_msg .inbox_people .headind_srch .recent_heading .dropdown .dropdown-toggle {
+      font-size: 16px !important;
+      margin-top: 5px
+  }
+  .inbox .inbox_msg .mesgs .msg_history .incoming_msg .received_msg .received_withd_msg p {
+      font-size: 14px !important
+  }
+  .inbox .inbox_msg .mesgs .msg_history .outgoing_msg .sent_msg p {
+      font-size: 14px !important
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt .shrt_desc {
+      font-size: 14px !important
+  }
+  .project-tab .product-tab-details .proj_group .prod_tb_icon {
+      width: 25px
+  }
+  .project-tab .product-tab-details .proj_group .prod_tb_icon span {
+      font-size: 20px;
+      top: 2px
+  }
+  .project-tab .prj-tabs {
+      margin-top: 0 !important
+  }
+  .project-tab .prj-tabs .tabs-wrapper .nav-justified .nav-item {
+      flex-basis: auto !important;
+      text-align: left;
+      padding: 8px 15px;
+  }
+  .project-tab .pinch_tab .details_points ol li p {
+      font-size: 14px !important
+  }
+  .project-tab .files_tab .nav-justified .nav-tabs .nav-item {
+      flex-basis: 180px
+  }
+  .project-tab .gallery_tb .gallery_fltr {
+      margin-bottom: 10px
+  }
+  .project-tab .gallery_tb .gallery_fltr .text-right {
+      text-align: left !important
+  }
+  .project-tab .gallery_tb .gallery_fltr .text-right .filter-button {
+      display: inline-block;
+      margin: 0 10px 0 0
+  }
+  .admin-challenge-view .product-tab-details h4 {
+      font-size: 20px !important
+  }
+  .custm_scr_card_tble td:nth-child(1) {
+      width: 25%
+  }
+  .step-wizard li {
+      width: 19%
+  }
+  .achiv_trop_name {
+      font-size: 14px;
+  }
+  /*Announcement Css Start*/
+  .announce_dtl {
+      flex-wrap: wrap
+  }
+  .fx-annunce-wd {
+      width: 100%;
+  }
+  .fx-annunce-sm {
+      width: 100%;
+  }
+  .annound_main_head {
+      display: none;
+  }
+  .announce_mbl_ttl {
+      display: block;
+  }
+  /*Announcement Css End*/
+  .p-my-projct .card-title {
+      font-size: 18px;
+  }
+  .p-my-projct .card-title .row {
+      align-items: flex-end;
+  }
+  .card-header.p-my-projct .card-title .add_project .icon-expand {
+      top: 3px;
+      font-size: 20px;
+  }
+  .card-body.trophies_category h4 {
+      font-size: 16px;
+  }
+  #contactForm {
+      width: 90%;
+      padding: 1em;
+  }
+  .main_section.help .nav-tabs .nav-item {
+      width: 100%;
+  }
+  .challengemanager .btn-groups .btn {
+      margin: 5px 2px;
+      padding: 8px 4px;
+  }
+  .challengemanager .btn-groups .f-right .btn {
+      margin: 5px 2px;
+      font-size: 13px;
+  }
+  .my-lab-project.user-lab .pagination .page-item .page-link {
+      font-size: 10px;
+      padding: 4px 5px;
+  }
+  .project-tab .product-tab-details .proj_group .prod_tab_txt {
+      width: calc(100% - 30px);
+  }
+  .main_section .front-home-pg .card .owl .item .card-text a {
+      text-align: center;
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .btn-row a {
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .card-title {
+      text-align: center;
+  }
+  .first-msg-detail {
+      margin: 45px 0px 0px !important;
+  }
+  /* New Organization Dashboard Layout  */
+  .home-dashboard .h-dashboard-innr .main-card {
+      padding: 15px 10px;
+  }
+  /* New Organization Dashboard Layout  End*/
+  /* New PRP-1921- User dashboard Design */
+  .myorganigation-card.discussion-card .card.cstm-card.tab-card .nav-item {
+      flex: 1;
+  }
+  .myorganigation-card.discussion-card .card.cstm-card.tab-card .nav-tabs .nav-item:last-child {
+      border-right: 2px solid transparent;
+  }
+  .myorganigation-card.discussion-card .card.cstm-card.tab-card .nav-item .nav-link {
+      min-width: 80px;
+  }
+  .myorganigation-card.discussion-card .parent-child-feed {
+      padding-left: 1em;
+  }
+  .myinbox-card .card .card-body.d-card-body .list-row .inner-r-b {
+      width: 45%;
+  }
+  .myinbox-card .card .card-body.d-card-body .list-row .innr-l-b {
+      width: 65%;
+  }
+  /* New PRP-1921- User dashboard Design  End*/
+  header .right_nav li a {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+}
+
+@media (max-width:380px) {
+  .step-wizard li {
+      width: 17.6%
+  }
+  /* .upload-extr-p-form .select2-container { width: 75% !important } */
+  .add-challenge .dm-uploader input[type=file] {
+      width: 90%
+  }
+  .p-my-projct .card-title {
+      font-size: 16px;
+  }
+  .main_section .front-home-pg .card .owl .item .card-text a {
+      text-align: center;
+      font-size: 14px;
+  }
+  /*New Header Css Start*/
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item {
+      padding: 8px 3px 8px 3px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon {
+      width: 22px;
+      height: 22px;
+  }
+  /*New Header Css End*/
+}
+
+@media (max-width:340px) {
+  /*New Header Css Start*/
+  header .bar-menu {
+      padding: 0 0.2rem;
+  }
+  header .right_nav li .user_details_drop .user_profile img {
+      width: 30px;
+      height: 30px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon {
+      width: 22px;
+      height: 22px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon img {
+      width: 20px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item {
+      padding: 8px 3px 8px 3px;
+  }
+  .top-nw-nav-header.navbar .navbar-nav.right_nav {
+      padding-right: 5px;
+  }
+  /*New Header Css End*/
+}
+
+@media (max-width:320px) {
+  .login-page .p-l-80 {
+      padding-left: 0 !important
+  }
+  .login-page .login-card .card-body {
+      padding: 10px 15px
+  }
+  .login-page .login-card {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem !important
+  }
+  .sm-p-0 {
+      padding-right: 0;
+      padding-left: 0
+  }
+  .card-title a {
+      font-size: 10px;
+      position: relative;
+      top: 0;
+      right: 0
+  }
+  .card-title a span {
+      position: relative;
+      left: -10px;
+      top: 8px;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      display: inline-block;
+      margin: auto;
+      text-align: center;
+      right: 0
+  }
+  .card-title a span img {
+      position: relative
+  }
+  .project-section .project-view-list .project-info .project-heading h3 {
+      margin: 15px auto 10px;
+      font-size: 20px
+  }
+  .project-section .project-view-list .project-info .project-text p {
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .project-section .card-header .card-title {
+      font-size: 16px
+  }
+  .add-project {
+      padding: 5px 5px
+  }
+  .project-section {
+      top: 90px
+  }
+  .upload-extr-p-form {
+      padding: 0
+  }
+  .upload-extr-p {
+      padding: 0 15px
+  }
+  .btn-toolbar .btn-group .filter-button {
+      font-size: .625rem
+  }
+  .project-detail .form-group label {
+      font-size: 14px;
+      line-height: 15px
+  }
+  .project-detail .project_detail_txt .f-s-30 {
+      font-size: 25px !important
+  }
+  .project-detail .project_detail_txt .f-s-15 {
+      font-size: 13px !important
+  }
+  .project-detail .vote a {
+      font-size: 16px
+  }
+  .project-detail .product-img-gallary {
+      max-width: 100%;
+      margin-bottom: 20px
+  }
+  .project-detail .product-img-gallary .lSSlideOuter img {
+      border-radius: 5px;
+      height: auto;
+      width: 100%
+  }
+  .project-detail-view .user-name-w-img {
+      position: relative;
+      top: 0
+  }
+  .xs-p-0 {
+      padding: 0 !important
+  }
+  .xs-p-l-0 {
+      padding-left: 0 !important
+  }
+  .feed-row {
+      text-align: center
+  }
+  .project-detail-view .project-feeds .feed-details {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .project-feeds .feed-user-img {
+      float: none;
+      margin: 10px auto
+  }
+  .project-detail-view .border-l-1x {
+      margin: 50px auto 0
+  }
+  .project-detail-view .border-l-1x:after {
+      top: -20px;
+      bottom: 0;
+      left: 0;
+      border-top: 1px solid;
+      border-color: #dbdfe2;
+      width: 100%;
+      border-left: none
+  }
+  .project-detail-view .p-f-list {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .project-detail-view .p-f-list span {
+      display: inline-block;
+      width: 100%
+  }
+  .project-detail-view .p-f-list .f-detail {
+      display: inline-block
+  }
+  .project-detail-view .project-member-list {
+      text-align: center
+  }
+  .project-detail-view .project-member-list .lft-detail .project-m-img {
+      display: block;
+      margin: 0 auto
+  }
+  .project-detail-view .project-member-list .lft-detail {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center
+  }
+  .xs-f-none {
+      float: none !important
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details {
+      width: 100%
+  }
+  .user-feeds-comment .user-feeds-comment-row .comment-row-details .child-comment-row-details {
+      width: 100%
+  }
+  .xs-lr-0 {
+      padding-left: 0 !important
+  }
+  .xl-w-100 {
+      width: 100%
+  }
+  .xs-p-l-15 {
+      padding-left: 15px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img {
+      width: 100%;
+      height: auto
+  }
+  .my-lab-project .my_labs .my_lab_row .my_lab_img img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail h3 {
+      color: #414042;
+      font-size: 18px;
+      display: inline-block;
+      width: 85%
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .star-tag {
+      top: 15px
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail p {
+      font-size: 14px !important;
+      line-height: 20px !important
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .text-with-icon {
+      margin-left: 0 !important
+  }
+  .tab-wrap-comman {
+      position: relative;
+      top: 10px
+  }
+  .tab-wrap-comman .nav-item {
+      width: 100%
+  }
+  .tab-wrap-comman .nav-item .nav-link {
+      width: 100%;
+      text-align: center
+  }
+  .tab-wrap-comman .nav-item .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .tab_radio li {
+      width: 100%
+  }
+  .tab_radio li label {
+      margin-bottom: 0
+  }
+  .tab_radio li .border-l-none {
+      border-left: 1px solid #ddd !important
+  }
+  .my-lab-project .popular-lab-tab .tab_radio .nav-link {
+      text-align: center
+  }
+  .my-lab-project .my_labs .my_lab_row .may_lab_row_detail .list_categury ul {
+      width: 85%
+  }
+  .serach_filter_section .search_filter_row .search_filter_img {
+      width: 100%;
+      height: auto
+  }
+  .serach_filter_section .search_filter_row .search_filter_img img {
+      position: relative
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail h3 {
+      font-size: 20px;
+      margin: 10px auto 10px
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .filtered-text {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 18px;
+      left: 15px
+  }
+  .serach_filter_section .filter-project-tab .filter_tab .w-80 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 10px;
+      padding-left: 10px !important
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .nav-link {
+      width: 100%
+  }
+  .serach_filter_section .filter-project-tab .tabs-wrapper .nav .nav-item .active {
+      background-color: #f5f5f5
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link a {
+      font-size: 18px !important
+  }
+  .serach_filter_section .search_filter_row .search_filter_detail .join-link {
+      position: relative;
+      bottom: 0
+  }
+  .xs-hide {
+      display: none
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div .search-btn {
+      padding: 15px 0;
+      height: 100%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .bootstrap-tagsinput {
+      width: 75%
+  }
+  .serach_filter_section .top-search-filter .form-group .form-control .search-btn-div {
+      height: 100%
+  }
+  .xs-pl-0 {
+      padding-left: 0 !important;
+      padding-right: 0 !important
+  }
+  .setting_section .fileupload {
+      float: none;
+      margin: 15px auto 0
+  }
+  .setting_section .f-g-s {
+      display: inline-block;
+      height: auto
+  }
+  .setting_section .f-g-s .input-block {
+      display: inline-block !important;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px
+  }
+  .setting_section .f-g-s {
+      margin-bottom: 10px
+  }
+  .lbl-block label {
+      display: inline
+  }
+  .trophics_point .p-lr-60 {
+      padding-left: 15px !important;
+      padding-right: 15px !important
+  }
+  .cstm-table table.dataTable thead .sorting,
+  .cstm-table table.dataTable thead .sorting_asc,
+  .cstm-table table.dataTable thead .sorting_asc_disabled,
+  .cstm-table table.dataTable thead .sorting_desc,
+  .cstm-table table.dataTable thead .sorting_desc_disabled {
+      background-position: center right
+  }
+  .trophies_category .trophies_list {
+      padding: 0
+  }
+  .trophies_category .trophies_list ul li {
+      width: 100%;
+      margin: 0 auto 20px;
+      display: inline-table
+  }
+  .trophies_category .btn-seeall {
+      margin: 0 auto;
+      width: 100%
+  }
+  .trophies_category .trophies_list ul {
+      margin-bottom: 20px
+  }
+  .trophies_detail_earned .trophies_single {
+      padding: 0
+  }
+  .trophies_detail_earned .trophies_single ul li {
+      width: 100%;
+      margin: 0 auto
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_body .trophies-txt {
+      font-size: 25px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer {
+      min-height: 70px;
+      height: 70px
+  }
+  .trophies_detail_earned .trophies_single ul li .trophies_footer p {
+      font-size: 20px
+  }
+  .trophies_detail_earned .right-details {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 0
+  }
+  .trophies_footer {
+      display: inline-block;
+      width: 100%;
+      text-align: center
+  }
+  .trophies_footer .btn-send {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .trophies_footer .btn-cancel {
+      display: inline-block;
+      width: 45%;
+      padding: 8px;
+      margin: 0 3px
+  }
+  .viewphoto_modal .modal .modal-dialog {
+      max-width: 100%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section {
+      padding: 0 10px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group .form-control {
+      padding: 10px 30px
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-next {
+      right: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .view-photo-left-section .carousel-control-prev {
+      left: 5px;
+      width: 5%
+  }
+  .viewphoto_modal .modal .modal-dialog .modal-content .modal-body .project-comment-section .project-comment-footer .form-group {
+      margin-bottom: 0
+  }
+  /* .project-tab .projct_tb_img .projct_name_ttl { font-size: 20px; line-height: 20px; bottom: 15px; left: 15px } */
+  .card-header.p-my-projct .card-title a {
+      font-size: 14px;
+  }
+  .friends .tab_bar .nav-pills .nav-item .nav-link {
+      padding: 5px 8px;
+  }
+  .main_section .front-home-pg .card .owl .item .card-text a {
+      text-align: center;
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .btn-row a {
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .card-title {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .card-text {
+      text-align: center;
+  }
+  .front-home-pg .recommendations .item .card-title a {
+      font-size: 14px;
+  }
+  .front-home-pg .recommendations .card-text a {
+      font-size: 14px !important;
+  }
+}
+
+
+.main_section {
+  top: 55px;
+  position: relative;
+  margin-bottom: 50px
+}
+
+.divider {
+  border-bottom: 1px solid #dbdfe2;
+  padding-bottom: 20px;
+  margin: 0 auto 20px;
+  height: 20px;
+  width: 97.5%
+}
+
+.btn-toolbar .btn-group .filter-button {
+  background: #fff;
+  color: #8b8b8b;
+  font-size: 1rem;
+  border: 1px solid #dbdfe2;
+  padding: .25rem 1.5rem;
+  text-transform: capitalize
+}
+
+.btn-toolbar .btn-group .active {
+  box-shadow: none !important;
+  background-color: #f5f5f5;
+  color: #27ae60
+}
+
+.explorer .explorer_img {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%
+}
+
+.explorer_img img {
+  max-width: 100%
+}
+
+.explorer .explorer_img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%)
+}
+
+.explorer .explore_details h4 {
+  font-size: 25px;
+  color: #565555;
+  margin-bottom: 15px
+}
+
+.explorer .explore_details .explore_cat {
+  font-size: 18px;
+  margin-bottom: 25px
+}
+
+.explorer .explore_details .view_more_expor {
+  position: absolute;
+  right: 15px;
+  bottom: 0
+}
+
+.explorer .explore_details .view_more_expor a {
+  color: #27ae60;
+  font-size: 19px
+}
+
+
+
+

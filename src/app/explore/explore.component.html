@@ -1,0 +1,343 @@
+<section class="bg-alice-blue project-section">
+    <div id="explore_interests" [hidden]="expClosed">
+        <div class="text-right">
+            <fa-icon id="closeIcon" [icon]="fax" (click)="closeExplore()"
+                style="font-size: 25px; color: dark; margin-top: 5px;"></fa-icon>
+            <!-- <img id="close_explore_interests" style="width: 1.5rem" class="m-4" src="front/img/ic_round-clear.svg"
+                alt="close"> -->
+        </div>
+        <div class="row justify-content-center" style="margin-top: 50px;">
+            <div class="col-lg-6 col-md-8 col-12 text-center">
+
+                <div style="margin: 4rem auto;" class=" row position-relative">
+                    <div class="col-1">
+                        <fa-icon [icon]="faSearch" style="font-size: 25px; color: dark; margin-top: 5px;"></fa-icon>
+                    </div>
+                    <!-- <input class="mt-4 form-control" type="search" placeholder="Search for Skills" style="padding-left: 30px;"> -->
+                    <div class="col-md-11">
+                        <!-- <select multiple="" name="searchForSkills[]" placeholder="Search skills"
+                            data-test="Search skill"
+                            class="mt-4 form-control topskill searchForSkillsss select2-hidden-accessible"
+                            style="padding-left: 30px;" data-select2-id="2" tabindex="-1" aria-hidden="true">
+                        </select> -->
+                        <span class="p-fluid">
+                            <p-autoComplete [(ngModel)]="selectedItems" [suggestions]="items"
+                                (completeMethod)="search($event)" [multiple]="true" field="text"></p-autoComplete>
+                        </span>
+                    </div>
+                    <h3 style="font-family: 'Poppins', sans-serif; font-weight: 700; text-align: center;" class="my-3">
+                        Click an interest to
+                        narrow your recommendations.</h3>
+                    <div id="interests">
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="33134">Technical Recruiting</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="37045">ECD</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="37051">APIs</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="37083">Writing and Communication
+                        </div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="22191">Negations</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="10741">Email Marketing</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="22584">Node.js</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="2248">Audience Analysis</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="7403">Corporate Identity</div>
+                        <div class="explore_pill explore_pilll" data-test="skillz" id="37059">Hashtags</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex align-items-center explore_section my-3">
+            <div #lab id="lab" class="w-25 explore_component selected_explore_component py-1" data-component="labs"
+                data-subcomponent="Labs" data-test="labstab" style="border-radius: 10px 0 0 10px;"
+                (click)="addClass(lab)">
+                <h2 class="text-center">
+                    Labs
+                </h2>
+            </div>
+            <div #chlg class="w-25 explore_component  py-1" data-component="challenges" data-test="challengestab"
+                (click)="addClass(chlg)">
+                <h2 class="text-center">Challenges</h2>
+            </div>
+            <div #res class="w-25 explore_component  py-1" data-component="resources" data-test="resourcestab"
+                (click)="addClass(res)">
+                <h2 class="text-center">
+                    Resources
+                </h2>
+            </div>
+            <div #proj id="proj" class="w-25 explore_component  py-1" style="border-radius: 0 10px 10px 0;"
+                data-component="projects" data-test="resourcestab" (click)="addClass(proj)">
+                <h2 class="text-center">
+                    Projects
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 my-2 side_filters_xp">
+                <div class="explore_section">
+                    <div id="component_type01" class="component_type py-2 pl-1 selected_component_type"
+                        data-test="labsublist" subcomp="Labs">Labs</div>
+
+                    <div id="component_type02" class="component_type py-2 pl-1"
+                        style="border-radius: 0px 0px 10px 10px; display: none;" data-test="Resourcesublist"
+                        subcomp="Resource Collections">Resource collections</div>
+
+                    <div id="component_type03" class="component_type py-2 pl-1" subcomp="Lab Programs"
+                        data-test="labProgramssublist" style="border-radius: 0px 0px 10px 10px;">Lab Programs</div>
+                </div>
+                <div id="accordion" class="explore_section filter-section pt-2 mt-3" 
+                    data-test="explorefilter">
+                    <div class="pt-2 pb-2">
+                        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; display:inline;" class="mx-2">
+                            Filters</h5>
+                        <a class="mr-2 float-right"
+                            style="text-decoration: underline; color: mediumvioletred; font-size: larger;"
+                            onclick="clearAllFilters()">Clear All</a>
+                    </div>
+                    <div class="filter-type">
+                        <div id="headingOne" class="search-filter ">
+                            <div class="d-flex flex-sm-row justify-content-start align-items-center"
+                                data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                <fa-icon [icon]="faRight" class="pr-2"
+                                    style="font-size: 25px; color: dark;"></fa-icon>Duration
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <div id="collapseOne" class="px-3 py-3 collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <label class="custom-checkbox-container explore_filter">
+                                Less than 2 Hours
+                                <input name="Less than 2 Hours" type="checkbox" group="taggroup"
+                                    data-test="Less than 2 Hours" value="169" id="169" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                2 - 4 Hours
+                                <input name="2 - 4 Hours" type="checkbox" group="taggroup" data-test="2 - 4 Hours"
+                                    value="170" id="170" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                4 - 8 Hours
+                                <input name="4 - 8 Hours" type="checkbox" group="taggroup" data-test="4 - 8 Hours"
+                                    value="171" id="171" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                1 - 2 Days
+                                <input name="1 - 2 Days" type="checkbox" group="taggroup" data-test="1 - 2 Days"
+                                    value="172" id="172" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                3 - 5 Days
+                                <input name="3 - 5 Days" type="checkbox" group="taggroup" data-test="3 - 5 Days"
+                                    value="173" id="173" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                5 + Days
+                                <input name="5 + Days" type="checkbox" group="taggroup" data-test="5 + Days" value="174"
+                                    id="174" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-type">
+                        <div id="headingTwo" class="search-filter ">
+                            <div class="d-flex flex-sm-row justify-content-start align-items-center"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                <fa-icon [icon]="faRight" class="pr-2"
+                                    style="font-size: 25px; color: dark;"></fa-icon>Level
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <div id="collapseTwo" class="px-3 py-3 collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordion">
+                            <label class="custom-checkbox-container explore_filter">
+                                Beginner
+                                <input name="Less than 2 Hours" type="checkbox" group="taggroup"
+                                    data-test="Less than 2 Hours" value="169" id="169" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                Intermediate
+                                <input name="2 - 4 Hours" type="checkbox" group="taggroup" data-test="2 - 4 Hours"
+                                    value="170" id="170" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                Advanced
+                                <input name="4 - 8 Hours" type="checkbox" group="taggroup" data-test="4 - 8 Hours"
+                                    value="171" id="171" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">
+                                Mixed
+                                <input name="1 - 2 Days" type="checkbox" group="taggroup" data-test="1 - 2 Days"
+                                    value="172" id="172" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-type">
+                        <div id="headingThree" class="search-filter ">
+                            <div class="d-flex flex-sm-row justify-content-start align-items-center"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                aria-controls="collapseThree">
+                                <fa-icon [icon]="faRight" class="pr-2"
+                                    style="font-size: 25px; color: dark;"></fa-icon>Organizations
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <div id="collapseThree" class="px-3 py-3 collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+
+                            <label class="custom-checkbox-container explore_filter">Prepr
+                                <input name="Prepr" data-test="Prepr" group="verified_org" type="checkbox" value="19"
+                                    id="19" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">Linux Foundation
+                                <input name="Linux Foundation" data-test="Linux Foundation" group="verified_org"
+                                    type="checkbox" value="206" id="206" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">Magnet
+                                <input name="Magnet" data-test="Magnet" group="verified_org" type="checkbox" value="239"
+                                    id="239" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">CertNexus
+                                <input name="CertNexus" data-test="CertNexus" group="verified_org" type="checkbox"
+                                    value="264" id="264" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">Ontario Chamber of Commerce
+                                <input name="Ontario Chamber of Commerce" data-test="Ontario Chamber of Commerce"
+                                    group="verified_org" type="checkbox" value="281" id="281" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="custom-checkbox-container explore_filter">Youth Boost
+                                <input name="Youth Boost" data-test="Youth Boost" group="verified_org" type="checkbox"
+                                    value="414" id="414" aria-label="">
+                                <span class="checkmark"></span>
+                            </label>
+
+                        </div>
+                    </div>
+                    <div class="filter-type">
+                        <div id="headingFour" class="search-filter ">
+                            <div class="d-flex flex-sm-row justify-content-start align-items-center"
+                                data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseFour">
+                                <fa-icon [icon]="faRight" class="pr-2"
+                                    style="font-size: 25px; color: dark;"></fa-icon>Duration
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                        <div id="collapseFour" class="px-3 py-3 collapse" aria-labelledby="headingFour"
+                            data-parent="#accordion">
+                           
+                                <select multiple="" name="searchForSkills[]" data-test="searchForSkills" id="searchForSkills" placeholder="Search skills" class="mt-4 form-control searchForSkillss explore_filter select2-hidden-accessible" data-select2-id="searchForSkills" tabindex="-1" aria-hidden="true"></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="1" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Search skills" style="width: 186px;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 exp_box">
+                <div class="row">
+                    <div class="col-12 my-2 exp_box">
+                        <div class="explore_section">
+                            <div class="row">
+                                <div class="col-12 col-xl-6 col-lg-5 col-md-5 col-xs-12 ">
+                                    <div class="d-flex align-items-center p-2">
+                                        <div class="position-relative">
+                                            <i class="fa fa-search position-absolute active"
+                                                style="left: 10px; top: 10px;"></i>
+                                            <input class="form-control" data-test="Search by title" type="search"
+                                                id="keyword" name="" placeholder="Search" style="padding-left: 30px;">
+                                        </div>
+                                        <div>
+                                            <button class="btn blue_btn waves-effect waves-light"
+                                                id="srch_btn">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 col-xl-6 col-12">
+                                    <div class="d-flex align-items-center float-right p-2">
+                                        <div>
+                                            <small>Sort by </small>
+                                        </div>
+                                        <div class="pl-1">
+                                            <select name="sorting" id="sortlist" class="form-control sortby"
+                                                style="min-width: 10rem">
+                                                <option value="Recently Added" data-test="Recently Added"
+                                                    onclick="getFilteredList(1)">Recently added</option>
+                                                <option value="Most Popular" data-test="Most Popular"
+                                                    onclick="getFilteredList(1)">Most popular</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="selectedskl" data-test="selectedskl">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-2 exp_box" id="filtered-list" data-test="filtered-list">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li class="page-item active"><span class="page-link waves-effect">1</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(2)">2</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(3)">3</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(4)">4</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(5)">5</span></li>
+                                        <li class="page-item"><span class="page-link">...</span></li>
+                                        <li class="page-item"><span class="page-link waves-effect"
+                                                onclick="getFilteredList(12)">12</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <app-labs></app-labs>
+                        <div class="col-md-12 plr-md-0">
+                            <div class="divider"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li class="page-item active"><span class="page-link waves-effect">1</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(2)">2</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(3)">3</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(4)">4</span></li>
+                                        <li class="page-item "><span class="page-link waves-effect"
+                                                onclick="getFilteredList(5)">5</span></li>
+                                        <li class="page-item"><span class="page-link">...</span></li>
+                                        <li class="page-item"><span class="page-link waves-effect"
+                                                onclick="getFilteredList(12)">12</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

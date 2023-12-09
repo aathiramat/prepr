@@ -1,0 +1,57 @@
+/* login.component.css */
+.card {
+    border: none;
+    position: relative;
+  }
+  
+  .carousel {
+    width: 100%;
+  }
+  
+  .components-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Adjust spacing between the components */
+    /* OR justify-content: space-around; if you want equal space around components */
+  }
+
+ 
+  
+  .card-body {
+    padding: 25px;
+  }
+
+  .m-3 {
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+
+  /* Centering the carousel card vertically */
+  .rounded-3 {
+ 
+    border-radius: 30px; /* Adjust as needed */
+  }
+
+  .slide-animated {
+    slide.item {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      &.active {
+        width: 100%;
+        animation-name: carouselSlideIn;
+      }
+      &:not(.active) {
+        display: table-cell;
+        animation-name: carouselSlideOut;
+      }
+    }
+  }
+  
+  @keyframes carouselSlideIn {
+    0% { transform: translateX(50%); }
+    100% { transform: translateX(0.005); }
+  }
+  @keyframes carouselSlideOut {
+    0% { transform: translateX(0.005); }
+    100% { transform: translateX(-50%); }
+  }
+

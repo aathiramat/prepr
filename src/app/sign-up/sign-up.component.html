@@ -1,0 +1,89 @@
+<div class="card-body">
+  <!-- <h2 class="card-title">Login</h2> -->
+  <form #registerForm="ngForm" (ngSubmit)="registerForm.form.valid && register()">
+    <div class="mb-3">
+      <label for="userModel.firstName" class="form-label">First Name</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.firstName" name="fname" #fname="ngModel" required>
+      <span class="text-danger" *ngIf="(fname.touched || registerForm.submitted) && fname.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+
+    <div class="mb-3">
+      <label for="userModel.lastName" class="form-label">Last Name</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.lastName" name="lname" #lname="ngModel" required>
+      <span class="text-danger" *ngIf="(lname.touched || registerForm.submitted) && lname.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+
+    <div class="mb-3">
+      <label for="userModel.username" class="form-label">Username</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.username" name="uname" #uname="ngModel" required>
+      <span class="text-danger" *ngIf="(uname.touched || registerForm.submitted) && uname.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="userModel.password" class="form-label">Password</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.password" name="pwd" #pwd="ngModel" required>
+      <span class="text-danger" *ngIf="(pwd.touched || registerForm.submitted) && pwd.errors?.['required']">
+        This field is required.
+      </span>
+      <div id="password-strength-status" style="padding-bottom: 0px">
+        <span id="pass_type" class="pass_type">Strength:</span>
+        <div id="meter_wrapper" style="height: auto !important; " class="meter_wrapper">
+          <div id="meter" class="meter"></div>
+          <p style="margin-bottom : 2px">Password must include :</p>
+          <div id="txt-pss" style="padding-left: 20px">
+            <p><i id="checkCharacter">•</i> 8 to 14 characters</p>
+            <p><i id="checkCaptial">•</i> 1 uppercase letter</p>
+            <p><i id="checkLower">•</i> 1 lowercase letter</p>
+            <p><i id="checkNumber">•</i> 1 number</p>
+            <p><i id="checkSpCharacter">•</i> 1 special character</p>
+            <p>{{text}}</p>
+            <p></p>
+          </div>
+          <ul>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="userModel.confirmPassword" class="form-label">Confirm Password</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.confirmPassword" name="cpwd" #cpwd="ngModel"
+        required>
+      <span class="text-danger" *ngIf="(cpwd.touched || registerForm.submitted) && cpwd.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="userModel.email" class="form-label">Email</label>
+      <input type="text" class="form-control" [(ngModel)]="userModel.email" name="eml" #eml="ngModel" required>
+      <span class="text-danger" *ngIf="(eml.touched || registerForm.submitted) && eml.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="userModel.userType" class="form-label">User Type</label>
+      <select class="form-control" [(ngModel)]="userModel.userType" name="utype" #utype="ngModel" required>
+        <option value="" disabled selected>Select User type</option>
+        <option *ngFor="let utype of getuserTypes()" [value]="utype">{{ utype }}</option>
+      </select>
+      <span class="text-danger" *ngIf="(utype.touched || registerForm.submitted) && utype.errors?.['required']">
+        This field is required.
+      </span>
+    </div>
+    <div class="mb-3">
+      <label for="userModel.language" class="form-label">Language</label>
+      <select class="form-control" [(ngModel)]="userModel.language" name="lang" #lang="ngModel">
+        <option value="" selected>Select Language</option>
+        <option *ngFor="let lang of getlanguages()" [value]="lang">{{ lang }}</option>
+      </select>
+     
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Register</button>
+  </form>
+
+</div>

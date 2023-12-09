@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container-fluid {
+    overflow: hidden;
+  }
+
+  .components-container {
+    /* height:100vh; */
+  }
+
+  .carousel {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  

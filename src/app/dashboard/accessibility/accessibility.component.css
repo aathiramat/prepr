@@ -1,0 +1,16 @@
+
+.accessibility {
+    z-index: 999;
+    position: sticky; top: 1000px;
+    position: fixed;
+    top: 141px; /* Adjust as needed */
+    left: 98%; /* Adjust as needed */
+    transform: translateX(-50%); /* Center horizontally */
+    
+}
+
+.p-overlaypanel {
+    top:845px !important;
+    left: 1600px;
+    height:100px !important;
+}
