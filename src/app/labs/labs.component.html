@@ -1,475 +1,1420 @@
-<div class="col-12 my-2">
-    <div class="explore_section explore-item lab_component">
-        <div class="d-flex row">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
-                <div class="my_lab_img cover_image">
-                    <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
-                        <div class="canvasbox">
-                            <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
-                                <h5 class="blue-txt">Lab</h5>
-                            </div>
-                            <div class="canvas-body blue-bg-box">
-                                <p class="wrapping">Getting Started...</p>
-                            </div>
-                            <div class="canvas-footer">
+<div class="col-12 my-2 exp_box" id="filtered-list" data-test="filtered-list">
+    <div class="row">
+        <div class="col-12">
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item active"><span class="page-link waves-effect">1</span></li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(2)">2</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(3)">3</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(4)">4</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(5)">5</span>
+                    </li>
+                    <li class="page-item"><span class="page-link">...</span></li>
+                    <li class="page-item"><span class="page-link waves-effect" onclick="getFilteredList(12)">12</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Getting Started...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
                             </div>
                         </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/GU4ZjyHg7uFtLdcW4A44qcQtj.png"
+                            alt="Getting Started Lab For Employment Service Providers (ESP)" onerror="imageError(this)"
+                            style="width: 100%;">
                     </div>
-                    <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/GU4ZjyHg7uFtLdcW4A44qcQtj.png"
-                        alt="Getting Started Lab For Employment Service Providers (ESP)" onerror="imageError(this)"
-                        style="width: 100%;">
-                </div>
-                <div class="explore-item-stats d-flex align-items-center mt-2">
-                    <div class="mx-2">
-                        <fa-icon [icon]="faHeart" class="pr-2 far" style="font-size: 25px; color: blue;"></fa-icon>0
-                    </div>
-                    <div class="mx-2">
-                        <fa-icon [icon]="faShare" class="pr-2 far" style="font-size: 25px; color: blue;"></fa-icon> 0
-                    </div>
-                    <!-- <div class="mx-2">
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
                         <i class="fas fa-eye"></i> 999
                     </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Prepr </span></p>
                 </div>
-                <p class="item-info mt-3">Hosted by<span> Prepr </span></p>
-            </div>
-            <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
-                <div class="d-flex row justify-content-between align-items-center">
-                    <div style="width: 100%;">
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
 
-                        <div class="text-right">
-                            <button href="JavaScript:Void(0);" data-id="22513" data-value="0"
-                                class="btn blue_btn_outline f-s-18 followLabb float-right"><i class="fa fa-plus"></i>
-                                Follow</button>
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22513" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/getting-started-lab-for-employment-service-providers-esp"
+                                    style="color: #498CCE !important;">Getting Started Lab For Employment Service
+                                    Providers (ESP)</a>
+                            </h3>
                         </div>
-                        <h3 class="explore-item-title ttle_break" style="display: inline;">
-                            <a href="https://preprlabs.org/labs/getting-started-lab-for-employment-service-providers-esp"
-                                style="color: #498CCE !important;">Getting Started Lab For Employment Service Providers
-                                (ESP)</a>
-                        </h3>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>1 year ago</span>
+                                · Members: <span>37</span>
+                                · Duration:
+
+                                <span>None</span>
+                                · Level:
+
+                                <span>None</span>
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">If you're here then you're a passionate
+                            employment service provider who’s constantly looking for new tools and concepts. We've
+                            prepared a series of Challenges just for you! The Challenges in this Lab are designed to
+                            help you learn how you can get the most out of our platform, get started today!</p>
+                    </div>
+                    <div>
+                        <a href="https://preprlabs.org/skillrelated/37174/lab">
+                            <button class="tag_pill">
+                                <span>Prepr Labs</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
-                <div class="d-flex align-items-center">
-                    <div>
-                        <img class="explore-item-type" src="../../assets/lab_icon.svg" alt="resource module">
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">UX Feedback Lab</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/XQCvHLwke2XeHj34yugFinwYl.png"
+                            alt="UX Feedback Lab" onerror="imageError(this)" style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Prepr </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22506" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/ux-feedback-lab"
+                                    style="color: #498CCE !important;">UX Feedback Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>1 year ago</span>
+                                · Members: <span>24</span>
+                                · Duration:
+
+                                <span>None</span>
+                                · Level:
+
+                                <span>None</span>
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">
+                            Our goal is to get useful feedback for PreprLabs pre-react and our redesigned Version on
+                            Figma post-react. PreprLabs has different types of users: regular users (the Learners) and
+                            those who create their tasks in forms of Labs and Challenges (the Managers).
+
+                            &nbsp;
+
+                            The next step for you is to start the Challenge within this Lab.&nbsp;</p>
                     </div>
                     <div>
-                        <p class="item-info mb-0">
-                            <span>
-                                Public Lab
-                            </span>
-                            · Last update: <span>1 year ago</span>
-                            · Members: <span>36</span>
-                            · Duration:
+                        <a href="https://preprlabs.org/skillrelated/37174/lab">
+                            <button class="tag_pill">
+                                <span>Prepr Labs</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Getting Started...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/rkVCArtK8UyOSo4HLH6QtzZbd.png"
+                            alt="Getting Started Lab For Business Chambers" onerror="imageError(this)"
+                            style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Prepr </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
 
-                            <span>None</span>
-                            · Level:
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22360" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/getting-started-lab-for-business-chambers-7137-22360"
+                                    style="color: #498CCE !important;">Getting Started Lab For Business Chambers</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>1 year ago</span>
+                                · Members: <span>11</span>
+                                · Duration:
 
-                            <span>None</span>
+                                <span>None</span>
+                                · Level:
+
+                                <span>None</span>
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Getting Started Lab For Business
+                            Chambers</p>
+                    </div>
+                    <div>
+                        <a href="https://preprlabs.org/skillrelated/37174/lab">
+                            <button class="tag_pill">
+                                <span>Prepr Labs</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - G...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/hIIOlvRWn7pzOB9LEsV60MKzp.jpg"
+                            alt="Youth Boost - Getting Started Using the PreprLabs Network" onerror="imageError(this)"
+                            style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22339" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth_getting-started-using-the-preprlabs-network"
+                                    style="color: #498CCE !important;">Youth Boost - Getting Started Using the PreprLabs
+                                    Network</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>1 year ago</span>
+                                · Members: <span>31</span>
+                                · Duration:
+
+                                <span>None</span>
+                                · Level:
+
+                                <span>None</span>
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Welcome to the PreprLabs Network! Use
+                            this Lab to learn how to navigate the platform and get the most out of your upskilling
+                            experience.</p>
+                    </div>
+                    <div>
+                        <a href="https://preprlabs.org/skillrelated/37174/lab">
+                            <button class="tag_pill">
+                                <span>Prepr Labs</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - P...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/czWc3BHKjM0vEd4qsS722ejYx.jpg"
+                            alt="Youth Boost - Product Manager Career Lab" onerror="imageError(this)"
+                            style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22338" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-product-manager-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - Product Manager Career Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>37</span>
+                                · Duration:
+
+                                <span> 1 - 2 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Product Manager Career Lab</p>
+                    </div>
+                    <div>
+                        <a href="https://preprlabs.org/skillrelated/2/lab">
+                            <button class="tag_pill">
+                                <span>Communication</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/4/lab">
+                            <button class="tag_pill">
+                                <span>Problem Solving</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3537/lab">
+                            <button class="tag_pill">
+                                <span>Brand Awareness</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3714/lab">
+                            <button class="tag_pill">
+                                <span>Budgeting</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8035/lab">
+                            <button class="tag_pill">
+                                <span>Customer Acquisition</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8045/lab">
+                            <button class="tag_pill">
+                                <span>Customer Conversion</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8092/lab">
+                            <button class="tag_pill">
+                                <span>Customer Retention</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/9418/lab">
+                            <button class="tag_pill">
+                                <span>Direct Response Marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/26308/lab">
+                            <button class="tag_pill">
+                                <span>Product Management</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/28037/lab">
+                            <button class="tag_pill">
+                                <span>Relationship Building</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/28234/lab">
+                            <button class="tag_pill">
+                                <span>Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/31929/lab">
+                            <button class="tag_pill">
+                                <span>Strategy</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/31931/lab">
+                            <button class="tag_pill">
+                                <span>Strategy Building</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36616/lab">
+                            <button class="tag_pill">
+                                <span>Writing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36983/lab">
+                            <button class="tag_pill">
+                                <span>Planning</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36986/lab">
+                            <button class="tag_pill">
+                                <span>Marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37012/lab">
+                            <button class="tag_pill">
+                                <span>Value offering</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37015/lab">
+                            <button class="tag_pill">
+                                <span>Timeline building</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - M...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/hZ6eUZAyS1P8ud1pgUacUM8Oq.jpg"
+                            alt="Youth Boost - Machine Learning Engineer Career Lab" onerror="imageError(this)"
+                            style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22337" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-machine-learning-engineer-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - Machine Learning Engineer Career
+                                    Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>24</span>
+                                · Duration:
+
+                                <span> 3 - 5 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Machine Learning Engineer Career Lab
                         </p>
                     </div>
-                </div>
-                <div class="mt-2">
-                    <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">If you're here then you're a passionate
-                        employment service provider who’s constantly looking for new tools and concepts. We've prepared
-                        a series of Challenges just for you! The Challenges in this Lab are designed to help you learn
-                        how you can get the most out of our platform, get started today!</p>
-                </div>
-                <div>
-                    <a href="https://preprlabs.org/skillrelated/37174/lab">
-                        <button class="tag_pill">
-                            <span>Prepr Labs</span>
-                        </button>
-                    </a>
+                    <div>
+                        <a href="https://preprlabs.org/skillrelated/4/lab">
+                            <button class="tag_pill">
+                                <span>Problem Solving</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/1514/lab">
+                            <button class="tag_pill">
+                                <span>Analytics</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3895/lab">
+                            <button class="tag_pill">
+                                <span>Business Intelligence</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8509/lab">
+                            <button class="tag_pill">
+                                <span>Data Analysis</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8530/lab">
+                            <button class="tag_pill">
+                                <span>Data Classification</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8569/lab">
+                            <button class="tag_pill">
+                                <span>Data Manipulation</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8679/lab">
+                            <button class="tag_pill">
+                                <span>Databases</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/19012/lab">
+                            <button class="tag_pill">
+                                <span>Linear Regression</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/19769/lab">
+                            <button class="tag_pill">
+                                <span>Machine Learning</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20364/lab">
+                            <button class="tag_pill">
+                                <span>Matplotlib</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/22722/lab">
+                            <button class="tag_pill">
+                                <span>NumPy</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/27014/lab">
+                            <button class="tag_pill">
+                                <span>Python</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/27020/lab">
+                            <button class="tag_pill">
+                                <span>Pandas</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/29169/lab">
+                            <button class="tag_pill">
+                                <span>SQL</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/31661/lab">
+                            <button class="tag_pill">
+                                <span>Statistics</span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="col-12 my-2">
-    <div class="explore_section explore-item lab_component">
-        <div class="d-flex row">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
-                <div class="my_lab_img cover_image">
-                    <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
-                        <div class="canvasbox">
-                            <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
-                                <h5 class="blue-txt">Lab</h5>
-                            </div>
-                            <div class="canvas-body blue-bg-box">
-                                <p class="wrapping">UX Feedback Lab</p>
-                            </div>
-                            <div class="canvas-footer">
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - D...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
                             </div>
                         </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/6aGY4RtzrJ1sI1JzlgDf33BHU.jpg"
+                            alt="Youth Boost - Digital Marketer Career Lab" onerror="imageError(this)"
+                            style="width: 100%;">
                     </div>
-                    <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/XQCvHLwke2XeHj34yugFinwYl.png"
-                        alt="UX Feedback Lab" onerror="imageError(this)" style="width: 100%;">
-                </div>
-                <div class="explore-item-stats d-flex align-items-center mt-2">
-                    <div class="mx-2">
-                        <i class="far fa-heart"></i> 0
-                    </div>
-                    <div class="mx-2">
-                        <i class="fas fa-share-alt"></i> 0
-                    </div>
-                    <!-- <div class="mx-2">
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
                         <i class="fas fa-eye"></i> 999
                     </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
                 </div>
-                <p class="item-info mt-3">Hosted by<span> Prepr </span></p>
-            </div>
-            <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
-                <div class="d-flex row justify-content-between align-items-center">
-                    <div style="width: 100%;">
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
 
-                        <div class="text-right">
-                            <button href="JavaScript:Void(0);" data-id="22506" data-value="0"
-                                class="btn blue_btn_outline f-s-18 followLabb float-right"><i class="fa fa-plus"></i>
-                                Follow</button>
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22336" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-digital-marketer-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - Digital Marketer Career Lab</a>
+                            </h3>
                         </div>
-                        <h3 class="explore-item-title ttle_break" style="display: inline;">
-                            <a href="https://preprlabs.org/labs/ux-feedback-lab" style="color: #498CCE !important;">UX
-                                Feedback Lab</a>
-                        </h3>
                     </div>
-                </div>
-                <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>37</span>
+                                · Duration:
+
+                                <span> 1 - 2 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Digital Marketer Career Lab</p>
+                    </div>
                     <div>
-                        <img class="explore-item-type" src="../../assets/lab_icon.svg"
-                            alt="resource module">
+                        <a href="https://preprlabs.org/skillrelated/2/lab">
+                            <button class="tag_pill">
+                                <span>Communication</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/10/lab">
+                            <button class="tag_pill">
+                                <span>Digital Marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3568/lab">
+                            <button class="tag_pill">
+                                <span>Branding</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3714/lab">
+                            <button class="tag_pill">
+                                <span>Budgeting</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/7122/lab">
+                            <button class="tag_pill">
+                                <span>Content marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8072/lab">
+                            <button class="tag_pill">
+                                <span>Customer Journey Mapping</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/10741/lab">
+                            <button class="tag_pill">
+                                <span>Email Marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20171/lab">
+                            <button class="tag_pill">
+                                <span>Market Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20858/lab">
+                            <button class="tag_pill">
+                                <span>Metrics</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/28234/lab">
+                            <button class="tag_pill">
+                                <span>Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/29728/lab">
+                            <button class="tag_pill">
+                                <span>Search Engine Optimization (SEO)</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/30791/lab">
+                            <button class="tag_pill">
+                                <span>Social Media</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/30792/lab">
+                            <button class="tag_pill">
+                                <span>Social Media Advertising</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/31931/lab">
+                            <button class="tag_pill">
+                                <span>Strategy Building</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/35455/lab">
+                            <button class="tag_pill">
+                                <span>Visual Storytelling</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36616/lab">
+                            <button class="tag_pill">
+                                <span>Writing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36983/lab">
+                            <button class="tag_pill">
+                                <span>Planning</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36986/lab">
+                            <button class="tag_pill">
+                                <span>Marketing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36991/lab">
+                            <button class="tag_pill">
+                                <span>Brainstorming</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37006/lab">
+                            <button class="tag_pill">
+                                <span>CTA development</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37007/lab">
+                            <button class="tag_pill">
+                                <span>social media literacy</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37008/lab">
+                            <button class="tag_pill">
+                                <span>Campaign building</span>
+                            </button>
+                        </a>
                     </div>
-                    <div>
-                        <p class="item-info mb-0">
-                            <span>
-                                Public Lab
-                            </span>
-                            · Last update: <span>1 year ago</span>
-                            · Members: <span>23</span>
-                            · Duration:
-
-                            <span>None</span>
-                            · Level:
-
-                            <span>None</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="mt-2">
-                    <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">
-                        Our goal is to get useful feedback for PreprLabs pre-react and our redesigned Version on Figma
-                        post-react. PreprLabs has different types of users: regular users (the Learners) and those who
-                        create their tasks in forms of Labs and Challenges (the Managers).
-
-                        &nbsp;
-
-                        The next step for you is to start the Challenge within this Lab.&nbsp;</p>
-                </div>
-                <div>
-                    <a href="https://preprlabs.org/skillrelated/37174/lab">
-                        <button class="tag_pill">
-                            <span>Prepr Labs</span>
-                        </button>
-                    </a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="col-12 my-2">
-    <div class="explore_section explore-item lab_component">
-        <div class="d-flex row">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
-            <div class="my_lab_img cover_image">
-                                      <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
-                        <div class="canvasbox">
-                            <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
-                                <h5 class="blue-txt">Lab</h5>
-                            </div>
-                            <div class="canvas-body blue-bg-box">
-                                <p class="wrapping">Youth Boost - M...</p>
-                            </div>
-                            <div class="canvas-footer">
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - P...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
                             </div>
                         </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/66cYIlXZAgcgKSFV7TGf7RZ6U.jpg"
+                            alt="Youth Boost - Project Manager Career Lab" onerror="imageError(this)"
+                            style="width: 100%;">
                     </div>
-                    <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/hZ6eUZAyS1P8ud1pgUacUM8Oq.jpg" alt="Youth Boost - Machine Learning Engineer Career Lab" onerror="imageError(this)" style="width: 100%;">
-                                        </div>
-                <div class="explore-item-stats d-flex align-items-center mt-2">
-                    <div class="mx-2">
-                        <i class="far fa-heart"></i> 0                        </div>
-                    <div class="mx-2">
-                        <i class="fas fa-share-alt"></i> 0
-                    </div>
-                    <!-- <div class="mx-2">
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
                         <i class="fas fa-eye"></i> 999
                     </div> -->
-                </div>
-                <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
-            </div>
-            <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
-                <div class="d-flex row justify-content-between align-items-center">
-                    <div style="width: 100%;">                        
-                        
-                        <div class="text-right">
-                                                                <button href="JavaScript:Void(0);" data-id="22337" data-value="0" class="btn blue_btn_outline f-s-18 followLabb float-right"><i class="fa fa-plus"></i> Follow</button>
-                                                        </div>
-                        <h3 class="explore-item-title ttle_break" style="display: inline;">
-                            <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-machine-learning-engineer-career-lab" style="color: #498CCE !important;">Youth Boost - Machine Learning Engineer Career Lab</a>
-                        </h3>
                     </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
                 </div>
-                                    <div class="d-flex align-items-center">
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22335" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-project-manager-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - Project Manager Career Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>20</span>
+                                · Duration:
+
+                                <span> 1 - 2 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Project Manager Career Lab</p>
+                    </div>
                     <div>
-                        <img class="explore-item-type" src="../../assets/lab_icon.svg" alt="resource module">
-                    </div>
-                    <div>
-                        <p class="item-info mb-0">
-                            <span>
-                                Public Lab
-                            </span> 
-                            · Last update: <span>7 months ago</span>
-                            · Members: <span>23</span>
-                            · Duration:
-                                 
-                                                                                <span>3 - 5 Days</span>
-                                     
-                                                                · Level:
-                                 
-                                                                                <span>Beginner</span>
-                                     
-                                                            </p>
+                        <a href="https://preprlabs.org/skillrelated/2/lab">
+                            <button class="tag_pill">
+                                <span>Communication</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/4/lab">
+                            <button class="tag_pill">
+                                <span>Problem Solving</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/7/lab">
+                            <button class="tag_pill">
+                                <span>Leadership</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20171/lab">
+                            <button class="tag_pill">
+                                <span>Market Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/25919/lab">
+                            <button class="tag_pill">
+                                <span>Presenting Solutions</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/26581/lab">
+                            <button class="tag_pill">
+                                <span>Project Managers</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/28234/lab">
+                            <button class="tag_pill">
+                                <span>Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36983/lab">
+                            <button class="tag_pill">
+                                <span>Planning</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37100/lab">
+                            <button class="tag_pill">
+                                <span>Presentation</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
-                <div class="mt-2">
-                    <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Machine Learning Engineer Career Lab</p>
-                </div>
-                                    <div>
-                                                                                <a href="https://preprlabs.org/skillrelated/4/lab">
-                                <button class="tag_pill">
-                                    <span>Problem Solving</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/1514/lab">
-                                <button class="tag_pill">
-                                    <span>Analytics</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/3895/lab">
-                                <button class="tag_pill">
-                                    <span>Business Intelligence</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8509/lab">
-                                <button class="tag_pill">
-                                    <span>Data Analysis</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8530/lab">
-                                <button class="tag_pill">
-                                    <span>Data Classification</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8569/lab">
-                                <button class="tag_pill">
-                                    <span>Data Manipulation</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8679/lab">
-                                <button class="tag_pill">
-                                    <span>Databases</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/19012/lab">
-                                <button class="tag_pill">
-                                    <span>Linear Regression</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/19769/lab">
-                                <button class="tag_pill">
-                                    <span>Machine Learning</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/20364/lab">
-                                <button class="tag_pill">
-                                    <span>Matplotlib</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/22722/lab">
-                                <button class="tag_pill">
-                                    <span>NumPy</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/27014/lab">
-                                <button class="tag_pill">
-                                    <span>Python</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/27020/lab">
-                                <button class="tag_pill">
-                                    <span>Pandas</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/29169/lab">
-                                <button class="tag_pill">
-                                    <span>SQL</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/31661/lab">
-                                <button class="tag_pill">
-                                    <span>Statistics</span>
-                                </button>
-                            </a>
-                                                                    </div>
             </div>
         </div>
     </div>
-</div>
-<div class="col-12 my-2">
-    <div class="explore_section explore-item lab_component">
-        <div class="d-flex row">
-            <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
-            <div class="my_lab_img cover_image">
-                                      <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
-                        <div class="canvasbox">
-                            <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
-                                <h5 class="blue-txt">Lab</h5>
-                            </div>
-                            <div class="canvas-body blue-bg-box">
-                                <p class="wrapping">Youth Boost - M...</p>
-                            </div>
-                            <div class="canvas-footer">
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - U...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
                             </div>
                         </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/92XKQRioQOHqoARxQdZnSAiB4.jpg"
+                            alt="Youth Boost - UX Designer Career Lab" onerror="imageError(this)" style="width: 100%;">
                     </div>
-                    <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/hZ6eUZAyS1P8ud1pgUacUM8Oq.jpg" alt="Youth Boost - Machine Learning Engineer Career Lab" onerror="imageError(this)" style="width: 100%;">
-                                        </div>
-                <div class="explore-item-stats d-flex align-items-center mt-2">
-                    <div class="mx-2">
-                        <i class="far fa-heart"></i> 0                        </div>
-                    <div class="mx-2">
-                        <i class="fas fa-share-alt"></i> 0
-                    </div>
-                    <!-- <div class="mx-2">
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
                         <i class="fas fa-eye"></i> 999
                     </div> -->
-                </div>
-                <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
-            </div>
-            <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
-                <div class="d-flex row justify-content-between align-items-center">
-                    <div style="width: 100%;">                        
-                        
-                        <div class="text-right">
-                                                                <button href="JavaScript:Void(0);" data-id="22337" data-value="0" class="btn blue_btn_outline f-s-18 followLabb float-right"><i class="fa fa-plus"></i> Follow</button>
-                                                        </div>
-                        <h3 class="explore-item-title ttle_break" style="display: inline;">
-                            <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-machine-learning-engineer-career-lab" style="color: #498CCE !important;">Youth Boost - Machine Learning Engineer Career Lab</a>
-                        </h3>
                     </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
                 </div>
-                                    <div class="d-flex align-items-center">
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22334" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-ux-designer-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - UX Designer Career Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>31</span>
+                                · Duration:
+
+                                <span> 1 - 2 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">UX Designer Career Lab</p>
+                    </div>
                     <div>
-                        <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg" alt="resource module">
+                        <a href="https://preprlabs.org/skillrelated/4/lab">
+                            <button class="tag_pill">
+                                <span>Problem Solving</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/13/lab">
+                            <button class="tag_pill">
+                                <span>creative thinking</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/9039/lab">
+                            <button class="tag_pill">
+                                <span>Design Thinking</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/12418/lab">
+                            <button class="tag_pill">
+                                <span>Figma</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20171/lab">
+                            <button class="tag_pill">
+                                <span>Market Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/26780/lab">
+                            <button class="tag_pill">
+                                <span>Prototyping</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/32925/lab">
+                            <button class="tag_pill">
+                                <span>Target Audience</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/34558/lab">
+                            <button class="tag_pill">
+                                <span>UX Design</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36385/lab">
+                            <button class="tag_pill">
+                                <span>Wireframing</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36991/lab">
+                            <button class="tag_pill">
+                                <span>Brainstorming</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 my-2">
+        <div class="explore_section explore-item lab_component">
+            <div class="d-flex row">
+                <div class="col-xl-3 col-lg-5 col-md-5 col-12 col-xs-12 p-2">
+                    <div class="my_lab_img cover_image">
+                        <div id="canvasHTML" class="imageCanvasError" style="width: 100%; display: none;">
+                            <div class="canvasbox">
+                                <div class="canvas-header" style="padding: 20px 15px 5px; height: 33%;">
+                                    <h5 class="blue-txt">Lab</h5>
+                                </div>
+                                <div class="canvas-body blue-bg-box">
+                                    <p class="wrapping">Youth Boost - E...</p>
+                                </div>
+                                <div class="canvas-footer">
+                                </div>
+                            </div>
+                        </div>
+                        <img src="https://prepr-preprlabs-prod-bucket.s3.ca-central-1.amazonaws.com/uploads/labs/AHkpbhbN1Qe1PsMYAtuLnhniS.jpg"
+                            alt="Youth Boost - Ecommerce Manager Career Lab" onerror="imageError(this)"
+                            style="width: 100%;">
+                    </div>
+                    <div class="explore-item-stats d-flex align-items-center mt-2">
+                        <div class="mx-2">
+                            <i class="far fa-heart"></i> 0
+                        </div>
+                        <div class="mx-2">
+                            <i class="fas fa-share-alt"></i> 0
+                        </div>
+                        <!-- <div class="mx-2">
+                        <i class="fas fa-eye"></i> 999
+                    </div> -->
+                    </div>
+                    <p class="item-info mt-3">Hosted by<span> Youth Boost </span></p>
+                </div>
+                <div class="col-lg-7 col-md-7 col-xl-9 col-12 p-2">
+                    <div class="d-flex row justify-content-between align-items-center">
+                        <div style="width: 100%;">
+
+                            <div class="text-right">
+                                <button href="JavaScript:Void(0);" data-id="22333" data-value="0"
+                                    class="btn blue_btn_outline f-s-18 followLabb float-right"><i
+                                        class="fa fa-plus"></i> Follow</button>
+                            </div>
+                            <h3 class="explore-item-title ttle_break" style="display: inline;">
+                                <a href="https://preprlabs.org/labs/canada-digital-adoption-program-cdap-youth-magnet-ecommerce-manager-career-lab"
+                                    style="color: #498CCE !important;">Youth Boost - Ecommerce Manager Career Lab</a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div>
+                            <img class="explore-item-type" src="/front/img/Component_Icons/lab_icon.svg"
+                                alt="resource module">
+                        </div>
+                        <div>
+                            <p class="item-info mb-0">
+                                <span>
+                                    Public Lab
+                                </span>
+                                · Last update: <span>8 months ago</span>
+                                · Members: <span>10</span>
+                                · Duration:
+
+                                <span> 1 - 2 Days</span>
+
+                                · Level:
+
+                                <span>Beginner</span>
+
+                                · Type:
+
+                                <span>None</span>
+                                · Mode:
+
+                                <span>None</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mt-2">
+                        <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Ecommerce Manager Career Lab</p>
                     </div>
                     <div>
-                        <p class="item-info mb-0">
-                            <span>
-                                Public Lab
-                            </span> 
-                            · Last update: <span>7 months ago</span>
-                            · Members: <span>23</span>
-                            · Duration:
-                                 
-                                                                                <span>3 - 5 Days</span>
-                                     
-                                                                · Level:
-                                 
-                                                                                <span>Beginner</span>
-                                     
-                                                            </p>
+                        <a href="https://preprlabs.org/skillrelated/2/lab">
+                            <button class="tag_pill">
+                                <span>Communication</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/4/lab">
+                            <button class="tag_pill">
+                                <span>Problem Solving</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3568/lab">
+                            <button class="tag_pill">
+                                <span>Branding</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/3983/lab">
+                            <button class="tag_pill">
+                                <span>Business Strategy</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8076/lab">
+                            <button class="tag_pill">
+                                <span>Customer Loyalty</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/8509/lab">
+                            <button class="tag_pill">
+                                <span>Data Analysis</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/10406/lab">
+                            <button class="tag_pill">
+                                <span>Ecommerce</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/16674/lab">
+                            <button class="tag_pill">
+                                <span>Information Architecture</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20171/lab">
+                            <button class="tag_pill">
+                                <span>Market Research</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/20857/lab">
+                            <button class="tag_pill">
+                                <span>Metric Tracking</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/28178/lab">
+                            <button class="tag_pill">
+                                <span>Reporting</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/29727/lab">
+                            <button class="tag_pill">
+                                <span>Search Engine Marketing (SEM)</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/29728/lab">
+                            <button class="tag_pill">
+                                <span>Search Engine Optimization (SEO)</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/34795/lab">
+                            <button class="tag_pill">
+                                <span>User Experience</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/36983/lab">
+                            <button class="tag_pill">
+                                <span>Planning</span>
+                            </button>
+                        </a>
+                        <a href="https://preprlabs.org/skillrelated/37003/lab">
+                            <button class="tag_pill">
+                                <span>Layout creation</span>
+                            </button>
+                        </a>
                     </div>
                 </div>
-                <div class="mt-2">
-                    <p class="mx-1 mt-3 mb-4" style="word-wrap: break-word;">Machine Learning Engineer Career Lab</p>
-                </div>
-                                    <div>
-                                                                                <a href="https://preprlabs.org/skillrelated/4/lab">
-                                <button class="tag_pill">
-                                    <span>Problem Solving</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/1514/lab">
-                                <button class="tag_pill">
-                                    <span>Analytics</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/3895/lab">
-                                <button class="tag_pill">
-                                    <span>Business Intelligence</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8509/lab">
-                                <button class="tag_pill">
-                                    <span>Data Analysis</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8530/lab">
-                                <button class="tag_pill">
-                                    <span>Data Classification</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8569/lab">
-                                <button class="tag_pill">
-                                    <span>Data Manipulation</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/8679/lab">
-                                <button class="tag_pill">
-                                    <span>Databases</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/19012/lab">
-                                <button class="tag_pill">
-                                    <span>Linear Regression</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/19769/lab">
-                                <button class="tag_pill">
-                                    <span>Machine Learning</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/20364/lab">
-                                <button class="tag_pill">
-                                    <span>Matplotlib</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/22722/lab">
-                                <button class="tag_pill">
-                                    <span>NumPy</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/27014/lab">
-                                <button class="tag_pill">
-                                    <span>Python</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/27020/lab">
-                                <button class="tag_pill">
-                                    <span>Pandas</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/29169/lab">
-                                <button class="tag_pill">
-                                    <span>SQL</span>
-                                </button>
-                            </a>
-                                                        <a href="https://preprlabs.org/skillrelated/31661/lab">
-                                <button class="tag_pill">
-                                    <span>Statistics</span>
-                                </button>
-                            </a>
-                                                                    </div>
             </div>
+        </div>
+    </div>
+    <div class="col-md-12 plr-md-0">
+        <div class="divider"></div>
+    </div>
+    <script>
+        $('.followLabb').on('click', function (e) {
+            var text = $(this);
+            e.preventDefault();
+            var id = $(this).attr('data-id');
+            var unFollow = $(this).attr('data-value');
+            var this_ = $(this);
+            $.post("https://preprlabs.org/ajax/followLab", { lab_id: id, unFollow: unFollow }, function (data) {
+                if (data.status == 'success') {
+                    PNotify.removeAll();
+                    if (unFollow == 1)
+                        this_.html("<i class='fa fa-plus'></i> Follow").attr('data-value', "0");
+                    else
+                        this_.html("<i class='fa fa-check'></i> Following").attr('data-value', "1");
+                    new PNotify({
+                        text: data.message,
+                        type: data.status
+                    });
+                } else {
+                    PNotify.removeAll();
+                    new PNotify({
+                        text: data.message,
+                        type: data.status
+                    });
+                }
+            });
+        });
+    </script>
+    <div class="row">
+        <div class="col-12">
+            <nav>
+                <ul class="pagination">
+                    <li class="page-item active"><span class="page-link waves-effect">1</span></li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(2)">2</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(3)">3</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(4)">4</span>
+                    </li>
+                    <li class="page-item "><span class="page-link waves-effect" onclick="getFilteredList(5)">5</span>
+                    </li>
+                    <li class="page-item"><span class="page-link">...</span></li>
+                    <li class="page-item"><span class="page-link waves-effect" onclick="getFilteredList(12)">12</span>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>

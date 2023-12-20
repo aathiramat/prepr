@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 import { ProgressComponent } from './dashboard/progress/progress.component';
 import { authGuard } from './shared/auth.guard';
 import { Landing2Component } from './landing2/landing2.component';
+import { CreateProjectComponent } from './project/create-project/create-project.component';
 
 const routes: Routes = [
   {
@@ -18,8 +19,10 @@ const routes: Routes = [
       { path: 'register', component: SignUpComponent }
     ]
   },
-  {path:'landing',component: LandingComponent, canActivate: [authGuard]},
   {path:'dashboard',component: ProgressComponent, canActivate: [authGuard]},
+  {path:'createProject',component: CreateProjectComponent},
+  {path:'landing',component: LandingComponent, canActivate: [authGuard]},
+  
   {path:'landing2',component: Landing2Component, canActivate: [authGuard]}
 ];
 

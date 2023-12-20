@@ -1,5 +1,6 @@
 
 @import "primeng/resources/primeng.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 .nav-item.searchbar .form-control.typeahead {
     border-radius: 0px 5px 5px 0px;
@@ -36,9 +37,9 @@ html {
 }
 
 section {
-    padding: 30px !important;
-    /* min-height: 100% !important;
-    margin: 0 auto 53px !important */
+    padding: 0 !important;
+    min-height: 100% !important;
+    margin: 0 auto 53px !important
 }
 
 .footer a {
@@ -208,6 +209,10 @@ a.like_dislike_toggle.comment_dislike.dislikeComment {
     margin: 5px !important;
 }
 
+.card {
+    box-shadow: 0 2px 5px #23222233 !important;
+    border: 0 !important
+}
 
 /*Challenge Page Css Start*/
 
@@ -6478,8 +6483,8 @@ a.like_dislike_toggle.comment_dislike.dislikeComment {
       padding: 0 0.2rem;
   }
   header .right_nav li .user_details_drop .user_profile img {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
   }
   .top-nw-nav-header.navbar .navbar-nav.right_nav.top-nw-nav .nav-item .nav-link .menu-icon {
       width: 22px;

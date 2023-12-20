@@ -1,1 +1,362 @@
-<p>create-project works!</p>
+<app-top-menu-bar></app-top-menu-bar>
+
+<section class="bg-alice-blue main_section " >
+<div class="container pt-4 pb-4">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="card bg-white border-r-0">
+    <div class="p-l-20 p-r-20">
+
+    
+    <div class="card-header bg-white p-l-0 p-r-0 p-tb-20">
+        <div class="card-title m-0 p-0">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 text-uppercase">Create Project</div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="lab-step">
+        
+        <form method="POST" action="https://preprlabs.org/storeProject" accept-charset="UTF-8" class="form-horizontal create-project-form" id="create_project_form" autocomplete="off" enctype="multipart/form-data"><input name="_token" type="hidden" value="sw6Ue2EDmUSPS8ZHX68yVsZ6yv7BxufrBJJWEKIn">
+
+        
+        <ul class="step-list" id="stepList" data-current-step="c1_ProjectOverview">
+            <li id="c1_ProjectOverview_step" class="step c_step active"><span>1</span> Details</li>
+            <li id="c4_TeamBuilding_step" class="step c_step"><span>2</span> Team building</li>
+        </ul>
+        <div class="requirecurrent">
+            <div class="step-content" id="step-content">
+                <div class="challenge_action">
+                    <div class="mb-3 align-items-center">
+                        <span class="icon-time"></span>
+                        <p class="d-inline-block mb-0"><span id="chalTitle">Challenge</span>: <span id="chal_form">No active challenge selected</span> <b id="challengeData"></b>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="detailDesciption">
+                    <div class="detail_wrap">
+<div id="showDescription">
+    <div class="result_box not_ready_box">
+        <h6 class="font-weight-bold text-dark mb-2">To browse challenge requirements here, you need to select an active challenge below.</h6>
+    </div>
+</div>
+<div id="hideDescription" style="display:none;">
+        </div>
+</div>                    </div>
+            </div>
+        </div>
+        
+        <div class="tab current" id="c1_ProjectOverview">
+<div class="step-content">
+    
+    <input type="hidden" id="datepicker" name="startdate" focusable="false" class="startdate form-control" value="12/15/2023">
+    <div class="title mb-4">Project overview</div>
+
+    <div class="row mb-3">
+        <div class="col-sm-6">
+            <div class="form-group validation-group mb-4">
+                <label class="active">Title <sup>*</sup></label>
+                <input type="text" name="name" id="projectname" class="form-control" value="" required="" data-validation-required="text" data-validation-error="The title field is required." maxlength="150" placeholder="Max. 150 Characters">
+                <span class="help-block text-danger projectnameError"></span>
+            </div>
+
+            <div class="form-group validation-group mb-4">
+                <label class="active">Description <sup>*</sup></label>
+                <textarea name="editorDescription" id="editorDescription" class="form-control form-control-textarea" required="" rows="13" maxlength="300" placeholder="Max. 300 characters" data-validation-required="text" data-validation-error="Project description field is required"></textarea>
+                <span class="help-block text-danger editorDescriptionError"></span>
+            </div>
+
+            <div class="check_area mb-4">
+                <table>
+                    <tbody>
+                        <tr class="align-middle">
+                            <td class="mr-3">
+                                <div class="form-group m-0">
+                                                                                
+                                        <input type="checkbox" name="privacy" id="privacy" value="public" checked="">
+                                    
+
+                                    <label for="privacy" class="f-s-15 m-0">Allow users outside your team to view your project</label>
+                                </div>
+                            </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="Leave this box unchecked to keep your Project accessible to you and your team members only.">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="check_area">
+                <table>
+                    <tbody>
+                        <tr class="align-middle">
+                            <td class="mr-3">
+                                <div class="form-group m-0">
+                                                                                
+                                        <input type="checkbox" name="file_download_privacy" id="file_download_privacy" value="public" checked="">
+                                    
+                                    <label for="file_download_privacy" class="f-s-15 m-0">Allow users outside your team to download your project files</label>
+                                </div>
+                            </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="Leave this box unchecked to prevent other users fro downloading your Project.">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            
+            <div class="form-group mb-4 validation-group">
+                <label>Project slug <sup>*</sup></label>
+                <table class="w-100">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" name="project_slug" id="project_slug" class="form-control" value="" required="" data-validation-required="text" data-validation-error="The project slug must be 140 characters or less. Also it has to be unique." maxlength="140" placeholder="Project slug">
+                            </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="The project slug must be 140 characters or less. Also it has to be unique.">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="help-block text-danger project_slugError"></span>
+            </div>
+
+            
+            <div class="form-group mb-4 validation-group">
+                <label>Active Challenge <sup>*</sup></label>
+                <table class="w-100">
+                    <tbody>
+                        <tr>
+                            <td>
+                                                                    <select class="form-control select2singleChallenge select2-hidden-accessible" id="singleChallenge" data-validation-required="select" data-validation-error="Challenge must be selected!" name="challenge" data-select2-id="singleChallenge" tabindex="-1" aria-hidden="true"><option value="" data-select2-id="7">Select Challenge</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="8" style="width: 455.6px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-singleChallenge-container"><span class="select2-selection__rendered" id="select2-singleChallenge-container" role="textbox" aria-readonly="true"><span class="select2-selection__placeholder">Select Challenge</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                                </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="Select a Challenge for this Project">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="help-block text-danger singleChallengeError"></span>
+            </div>
+
+            
+            <div class="form-group">
+                <label>Associated Lab</label>
+                <table class="w-100">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="help-block text-danger" id="source_lab_error">
+                                                                            
+                                                                        </span>
+                                                                    <select class="form-control select2Labs select2-hidden-accessible" name="labs" data-select2-id="4" tabindex="-1" aria-hidden="true"><option selected="selected" value="" data-select2-id="5">Select Lab</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="6" style="width: 455.6px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-labs-go-container"><span class="select2-selection__rendered" id="select2-labs-go-container" role="textbox" aria-readonly="true"><span class="select2-selection__placeholder">Select Lab</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                                </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="To associate a Lab to your Project, you must first join that Lab">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="step-content">
+    <span data-toggle="bannerCollapse" class="bannerToggleClass" data-target="#bannerClass">
+        <div class="title">Upload Project Banner</div>
+        <div class="sub-title p-0 m-0">Please select png, jpg or jpeg image with minimum dimension of width: 625px, height: 355px
+            <i class="float-right fa fa-angle-right"></i>
+        </div>
+    </span>
+
+    <div id="bannerClass" class="row bannerCollapse" style="display: none;">
+                    <div class="col-md-12 col-sm-12 mt-4">
+            <div id="drag-and-drop-zone" class="dm-uploader p-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="upload_bg_img">
+                            <img src="https://d3f06rtlkr354b.cloudfront.net/public/front/img/upload_img.png" alt="">
+                        </div>
+                        <video width="790" height="200" controls="" style="display: none;">
+                            <source src="">
+                        </video>
+                        <input type="hidden" name="file_type" value="" id="file_type">
+                    </div>
+
+                    <div class="col-md-6 col-md-6 mb-4 mt-4">
+                        <h3 class="mb-3 mt-4">Drag &amp; Drop</h3>
+                        <p> or</p>
+                        <div class="btn btn-success mb-4 btnFile waves-effect waves-light">
+                            <input type="file" onchange="loadFile1(event)" title="Click to add files" class="loadFile1" name="image">
+                            <span>Choose a project cover image</span>
+                        </div>
+                        <p style="font-size: smaller;">Please select png, jpg or jpeg image with minimum dimension of width: 625px, height: 355px</p>
+                        <p> or</p>
+                        <input type="text" class="form-control" name="embeddedVideoUrl" placeholder="Insert video embed code" id="video_url">
+                    </div>
+                </div>
+                <span class="help-block"></span>
+            </div>
+            <span class="help-block text-danger"></span>
+        </div>
+                </div>
+</div>
+</div>
+
+        
+        <div class="tab" id="c4_TeamBuilding">
+
+<div class="step-content">
+    <div class="title">Building your team</div>
+    <div class="sub-title pb-3">Building a team is important for your project.</div>
+
+    <div class="row mb-0">
+        
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Recruiting status</label>
+                <table class="w-100">
+                    <tbody>
+                        <tr>
+                            <td>
+                                                                    <select class="form-control" name="recruiting_status"><option selected="selected" value="">Select recruiting status for your Project</option><option value="0">Not currently recruiting</option><option value="1">Currently recruiting</option></select>
+                                                                </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="What is the current status of your project?">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="help-block text-danger"></span>
+            </div>
+        </div>
+
+        
+        <div class="col-sm-6">
+            <div class="form-group">
+                <label>Required skills</label>
+                <table class="w-100">
+                    <tbody>
+                        <tr>
+                            <td class="select2SkillsContainer">
+                                                                    <select class="form-control select2-hidden-accessible" id="select2Skills" multiple="" name="skills[]" data-select2-id="select2Skills" tabindex="-1" aria-hidden="true"><option value="" data-select2-id="9">Find teammates with these skills</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="10" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1"><ul class="select2-selection__rendered"><li class="select2-search select2-search--inline"><input class="select2-search__field" type="search" tabindex="0" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" role="textbox" aria-autocomplete="list" placeholder="Find teammates with these skills" style="width: 0px;"></li></ul></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                                                                </td>
+                            <td style="width: 30px;">
+                                <a href="javascript:void(0)" class="js-btn-tooltip" data-toggle="tooltip" data-placement="right" data-custom-class="tooltip" title="" data-original-title="Specify the skills you are looking for if you are recruiting teammates.">?</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="help-block text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <div class="check_area my-2">
+                <div class="form-group">
+                    <input type="checkbox" name="group_chat" id="group_chat">
+                    <label for="group_chat" class="f-s-15 d-inline-block">Create project team chat</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+.h4Textsize {
+    font-size: 1.2rem !important;
+}
+</style>
+<div class="row">
+<div class="col-12">
+                <table class="w-100">
+            <tbody id="team-member-list">
+                
+                <tr>
+                    <td class="pr-3">
+                        <h4 class="h4Textsize">Team members</h4>
+                    </td>
+                    <td class="pr-3">
+                        <h4 class="h4Textsize">Positions</h4>
+                    </td>
+                    <td class="pr-3">
+                        <h4 class="h4Textsize">Team leader</h4>
+                    </td>
+                    <td class="pr-3">
+                        <h4 class="h4Textsize">Viewer</h4>
+                    </td>
+                    <td class="pr-3">
+                        <h4 class="h4Textsize">Editor</h4>
+                    </td>
+                    <td class="pr-3">
+                    </td>
+                </tr>
+
+                
+                <tr class="member-row" id="member_row_1">
+                    <td class="pr-3">
+                        <div class="input-group mb-3">
+                            <select class="form-control members_select select2-hidden-accessible" name="team_member_1" data-select2-id="1" tabindex="-1" aria-hidden="true"><option value="aathiramathew@gmail.com" data-select2-id="2">Aathira Mathew</option></select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="3" style="width: auto;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-team_member_1-jr-container"><span class="select2-selection__rendered" id="select2-team_member_1-jr-container" role="textbox" aria-readonly="true" title="Aathira Mathew">Aathira Mathew</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                        </div>
+                    </td>
+                    <td class="pr-3">
+                        <div class="form-group">
+                            <input type="text" name="member_position_1" placeholder="Position" class="form-control" style="display: inline; width: 93%;" value="Creator">
+                            <span class="help-block text-danger"></span>
+                        </div>
+                    </td>
+                    <td class="pr-3">
+                        <div class="input-group mb-3">
+                            <input type="radio" name="is_team_leader_1" value="1" checked="checked" class="team-lead-radio-btn" onclick="handleIsTeamLeaderRadioBtnClick(this)">
+                        </div>
+                    </td>
+                    <td class="pr-3">
+                        <div class="input-group mb-3">
+                            <input type="checkbox" name="member_view_access_1" checked="checked" class="member_view_access" onclick="projectViewEditAcess(this)">
+                        </div>
+                    </td>
+                    <td class="pr-3">
+                        <div class="input-group mb-3">
+                            <input type="checkbox" name="member_edit_access_1" checked="checked" class="member_edit_access" onclick="projectViewEditAcess(this)">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="col-lg-2 col-sm-12 col-md-6 form-head-title m-t-0" id="add_member_btn_container" style="float: right;">
+            <button type="button" id="is_Leader_1" style="width: 40px;" value="+" onclick="handleAddMemberRow()" class="btn btn-success waves-effect waves-light">+</button>
+        </div>
+        </div>
+</div>
+</div>
+</div>
+
+        <div class="stepTab-btn">
+            <button type="button" data-toggle="modal" id="pf-step-cancel" data-target="#projectCancel-modal" class="btn cancel waves-effect waves-light">Cancel</button>
+            <button type="button" class="btn previous waves-effect waves-light" id="pf-step-back" style="display: none;">Back</button>
+            <button type="button" class="btn previous waves-effect waves-light" id="pf-step-forward">Continue</button>
+            <button type="submit" class="btn next submit active waves-effect waves-light" id="saveChallenge" style="display: none;">Create Project</button>
+        </div>
+
+      </form>
+    </div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>

@@ -1,4 +1,4 @@
-import { Component, ElementRef, Renderer2 } from '@angular/core';
+import { Component, ElementRef, Renderer2, ViewEncapsulation } from '@angular/core';
 import { faSearch, faX, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -20,7 +20,8 @@ interface SearchTag {
 @Component({
   selector: 'app-explore',
   templateUrl: './explore.component.html',
-  styleUrls: ['./explore.component.css']
+  styleUrls: ['./explore.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class ExploreComponent {
 

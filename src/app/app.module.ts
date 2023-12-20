@@ -35,6 +35,10 @@ import { AccessibilityComponent } from './dashboard/accessibility/accessibility.
 import { ButtonModule } from 'primeng/button';
 import { ToggleButtonModule } from 'primeng/togglebutton';
 import { Landing2Component } from './landing2/landing2.component';
+import { ResourcesComponent } from './resources/resources.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { TopMenuBarComponent } from './top-menu-bar/top-menu-bar.component';
+import { ToastModule } from 'primeng/toast';
 
 @NgModule({
   declarations: [
@@ -52,11 +56,14 @@ import { Landing2Component } from './landing2/landing2.component';
     DashboardComponent,
     ProgressComponent,
     AccessibilityComponent,
-    Landing2Component
+    Landing2Component,
+    ResourcesComponent,
+    ProjectsComponent,
+    TopMenuBarComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule,
-    CarouselModule.forRoot(),
+    CarouselModule.forRoot(),ToastModule,
     SocialLoginModule,GoogleSigninButtonModule,
     FontAwesomeModule, AutoCompleteModule,
     FormsModule, HttpClientModule,ButtonModule,
@@ -80,7 +87,7 @@ import { Landing2Component } from './landing2/landing2.component';
       "showBackground": false,
       "startFromZero": false,
       "lazy": true}),
-      HighchartsChartModule     
+      HighchartsChartModule       
   ],
   providers:  [
     {

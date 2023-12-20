@@ -3,7 +3,7 @@
 #explore_interests {
     background-image: linear-gradient(to right, #d5ffc6, #7BD1F2);
     color: #000000;
-    padding: 50px;
+    padding: 20px;
 } 
 
 .col-1 {
@@ -19,7 +19,6 @@
 }
 
 .project-section {
-    top: 55px;
     position: relative;
     margin-bottom: 50px;
 }
@@ -57,7 +56,10 @@
     user-select: none;
 }
 
-.explore_component.selected_explore_component {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: none !important;
+}
+.nav-pills li:has(> .nav-link.active, .nav-pills .show>.nav-link){
     background: #498CCE;
     color: #FFFFFF;
 }
@@ -184,4 +186,11 @@ a:focus {
     text-decoration: none;
     outline: 0;
     opacity: .9
+}
+
+
+.p-autocomplete-multiple-container {   
+    height:50px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;   
 }

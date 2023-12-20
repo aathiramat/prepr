@@ -1,4 +1,12 @@
 
+.navbar {
+  height:65px;
+}
+
 .nav-text {
   font-size: 15px;
+}
+
+a {
+  color: white;
 }

@@ -43,7 +43,7 @@
   </button>
 
   <div class="collapse navbar-collapse d-flex flex-row justify-content-between" id="navbarSupportedContent">
-    <div class="d-flex flex-row justify-content-between col-md-7">
+    <div class="d-flex flex-row justify-content-between align-items-center col-md-8">
     <div >
       <ul class="navbar-nav mr-auto nav-text">
         <li class="nav-item active">
@@ -75,33 +75,33 @@
     <div class="ml-4">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="m-3" data-qa="Top Nav: Notifications" href="#">
-            <fa-icon [icon]="faBell" style="font-size: 26px; color: white; "></fa-icon>
+          <a class="m-3 mt-4" data-qa="Top Nav: Notifications" href="#">
+            <fa-icon [icon]="faBell" style="font-size: 21px; color: white; "></fa-icon>
           </a>
         </li>
-        <li><a class="m-3" data-qa="Top Nav: Inbox" href="#">
-            <fa-icon [icon]="faMessage" style="font-size: 25px; color: white;"></fa-icon>
+        <li><a class="m-3 mt-4" data-qa="Top Nav: Inbox" href="#">
+            <fa-icon [icon]="faMessage" style="font-size: 21px; color: white;"></fa-icon>
           </a></li>
         <li>
-          <a class="m-3" data-qa="Top Nav: Intercom Help" href="#">
-            <fa-icon [icon]="faCircleQuestion" style="font-size: 25px; color: white;"></fa-icon>
+          <a class="m-3 mt-4" data-qa="Top Nav: Intercom Help" href="#">
+            <fa-icon [icon]="faCircleQuestion" style="font-size: 21px; color: white;"></fa-icon>
           </a>
         </li>
       </ul>
     </div>
   </div>
-    <div class="col-md-5">
-      <form class="form-inline my-2 my-lg-0 d-flex  ng-untouched ng-pristine ng-valid d-flex justify-content-end">
+    <div class="col-md-4">
+      <form class="form-inline my-2 my-lg-0 d-flex  ng-untouched ng-pristine ng-valid d-flex justify-content-between">
         <input id="search-box" class="form-control col-md-6 mr-3" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0 col-md-2" type="submit">Search</button>
+        <button class="btn btn-success my-2 my-sm-0 col-md-2" type="submit">Search</button>
         <a href="#" data-qa="Top Nav: Profile Dropdown"
-          class="nav-link user_details_drop dropdown-toggle" id="dropdownMenuButton"
+          class="nav-link dropdown-toggle" id="dropdownMenuButton"
           role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <fa-icon [icon]="faUser" style="font-size: 25px; color: white;"></fa-icon>
+          <i class="pi pi-user" style="font-size: 21px; color: white;"></i>
         </a>
-        <a href="#" class="nav-link user_details_drop dropdown-toggle waves-effect waves-light" id="dropdownMenuButton"
+        <a href="#" class="nav-link dropdown-toggle waves-effect waves-light" id="dropdownMenuButton"
           role="button" data-qa="Top Nav: Grid" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img src="../../assets/app-icon.svg" aria-label="Apps">
+          <i class="pi pi-th-large" style="font-size: 21px; color: white;"></i>
         </a>
       </form>
 
